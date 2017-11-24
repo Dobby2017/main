@@ -1,0 +1,133 @@
+@charset "UTF-8";
+/* CSS Document */
+.logo {
+	position: absolute;
+	left: 100PX;	
+}
+nav {
+	float: right;
+	padding: 20px;	
+}
+
+body {
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: "微軟正黑體", "Microsoft JhengHei", "新細明體", "PMingLiU", "細明體", "MingLiU", "標楷體", "DFKai-sb", serif;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav ul li {
+	font-size: 18px;
+    float: left;
+    border-right:1px solid #bbb;
+}
+nav ul lilast-child {
+    border-right: none;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 8px 20px;
+    text-decoration: none;
+}
+nav ul li a:hover:not(.active) {
+    background-color: #4CAF50;
+}
+.active {
+    background-color: #4CAF50;
+}
+
+.hero-box {
+	height: 350px;
+	background-color: #FF00D7;
+	background-image: url(../images/banner.jpg);
+	background-size: cover;
+	margin: 1%;
+}
+h1 {
+	color: #FEFEFE;	
+	font-size: 55px;
+	padding-top: 90px;
+	padding-left: 680px;
+}
+
+
+.coluptitletext {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left:20px; 
+	font-size: 40px;
+	color:#FFFFFF;
+	background-color:#F45B6D;
+	background-color:#F45B6D;
+	width: 96%;
+	margin-left: 1%;
+	margin-right: 1%;
+}
+
+/*課程的col*/
+.col img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+.col {
+	width: 23%;
+	float: left;
+	margin: 1%;
+}
+
+
+.text{
+	width: 100%;
+	float: left;
+	margin: 5%;
+}
+.center {
+	width: 1200px;
+	padding: 20px;
+	text-align: center;
+	background-color:#1297C0;
+	color: #FFFFFF;
+	position:absolute;
+    top:1200px;
+}
+
+/*TABLET*/
+@media (max-width:768px){
+	h1 {
+		font-size: 40px;
+		text-align: center;
+		padding-left: 0px;
+	}
+	
+	.col {
+		width: 48%;
+	}
+}
+
+
+/*MOBILE*/
+@media (max-width:400px){
+	h1 {
+		font-size: 28px;
+	}
+	.col {
+		width: 98%;
+	}
+	.hidden-xs {
+		display: none;
+	}
+}
+
+
