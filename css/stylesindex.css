@@ -147,7 +147,7 @@
 }
 
 /*TABLET*/
-@media (max-width:768px){
+@media (max-width:1000px){
 .col {
 	height:auto;
 }
@@ -157,6 +157,4 @@
 .colc {
 	height:auto;
 }
-	
-	
 }

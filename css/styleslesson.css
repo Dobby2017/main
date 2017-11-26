@@ -58,6 +58,28 @@
 
 
 /*TABLET*/
+@media (max-width:1000px){
+	h1 {
+	font-size: 30px;
+	padding-top: 90px;
+	padding-left: 170px;
+	}
+	
+	.col {
+		width: 31%;
+	}
+	.colb {
+		width: 31%;
+	}
+	.colc {
+		width: 31%;
+	}
+
+	.hidden-xs {
+		display: none;
+	}
+}
+
 @media (max-width:768px){
 	h1 {
 	font-size: 25px;
