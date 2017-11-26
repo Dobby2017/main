@@ -16,12 +16,12 @@
 
 .DIVtext {
 	width: 50%;
-	font-size: 18px;
+	font-size: 30px;
+	line-height: 36px;
 	margin-left:12px; 
 	margin-right: 7%; 
     float:left;
 	background-color:#F3F3F3;
-	line-height: 36px;
 	padding-top: 2%;
 	padding-left: 2%;
 	padding-right: 2%;
@@ -46,25 +46,25 @@
 	float: left;
 	margin: 1%;
 	background-color:#22A8E6;
-	height: 470px; 
+	height: 570px; 
 }
 .colb {
 	width: 31%;
 	float: left;
 	margin: 1%;
 	background-color:#F35B6A;
-	height: 470px; 
+	height: 570px; 
 }
 .colc {
 	width: 31%;
 	float: left;
 	margin: 1%;
 	background-color:#FFB217;
-	height: 470px; 
+	height: 570px; 
 }
 .coltitle{
 	color:#FFFFFF;
-	font-size: 30px;
+	font-size: 40px;
 	width: 80%;
 	display: block;
 	text-align: center;
@@ -99,6 +99,9 @@
 }
 .text {
 	width: 80%;
+	font-size: 25px;
+	line-height: 30px;
+	color: #FFFFFF;
 	height: auto;
 	display: block;
 	padding-left: 10%;
@@ -110,9 +113,9 @@
 /*TABLET*/
 @media (max-width:1000px){
 	h1 {
-	font-size: 25px;
-	padding-top: 90px;
-	padding-left: 170px;
+	font-size: 40px;
+	padding-top: 280px;
+	padding-left: 30px;
 	}
 	
 	.col {
@@ -128,23 +131,15 @@
 		height:auto;
 	}
 
-	.DIVtext {
 .DIVtext {
-	width: 40%;
-	font-size: 12px;
-	margin-left:12px; 
-	margin-right: 1%; 
-    float:left;
-	background-color:#F3F3F3;
-	line-height: 12px;
-	padding-top: 2%;
-	padding-left: 2%;
-	padding-right: 2%;
-	padding-bottom: 2%;
-	height: auto;
-}
+	width: 50%;
+	font-size: 25px;
+	line-height: 30px;
 	}	
-	
+.DIVimg {
+    width: 30%;
+    float: left;
+}	
 	
 	.hidden-xs {
 		display: none;

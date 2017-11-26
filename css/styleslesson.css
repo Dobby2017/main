@@ -60,21 +60,28 @@
 /*TABLET*/
 @media (max-width:1000px){
 	h1 {
-	font-size: 30px;
-	padding-top: 90px;
-	padding-left: 170px;
+	font-size: 40px;
+	padding-top: 280px;
+	padding-left: 30px;
 	}
 	
 	.col {
-		width: 31%;
+		width: 47%;
 	}
 	.colb {
-		width: 31%;
+		width: 47%;
 	}
 	.colc {
-		width: 31%;
+		width: 47%;
 	}
-
+.texttitle{
+	font-size: 40px;
+}
+	.text{
+	font-size: 30px;
+	line-height: 32px;
+}
+	
 	.hidden-xs {
 		display: none;
 	}
@@ -82,9 +89,9 @@
 
 @media (max-width:768px){
 	h1 {
-	font-size: 25px;
-	padding-top: 90px;
-	padding-left: 170px;
+	font-size: 40px;
+	padding-top: 280px;
+	padding-left: 30px;
 	}
 	
 	.col {

@@ -9,7 +9,10 @@
 
 nav {
 	float: right;
-	padding: 20px;	
+	padding-top: 30px;	 
+	padding-left: 0px;	
+	padding-right: 14px;	
+	padding-bottom: 0px;	
 }
 
 body {
@@ -65,14 +68,15 @@ h1 {
 
 
 .footerspace {
-	font-size: 40px;
+	font-size: 60px;
 	color: #FFFFFF;
 }
 .footer {
+	font-size: 25px;
     position: fixed;
     bottom: 0;
     left: 0;
-    height: 20px;
+    height: 30px;
     width: 100%;
 	text-align: center;
 	background-color:#1297C0;
@@ -80,6 +84,21 @@ h1 {
 }
 
 
+/*TABLET*/
+@media (max-width:1000px){
+nav {
+	float: right;
+	padding-top: 0px;	 
+	padding-left: 0px;	
+	padding-right: 14px;	
+	padding-bottom: 0px;	
+}
+nav ul li {
+	font-size: 47px;
+    float: left;
+    border-right:1px solid #bbb;
+}
+}
 
 
 
