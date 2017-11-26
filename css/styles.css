@@ -1,8 +1,10 @@
 @charset "UTF-8";
 /* CSS Document */
+/*h1是給banner上的大字體*/
 .logo {
-	position: absolute;
-	left: 100PX;	
+	width: 99%;
+	padding-left: 15px;	
+	
 }
 
 nav {
@@ -55,143 +57,29 @@ nav ul li a:hover:not(.active) {
 }
 h1 {
 	color: #FEFEFE;	
-	font-size: 55px;
+	font-size: 35px;
 	padding-top: 90px;
 	padding-left: 670px;
 }
-/*我們有完備的課程*/
-.uptitle {
-	padding-top: 5px;
-	padding-bottom: 5px;
-	padding-left:20px; 
+
+
+
+.footerspace {
 	font-size: 40px;
-	color:#FFFFFF;
-	background-color:#85DEE6;
-	width: 96%;
-	margin-left: 1%;
-	margin-right: 1%;
+	color: #FFFFFF;
 }
-h2 {
-	letter-spacing: 5px;
-	font-size: 18px;
-	padding-left: 40px;
-}
-/*我們有完備的課程的圖文*/
-.titletext {
-	background-color:#F9F9F9;
-	padding: 10px;
-	width: 60%;
-	float: left;
-	margin-left: 1%;
-	margin-right: 5%;
-	height: 140px;
-}
-.titleimg img {
-	padding: 5px;
-	width: 20%;
-	display: block;
-}
-
-h3 {
-	letter-spacing: 3px;
-	font-size: 18px;
-	padding-left: 20px;
-	line-height: 20px;
-
-}
-
-
-
-/*內容圖文*/
-.col {
-	width: 31.3%;
-	float: left;
-	margin: 1%;
-	background-color:#22A8E6;
-}
-.colb {
-	width: 31.3%;
-	float: left;
-	margin: 1%;
-	background-color:#F35B6A;
-}
-.colc {
-	width: 31.3%;
-	float: left;
-	margin: 1%;
-	background-color:#FFB217;
-}
-.col img {
-	width: 80%;
-	height: auto;
-	display: block;
-	padding-top: 10%;
-	padding-left: 10%;
-	padding-right: 10%;
-}
-.colb img {
-	width: 80%;
-	height: auto;
-	display: block;
-	padding-top: 10%;
-	padding-left: 10%;
-	padding-right: 10%;
-}
-.colc img {
-	width: 80%;
-	height: auto;
-	display: block;
-	padding-top: 10%;
-	padding-left: 10%;
-	padding-right: 10%;
-}
-.text {
-	width: 80%;
-	height: auto;
-	display: block;
-	padding-left: 10%;
-	padding-right: 10%;
-	
-}
-
-
-
-.center {
-	width: 1200px;
-	padding: 20px;
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 20px;
+    width: 100%;
 	text-align: center;
 	background-color:#1297C0;
 	color: #FFFFFF;
-	position:absolute;
-    top: 1200px;
 }
 
 
-/*TABLET*/
-@media (max-width:768px){
-	h1 {
-		font-size: 40px;
-		text-align: center;
-		padding-left: 0px;
-	}
-	
-	.col {
-		width: 48%;
-	}
-}
 
-
-/*MOBILE*/
-@media (max-width:400px){
-	h1 {
-		font-size: 28px;
-	}
-	.col {
-		width: 98%;
-	}
-	.hidden-xs {
-		display: none;
-	}
-}
 
 

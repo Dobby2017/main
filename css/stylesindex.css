@@ -1,0 +1,162 @@
+/*h2和h3是給首頁的標題文字和內容使用*/
+/*關於我們標題*/
+.texttitle {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left:20px; 
+	font-size: 40px;
+	color:#FFFFFF;
+	background-color:#85DEE6;
+	width: 96.4%;
+	margin-left: 1%;
+	margin-right: 0.1%;
+}
+
+/*關於我們內容的圖文*/
+
+.DIVtext {
+	width: 50%;
+	font-size: 18px;
+	margin-left:12px; 
+	margin-right: 7%; 
+    float:left;
+	background-color:#F3F3F3;
+	line-height: 36px;
+	padding-top: 2%;
+	padding-left: 2%;
+	padding-right: 2%;
+	padding-bottom: 2%;
+	height: auto;
+}
+.DIVimg {
+    width: 30%;
+    float: left;
+}
+.DIVimg img {
+	width: 100%;
+	float: left;
+	margin: 1%; 
+	background-color:#F3F3F3;
+    border: 1px solid #D8D8D8;
+}
+
+/*7+9+11+內容圖文*/
+.col {
+	width: 31%;
+	float: left;
+	margin: 1%;
+	background-color:#22A8E6;
+	height: 470px; 
+}
+.colb {
+	width: 31%;
+	float: left;
+	margin: 1%;
+	background-color:#F35B6A;
+	height: 470px; 
+}
+.colc {
+	width: 31%;
+	float: left;
+	margin: 1%;
+	background-color:#FFB217;
+	height: 470px; 
+}
+.coltitle{
+	color:#FFFFFF;
+	font-size: 30px;
+	width: 80%;
+	display: block;
+	text-align: center;
+	padding-top: 3%;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+.col img {
+	width: 80%;
+	height: auto;
+	display: block;
+	padding-top: 3%;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+.colb img {
+	width: 80%;
+	height: auto;
+	display: block;
+	padding-top: 3%;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+.colc img {
+	width: 80%;
+	height: auto;
+	display: block;
+	padding-top: 3%;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+.text {
+	width: 80%;
+	height: auto;
+	display: block;
+	padding-left: 10%;
+	padding-right: 10%;
+	
+}
+
+
+/*TABLET*/
+@media (max-width:768px){
+	h1 {
+	font-size: 25px;
+	padding-top: 90px;
+	padding-left: 170px;
+	}
+	
+	.col {
+		width: 98%;
+	}
+	.colb {
+		width: 98%;
+	}
+	.colc {
+		width: 98%;
+	}
+
+	.DIVtext {
+.DIVtext {
+	width: 40%;
+	font-size: 12px;
+	margin-left:12px; 
+	margin-right: 1%; 
+    float:left;
+	background-color:#F3F3F3;
+	line-height: 12px;
+	padding-top: 2%;
+	padding-left: 2%;
+	padding-right: 2%;
+	padding-bottom: 2%;
+	height: auto;
+}
+	}	
+	.hidden-xs {
+		display: none;
+	}
+}
+
+/*TABLET*/
+@media (max-width:768px){
+.col {
+	height:auto;
+}
+.colb {
+	height:auto;
+}
+.colc {
+	height:auto;
+}
+	
+	
+}
