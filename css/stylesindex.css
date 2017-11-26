@@ -109,3 +109,40 @@
 	
 }
 
+
+/*TABLET*/
+@media screen and (max-width: 1200px){
+	h1 {
+	font-size: 40px;
+	padding-top: 280px;
+	padding-left: 30px;
+	}
+	
+	.col {
+		width: 98%;
+		height:auto;
+	}
+	.colb {
+		width: 98%;
+		height:auto;
+	}
+	.colc {
+		width: 98%;
+		height:auto;
+	}
+
+.DIVtext {
+	width: 50%;
+	font-size: 25px;
+	line-height: 30px;
+	}	
+.DIVimg {
+    width: 30%;
+    float: left;
+	}	
+	
+	.hidden-xs {
+		display: none;
+	}
+}
+
