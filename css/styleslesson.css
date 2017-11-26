@@ -64,7 +64,6 @@
 	padding-top: 280px;
 	padding-left: 30px;
 	}
-	
 	.col {
 		width: 47%;
 	}
@@ -74,14 +73,13 @@
 	.colc {
 		width: 47%;
 	}
-.texttitle{
+	.texttitle{
 	font-size: 40px;
-}
+	}
 	.text{
 	font-size: 30px;
 	line-height: 32px;
-}
-	
+	}
 	.hidden-xs {
 		display: none;
 	}
@@ -93,7 +91,6 @@
 	padding-top: 280px;
 	padding-left: 30px;
 	}
-	
 	.col {
 		width: 98%;
 	}
@@ -103,7 +100,6 @@
 	.colc {
 		width: 98%;
 	}
-
 	.hidden-xs {
 		display: none;
 	}
