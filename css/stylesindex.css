@@ -112,22 +112,16 @@
 
 /*TABLET*/
 @media screen and (max-width: 1200px){
-/*	h1 {
-	font-size: 40px;
-	padding-top: 280px;
-	padding-left: 30px;
-	}*/
-	
 	.col {
-		width: 90%;
+		width: 98%;
 		height:auto;
 	}
 	.colb {
-		width: 90%;
+		width: 98%;
 		height:auto;
 	}
 	.colc {
-		width: 90%;
+		width: 98%;
 		height:auto;
 	}
 }
