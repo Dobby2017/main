@@ -83,22 +83,3 @@ h1 {
 	color: #FFFFFF;
 }
 
-
-/*TABLET*/
-@media screen and (max-width: 1200px){
-nav {
-	float: right;
-	padding-top: 0px;	 
-	padding-left: 0px;	
-	padding-right: 14px;	
-	padding-bottom: 0px;	
-}
-nav ul li {
-	font-size: 47px;
-    float: left;
-    border-right:1px solid #bbb;
-}
-}
-
-
-
