@@ -130,19 +130,4 @@
 		width: 98%;
 		height:auto;
 	}
-
-.DIVtext {
-	width: 50%;
-	font-size: 25px;
-	line-height: 30px;
-	}	
-.DIVimg {
-    width: 30%;
-    float: left;
-	}	
-	
-	.hidden-xs {
-		display: none;
-	}
 }
-
