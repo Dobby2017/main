@@ -46,31 +46,31 @@
 	float: left;
 	margin: 1%;
 	background-color:#22A8E6;
-	height: 570px; 
+	height: 610px; 
 }
 .colb {
 	width: 31%;
 	float: left;
 	margin: 1%;
 	background-color:#F35B6A;
-	height: 570px; 
+	height: 610px; 
 }
 .colc {
 	width: 31%;
 	float: left;
 	margin: 1%;
 	background-color:#FFB217;
-	height: 570px; 
+	height: 610px; 
 }
 .coltitle{
 	color:#FFFFFF;
 	font-size: 40px;
-	width: 80%;
+	width: 90%;
 	display: block;
 	text-align: center;
 	padding-top: 3%;
-	padding-left: 10%;
-	padding-right: 10%;
+	padding-left: 5%;
+	padding-right: 5%;
 }
 
 .col img {
