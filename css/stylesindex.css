@@ -108,8 +108,12 @@
 	padding-right: 10%;
 	
 }
+.iframe {
+    padding-left: 27%;
 
 
+	
+}
 /*TABLET*/
 @media screen and (max-width: 1200px){
 	h1 {
