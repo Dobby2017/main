@@ -64,7 +64,12 @@ h1 {
 	padding-top: 90px;
 	padding-left: 670px;
 }
-
+.email{
+    text-align:right;
+	width: 95%;
+	font-size: 25px;
+	
+}
 
 
 .footerspace {
@@ -99,6 +104,3 @@ nav ul li {
     border-right:1px solid #bbb;
 }
 }
-
-
-
