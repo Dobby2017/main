@@ -133,4 +133,15 @@
 		width: 98%;
 		height:auto;
 	}
+.text {
+	width: 80%;
+	font-size: 35px;
+	line-height: 40px;
+	color: #FFFFFF;
+	height: auto;
+	display: block;
+	padding-left: 10%;
+	padding-right: 10%;
+	
+}
 }
