@@ -35,7 +35,7 @@
 			<div>學生姓名： <input type="name" name="學生姓名" placeholder="學生姓名"></div>
 			<div>家長姓名： <input type="name" name="家長姓名" placeholder="家長姓名"></div>
 			<div>學生年齡： 
-				<select name="家長年齡">
+			  <select name="學生年齡">
 				<option value="6">6</option>
 				<option value="7">7</option>
 				<option value="8">8</option>
@@ -48,11 +48,14 @@
 				<option value="12">15</option>
 				</select>
 			</div>
-			<div>有興趣的課程： 
+			<div>有興趣的課程：</div> 
+			<div>
 				<input type="checkbox" value="Scratch" name="Scratch"> Scratch
-				<input type="checkbox" value="Scratch jr" name="Scratch jr"> Scratch jr
+			  <input type="checkbox" value="Scratch jr" name="Scratch jr"> Scratch jr
 				<input type="checkbox" value="Ozobot" name="Ozobot"> Ozobot
 				<input type="checkbox" value="mBot" name="mBot"> mBot
+			</div>
+			<div>	
 				<input type="checkbox" value="Micro:bit" name="Micro:bit"> Micro:bit
 				<input type="checkbox" value="App Inventor" name="App Inventor"> App Inventor		
 				<input type="checkbox" value="不插電科學" name="不插電科學"> 不插電科學
@@ -60,9 +63,9 @@
 			</div>
 			<div>Email： <input type="email" name="email" placeholder="Your email"></div>
 			<input type="hidden" name="學生家長訊息" value="學生家長訊息" />
-			<div>其它訊息： <textarea name="留言" placeholder="Your message"></textarea></div>
+			<div>留言： <br><textarea name="留言" placeholder="留言"></textarea></div>
 			<input type="text" name="_gotcha" style="display:none" />
-			<input type="submit" value="確認送出">
+			<input type="submit" value="確認送出" width="128" height="128">
 		</form>
 <script>
     var contactform =  document.getElementById('contactform');
