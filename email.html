@@ -30,38 +30,18 @@
 			我對課程有興趣
 		</div>
 		<div class="form">
-		<form method="POST" action="http://formspree.io/tayun.chang@gmail.com">
-		  <input type="hidden" name="_language" value="zh-TW" />
-		  <div>學生姓名： <input type="name" name="name" placeholder="學生姓名"></div>
-		  <div>家長姓名： <input type="name" name="name" placeholder="家長姓名"></div>
-		  <div>學生年齡： 
-		  	<select name="YourLocation">
-			<option value="6">6</option>
-			<option value="7">7</option>
-			<option value="8">8</option>
-			<option value="9">9</option>
-			<option value="10">10</option>
-			<option value="11">11</option>
-			<option value="12">12</option>
-			<option value="12">13</option>
-			<option value="12">14</option>
-			<option value="12">15</option>
-			</select>
-		  </div>
-		  <div>有興趣的課程： 
-			<input type="checkbox" value="Scratch" name="Interest"> Scratch
-			<input type="checkbox" value="Scratch jr" name="Interest"> Scratch jr
-			<input type="checkbox" value="Ozobot" name="Interest"> Ozobot
-			<input type="checkbox" value="mBot" name="Interest"> mBot
-			<input type="checkbox" value="Micro:bit" name="Interest"> Micro:bit
-			<input type="checkbox" value="App Inventor" name="Interest"> App Inventor		
-			<input type="checkbox" value="不插電科學" name="Interest"> 不插電科學
-			<input type="checkbox" value="魔術方塊" name="Interest"> 魔術方塊
-		  </div>
-		  <div><input type="email" name="email" placeholder="Your email"></div>
-		  <div><textarea name="message" placeholder="Your message"></textarea></div>
-		  <button type="submit">Send</button>
-		</form>
+<form id="contactform" method="POST">
+    <input type="text" name="name" placeholder="Your name">
+    <input type="email" name="_replyto" placeholder="Your email">
+    <input type="hidden" name="_subject" value="Website contact" />
+    <textarea name="message" placeholder="Your message"></textarea>
+    <input type="text" name="_gotcha" style="display:none" />
+    <input type="submit" value="Send">
+</form>
+<script>
+    var contactform =  document.getElementById('contactform');
+    contactform.setAttribute('action', '//formspree.io/' + 'tayun.chang' + '@' + 'gmail' + '.' + 'com');
+</script>
 		</div>
 	<footer>
 		<div class="footerspace">footerspace</div>
