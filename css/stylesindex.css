@@ -8,8 +8,10 @@
 	color:#FFFFFF;
 	background-color:#85DEE6;
 	width: 96.4%;
+	margin-top: 1%;
 	margin-left: 1%;
 	margin-right: 0.1%;
+    float:left;
 }
 
 /*關於我們內容的圖文*/
@@ -46,21 +48,21 @@
 	float: left;
 	margin: 1%;
 	background-color:#22A8E6;
-	height: 610px; 
+	height: 720px; 
 }
 .colb {
 	width: 31%;
 	float: left;
 	margin: 1%;
 	background-color:#F35B6A;
-	height: 610px; 
+	height: 720px;  
 }
 .colc {
 	width: 31%;
 	float: left;
 	margin: 1%;
 	background-color:#FFB217;
-	height: 610px; 
+	height: 720px;  
 }
 .coltitle{
 	color:#FFFFFF;

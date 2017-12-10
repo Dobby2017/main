@@ -1,4 +1,3 @@
-/*h2和h3是給首頁的標題文字和內容使用*/
 /*關於我們標題*/
 .texttitle {
 	padding-top: 5px;
@@ -8,8 +7,10 @@
 	color:#FFFFFF;
 	background-color:#85DEE6;
 	width: 96.4%;
+	margin-top: 1%;
 	margin-left: 1%;
 	margin-right: 0.1%;
+    float:left;
 }
 
 .form {

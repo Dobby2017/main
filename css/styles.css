@@ -75,6 +75,7 @@ h1 {
 .footerspace {
 	font-size: 60px;
 	color: #FFFFFF;
+    float:left;
 }
 .footer {
 	font-size: 25px;
