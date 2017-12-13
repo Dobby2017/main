@@ -34,7 +34,10 @@
 /*經歷*/
 ul {
     padding-left: 100Px;
-)
+}
+ul li a {
+    color:aqua;
+}
 /*.DIVimg {
     width: 30%;
     float: left;
