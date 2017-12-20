@@ -1,0 +1,100 @@
+/*關於我們標題*/
+.texttitle {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left:20px; 
+	font-size: 40px;
+	color:#FFFFFF;
+	background-color:#85DEE6;
+	width: 96.4%;
+	margin-top: 0%;
+	margin-left: 1%;
+	margin-right: 0.1%;
+    float:left;
+}
+.lesson a {  
+	text-decoration:none;
+	padding: 5px;
+}
+.account {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left:50px; 
+	font-size: 20px;
+	line-height: 35px;
+	width: 30%;
+	background-color:#e9e9e9;
+}
+.form {
+	padding-top: 100px;
+	padding-bottom: 5px;
+	padding-left:20px; 
+	font-size: 20px;
+	color:#000000;
+	background-color:#F3F3F3;
+	width: 96.4%;
+	margin-left: 1%;
+	margin-right: 0.1%;
+}
+input[type=name] {
+	width: 200px;
+    height: 30px;
+	margin: 10px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+select {
+    width: 50%;
+    height: 30px;
+	margin: 10px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+input[type="checkbox"] {
+	margin: 10px 20px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+	height: 25px;
+    width: 25px;
+}
+input[type=email] {
+	width: 200px;
+    height: 30px;
+	margin: 10px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+textarea {
+    width: 50%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+  
+}
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+
+/*TABLET*/
+@media screen and (max-width: 1200px){
+	h1 {
+	font-size: 40px;
+	padding-top: 280px;
+	padding-left: 30px;
+	}
+}
