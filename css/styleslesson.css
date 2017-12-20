@@ -25,10 +25,40 @@
     float: left;
 	height: auto;
 	display: block;
-	padding-top: 10%; 
+	padding-top: 0%; 
 	padding-left: 5%;
 	padding-right: 5%;
 	padding-bottom: 0%;
+}
+.textage6{
+    float: right;
+	color: #22A8E6;
+	font-size: 18px;
+	padding-top: 1%; 
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-bottom: 10%;
+}
+.textage8{
+    float: right;
+	color: #F35B6A;
+	font-size: 18px;
+	padding-top: 1%; 
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-bottom: 10%;
+}
+.textage10{
+    float: right;
+	color: #FFB217;
+	font-size: 18px;
+	padding-top: 1%; 
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-bottom: 10%;
+}
+.textageall{
+	color:#000000 ;
 }
 
 .texttitle{
