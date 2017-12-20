@@ -44,9 +44,11 @@ select {
     border-radius: 4px;
 }
 input[type="checkbox"] {
-	margin: 1px 10px;
+	margin: 10px 20px;
     border: 2px solid #ccc;
     border-radius: 4px;
+	height: 25px;
+    width: 25px;
 }
 input[type=email] {
 	width: 200px;
@@ -77,31 +79,6 @@ input[type=button], input[type=submit], input[type=reset] {
     cursor: pointer;
 }
 
-/*.DIVtext {
-	width: 50%;
-	font-size: 30px;
-	line-height: 36px;
-	margin-left:12px; 
-	margin-right: 7%; 
-    float:left;
-	background-color:#F3F3F3;
-	padding-top: 2%;
-	padding-left: 2%;
-	padding-right: 2%;
-	padding-bottom: 2%;
-	height: auto;
-}
-.DIVimg {
-    width: 30%;
-    float: left;
-}
-.DIVimg img {
-	width: 100%;
-	float: left;
-	margin: 1%; 
-	background-color:#F3F3F3;
-    border: 1px solid #D8D8D8;
-}*/
 
 
 /*TABLET*/
