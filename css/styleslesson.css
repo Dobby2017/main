@@ -1,90 +1,125 @@
-/*課程介紹標題*/
-.titletextlesson {
+/*h2和h3是給首頁的標題文字和內容使用*/
+/*關於我們標題*/
+.texttitle6 {
 	padding-top: 5px;
 	padding-bottom: 5px;
 	padding-left:20px; 
-	font-size: 40px;
+	font-size: 35px;
 	color:#FFFFFF;
-	background-color:#F45B6D;
-	background-color:#F45B6D;
+	background-color:#22A8E6;
 	width: 96.4%;
+	margin-top: 1%;
 	margin-left: 1%;
+	margin-right: 0.1%;
+    float:left;
+}
+.texttitle8 {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left:20px; 
+	font-size: 35px;
+	color:#FFFFFF;
+	background-color:#F35B6A;
+	width: 96.4%;
+	margin-top: 1%;
+	margin-left: 1%;
+	margin-right: 0.1%;
+    float:left;
+}
+.texttitle10 {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left:20px; 
+	font-size: 35px;
+	color:#FFFFFF;
+	background-color:#FFB217;
+	width: 96.4%;
+	margin-top: 1%;
+	margin-left: 1%;
+	margin-right: 0.1%;
     float:left;
 }
 
-.col {
-	width: 22.8%;
-	float: left;
-	margin: 1%;
+/*關於我們內容的圖文*/
+
+.DIVtext {
+	width: 50%;
+	font-size: 18px;
+	line-height: 24px;
+	margin-left:12px; 
+	margin-right: 7%; 
+    float:left;
+	background-color:#F3F3F3;
+	padding-top: 2%;
+	padding-left: 2%;
+	padding-right: 2%;
+	padding-bottom: 2%;
+	height: auto;
+}
+.DIVimg {
+    width: 30%;
+    float: left;
+}
+.DIVimg img {
+	width: 100%;
+
+	margin: 1%; 
 	background-color:#F3F3F3;
     border: 1px solid #D8D8D8;
+}
+.DIVtext a {  
+	border: 1px #A498BD solid; 
     border-radius: 10px;
+	color: #FFFFFF; 
+	background-color: #4CAF50; 
+	height: 20px; 
+	padding-top: 5px; 
+	padding-right: 5px; 
+	padding-bottom: 5px; 
+	padding-left: 5px; 
+	width: 130px: 0px;
+    text-decoration:none;
 }
-.col img {
-	width: 90%;
-    float: left;
-	height: auto;
-	display: block;
-	padding-top: 0%; 
-	padding-left: 5%;
-	padding-right: 5%;
-	padding-bottom: 0%;
-}
-.textage6{
-    float: right;
-	color: #22A8E6;
-	font-size: 18px;
-	padding-top: 1%; 
-	padding-left: 5%;
-	padding-right: 5%;
-	padding-bottom: 10%;
-}
-.textage8{
-    float: right;
-	color: #F35B6A;
-	font-size: 18px;
-	padding-top: 1%; 
-	padding-left: 5%;
-	padding-right: 5%;
-	padding-bottom: 10%;
-}
-.textage10{
-    float: right;
-	color: #FFB217;
-	font-size: 18px;
-	padding-top: 1%; 
-	padding-left: 5%;
-	padding-right: 5%;
-	padding-bottom: 10%;
-}
-.textageall{
-	color:#000000 ;
+.DIVtext a:hover {  
+	border: 1px #605080 solid; 
+    border-radius: 10px;
+	color: #FFFFFF;  
+	background-color: #4CAF50; 
+	height: 20px; padding-top: 5px; 
+	padding-right: 5px; 
+	padding-bottom: 5px; 
+	padding-left: 5px; width: 130px: 0px;
 }
 
-.texttitle{
-    float: left;
-	color:deepskyblue;
-	font-size: 18px;
-    font-weight:bold;
-	padding-top: 3%; 
-	padding-left: 5%;
-	padding-right: 5%;
-	padding-bottom: 3%;
+.h1title{
+	font-size: 24px;
+	color: #FF0000;
+}
+.h2title{
+	font-size: 20px;
+	color: #FF0000;
+}
+table, th, td {
+	margin-bottom: 12px;
+    border: 1px solid #D3D3D3;
+	text-align: center;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+	background-color:#DDDDDD;}
+
+tr:nth-child(even) {
+	background-color:#FFFFFF;
 }
 
-.text {
-    float: left;
-	width: 90%;
-	height: auto;
-	display: block;
-	line-height: 24px;
-	padding-top: 0%; 
-	padding-left: 5%;
-	padding-right: 5%;
-	padding-bottom: 5%;
+td {
+    padding: 8px;
 }
-
-
 
 
 
@@ -94,44 +129,5 @@
 	font-size: 40px;
 	padding-top: 280px;
 	padding-left: 30px;
-	}
-	.col {
-		width: 47%;
-	}
-	.colb {
-		width: 47%;
-	}
-	.colc {
-		width: 47%;
-	}
-	.texttitle{
-	font-size: 40px;
-	}
-	.text{
-	font-size: 30px;
-	line-height: 32px;
-	}
-	.hidden-xs {
-		display: none;
-	}
-}
-
-@media screen and (max-width: 600px){
-	h1 {
-	font-size: 40px;
-	padding-top: 280px;
-	padding-left: 30px;
-	}
-	.col {
-		width: 98%;
-	}
-	.colb {
-		width: 98%;
-	}
-	.colc {
-		width: 98%;
-	}
-	.hidden-xs {
-		display: none;
 	}
 }
