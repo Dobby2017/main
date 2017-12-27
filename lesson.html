@@ -44,8 +44,8 @@
         <div class="col">
           <div class="textage6"><span class="textageall">適合年齡</span> 6+</div>
 		  <div><img src="images/Lesson/helloruby.jpg" alt="helloruby, 露比任務">
-		  <div class="texttitle">露比任務<br>
-		  <h7>招生中：</h7><span class="lessonlink"><a href="wintercamp.html">冬令營</a> ‧ <a  href="lessonruby.html">常態課</a></span>
+		  <div class="texttitle">露比任務<h7>招生中</h7>
+		  <span class="lessonlink"><a href="wintercamp.html">冬令營</a> ‧ <a  href="lessonruby.html">常態課</a></span>
 		  </div>
 		  
 		  <div class="text">
@@ -192,51 +192,10 @@ HTML和CSS是網頁設計和製作的語法，從 HTML、CSS 基本的介紹、�
 		<div class="form">
 		<form id="contactform" method="POST">
 		    <input type="hidden" name="_language" value="zh-TW" />
-		    <input type ="hidden" name ="_subject" value ="我對課程有興趣！" />
-		    <input type="hidden" name="_next" value="/main/index.html" />
-			<div>學生姓名： <input type="name" name="學生姓名" placeholder="學生姓名"></div>
-			<div>家長姓名： <input type="name" name="家長姓名" placeholder="家長姓名"></div>
-			<div>學生年齡： 
-			  <select name="學生年齡">
-				<option value="6">6</option>
-				<option value="7">7</option>
-				<option value="8">8</option>
-				<option value="9">9</option>
-				<option value="10">10</option>
-				<option value="11">11</option>
-				<option value="12">12</option>
-				</select>
-			</div>
-			
-			<div>
-				<input type="checkbox" value="Scratch" name="課程名稱"> 露比任務 
-			    <input type="checkbox" value="Scratch jr" name="課程名稱"> Code.org + Unplugged 
-				<input type="checkbox" value="Ozobot" name="課程名稱"> ScratchJr 
-				<input type="checkbox" value="mBot" name="課程名稱"> Bloxels 
-			</div>
-			<div>	
-				<input type="checkbox" value="Micro:bit" name="課程名稱"> Ozobot
-				<input type="checkbox" value="App Inventor" name="課程名稱"> 魔術方塊		
-				<input type="checkbox" value="不插電科學" name="課程名稱"> 數學桌遊(多款)
-				<input type="checkbox" value="魔術方塊" name="課程名稱"> 程式桌遊(多款)
-			</div>
-			<div>
-				<input type="checkbox" value="Scratch" name="課程名稱"> Scratch
-			    <input type="checkbox" value="Scratch jr" name="課程名稱"> Minecraft
-				<input type="checkbox" value="Ozobot" name="課程名稱"> mBot自走車
-				
-			</div>
-			<div>
-			    <input type="checkbox" value="mBot" name="課程名稱"> 不插電科學	
-				<input type="checkbox" value="Micro:bit" name="課程名稱"> Micro:bit
-				<input type="checkbox" value="App Inventor" name="課程名稱"> App Inventor		
-				<input type="checkbox" value="不插電科學" name="課程名稱"> 網頁設計
-			</div>
-			<div>Email： <input type="email" name="email" placeholder="Your email"></div>
-			<input type="hidden" name="學生家長訊息" value="學生家長訊息" />
-			<div>留言： <br><textarea name="留言" placeholder="留言"></textarea></div>
-			<!--<input type="text" name="_gotcha" style="display:none" />-->
-			<input type="submit" value="確認送出" width="128" height="128">
+		    <script>
+    var contactform =  document.getElementById('contactform');
+    contactform.setAttribute('action', '//formspree.io/' + 'dobbysteamkids' + '@' + 'gmail' + '.' + 'com');
+</script>
 		</form>
 <script>
     var contactform =  document.getElementById('contactform');
