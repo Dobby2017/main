@@ -106,7 +106,7 @@
 }
 .text {
 	width: 80%;
-	font-size: 25px;
+	font-size: 15px;
 	line-height: 30px;
 	color: #FFFFFF;
 	height: auto;
@@ -115,6 +115,37 @@
 	padding-right: 10%;
 	
 }
+h7{
+	color: black;
+	font-weight:bold;
+}
+.text a {  
+	/*border: 1px #A498BD solid;*/ 
+    border-radius: 5px;
+	color: #FFFFFF; 
+	background-color:#848484; 
+	height: 20px; 
+	padding-top: 2px; 
+	padding-right: 2px; 
+	padding-bottom: 2px; 
+	padding-left: 2px; 
+    text-decoration:none;
+}
+.text a:hover {  
+	/*border: 1px #605080 solid;*/ 
+    border-radius: 5px;
+	color: #FFFFFF;  
+	background-color: #4CAF50; 
+	height: 20px; 
+	padding-top: 2px; 
+	padding-right: 2px; 
+	padding-bottom: 2px; 
+	padding-left: 2px
+}
+
+
+
+
 .iframe {
     padding-left: 23%;
 
