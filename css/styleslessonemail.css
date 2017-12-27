@@ -96,7 +96,9 @@ h7{
 	color: red;
 	font-weight:bold;
 }
-
+span {
+	font-size: 15px
+}
 .lessonlink a {  
 	/*border: 1px #605080 solid;*/ 
     border-radius: 5px;

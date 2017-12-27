@@ -95,8 +95,12 @@ tr:nth-child(even) {
 td {
     padding: 8px;
 }
-
-
+.tree {
+	color:hsla(108,94%,33%,1.00);
+}
+.plane {
+	color:hsla(224,100%,62%,1.00);
+}
 
 /*TABLET*/
 @media screen and (max-width: 1200px){
