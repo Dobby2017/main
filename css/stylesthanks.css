@@ -1,0 +1,36 @@
+/*關於我們標題*/
+.texttitle {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left:20px; 
+	font-size: 40px;
+	color:#FFFFFF;
+	background-color:#85DEE6;
+	width: 96.4%;
+	margin-top: 0%;
+	margin-left: 1%;
+	margin-right: 0.1%;
+    float:left;
+}
+.thanks{
+	line-height: 40px;
+	margin: 40px;
+}
+.thanks a {  
+	text-decoration:none;
+}
+.textred {
+	color: red;
+}
+
+
+
+
+/*TABLET*/
+@media screen and (max-width: 1200px){
+	h1 {
+	font-size: 40px;
+	padding-top: 280px;
+	padding-left: 30px;
+	}
+}
