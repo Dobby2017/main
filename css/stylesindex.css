@@ -185,30 +185,30 @@ h7{
 }
 
 .lessonlink a {  
+	font-size: 12px; 
 	border: 1px #4CAF50 solid;
-	margin: 20px;
     border-radius: 5px;
 	color: #FFFFFF;  
 	background-color: #4CAF50; 
 	height: 20px; 
-	padding-top: 5px; 
-	padding-right: 5px; 
-	padding-bottom: 5px; 
-	padding-left: 5px;
+	padding-top: 2px; 
+	padding-right: 2px; 
+	padding-bottom: 2px; 
+	padding-left: 2px;
     text-decoration:none;
 }
 .lessonlink a:hover {  
-	margin: 20px;
+	font-size: 12px; 
 	border: 1px #605080 solid; 
 	cursor:pointer;
     border-radius: 5px;
 	color: #FFFFFF;  
 	background-color:  #4CAF50;
 	height: 20px; 
-	padding-top: 5px; 
-	padding-right: 5px; 
-	padding-bottom: 5px; 
-	padding-left: 5px;
+	padding-top: 2px; 
+	padding-right: 2px; 
+	padding-bottom: 2px; 
+	padding-left: 2px;
 }
 .iframe {
     padding-left: 23%;
