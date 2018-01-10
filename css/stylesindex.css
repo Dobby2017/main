@@ -1,4 +1,4 @@
-/*h2和h3是給首頁的標題文字和內容使用*/
+
 /*關於我們標題*/
 .texttitle {
 	padding-top: 5px;
@@ -30,6 +30,8 @@
 	padding-bottom: 2%;
 	height: auto;
 }
+
+
 .DIVtext a {  
 	text-decoration:none;
 	padding: 5px;
@@ -46,6 +48,64 @@
 	background-color:#F3F3F3;
     border: 1px solid #D8D8D8;
 }
+
+/*課表*/
+.timetabletitle {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left:20px; 
+	font-size: 40px;
+	color:#FFFFFF;
+	background-color:#85DEE6;
+	width: 96.4%;
+	margin-top: 1%;
+	margin-left: 1%;
+	margin-right: 0.1%;
+    float:left;
+}
+
+/*課表*/
+
+.timetabletext {
+	width: 94%;
+	font-size: 15px;
+	line-height: 20px;
+	margin-left:12px; 
+	margin-right: 7%; 
+    float:left;
+	background-color:#F3F3F3;
+	padding-top: 0%;
+	padding-left: 1%;
+	padding-right: 1%;
+	padding-bottom: 0%;
+	height: auto;
+}
+h2 {
+	color: #000000;	
+	font-size: 20px;
+}
+table, th, td {
+	margin-bottom: 12px;
+    border: 1px solid #D3D3D3;
+	text-align: center;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+	background-color:#DDDDDD;}
+
+tr:nth-child(even) {
+	background-color:#FFFFFF;
+}
+
+td {
+    padding: 8px;
+}
+
 
 /*7+9+11+內容圖文*/
 .col {
@@ -125,36 +185,33 @@ h7{
 }
 
 .lessonlink a {  
-	/*border: 1px #605080 solid;*/ 
-    border-radius: 5px;
-	color: #FFFFFF;  
-	background-color: #848484; 
-	height: 20px; 
-	padding-top: 2px; 
-	padding-right: 2px; 
-	padding-bottom: 2px; 
-	padding-left: 2px;
-}
-.lessonlink a:hover {  
-	/*border: 1px #605080 solid;*/ 
+	border: 1px #4CAF50 solid;
+	margin: 20px;
     border-radius: 5px;
 	color: #FFFFFF;  
 	background-color: #4CAF50; 
 	height: 20px; 
-	padding-top: 2px; 
-	padding-right: 2px; 
-	padding-bottom: 2px; 
-	padding-left: 2px
+	padding-top: 5px; 
+	padding-right: 5px; 
+	padding-bottom: 5px; 
+	padding-left: 5px;
+    text-decoration:none;
 }
-
-
-
-
+.lessonlink a:hover {  
+	margin: 20px;
+	border: 1px #605080 solid; 
+	cursor:pointer;
+    border-radius: 5px;
+	color: #FFFFFF;  
+	background-color:  #4CAF50;
+	height: 20px; 
+	padding-top: 5px; 
+	padding-right: 5px; 
+	padding-bottom: 5px; 
+	padding-left: 5px;
+}
 .iframe {
     padding-left: 23%;
-
-
-	
 }
 /*TABLET*/
 @media screen and (max-width: 1200px){
