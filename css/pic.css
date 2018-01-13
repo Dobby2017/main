@@ -37,7 +37,8 @@ body {
                 background-color: rgba(115, 115, 115, 0.8);  
             }  
 .content {  
-            color: #eff5d4;  
+            color: #000000; 
+	text-shadow: 1px 1px white;
             font-size: 30px;  
             padding: 8px 12px;  
             position: absolute;  
