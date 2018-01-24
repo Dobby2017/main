@@ -6,8 +6,14 @@
 <title>多比思維｜兒童程式教育｜培養興趣‧建構思維‧綜合應用</title>
 <meta name="keywords" content="多比思維Dobby STEAM Center 兒童程式教育，程式設計課程">
 <meta name="description" content="ScratchJr,Code.org + Unplugged,Ozobot,Bloxels,魔術方塊,程式桌遊(多款),數學桌遊(多款),不插電科學,Scratch,Minecraft,App Inventor,Micro:bit,mBot自走車,網頁設計,露比任務">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="css/styles.css">
 <link rel="stylesheet" href="css/stylesindex.css">
+<style>
+.mySlides {display:none}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
+</style>
 </head>
 
 <body>
@@ -41,8 +47,17 @@
 		</div>
  	</header>
 	<main>
-		<div class="hero-box">
-			<!--<h1>Happy childhood at Dobby's Center</h1>-->
+		<div class="w3-content w3-display-container" style="max-width:800px">
+		  <img class="mySlides" src="https://dobby2017.github.io/main/images/banner.jpg" style="width:100%">
+		  <img class="mySlides" src="https://dobby2017.github.io/main/images/banner_gobot.jpg" style="width:100%">
+		  <img class="mySlides" src="https://dobby2017.github.io/main/images/banner_bloxels.jpg" style="width:100%">
+		  <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+			<div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+			<div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+			<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+			<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+			<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+		  </div>
 		</div>
 	<!--☆ 課表☆ 課表☆ 課表☆ 課表☆ 課表☆ 課表-->
 		<div class="timetabletitle">
@@ -238,6 +253,35 @@
         </div>
 	</main>
 	<footer>
+<!-- w3.css slideshow w3.css slideshoww3.css slideshow-->
+	<script>
+			var slideIndex = 1;
+			showDivs(slideIndex);
+
+			function plusDivs(n) {
+			  showDivs(slideIndex += n);
+			}
+
+			function currentDiv(n) {
+			  showDivs(slideIndex = n);
+			}
+
+			function showDivs(n) {
+			  var i;
+			  var x = document.getElementsByClassName("mySlides");
+			  var dots = document.getElementsByClassName("demo");
+			  if (n > x.length) {slideIndex = 1}    
+			  if (n < 1) {slideIndex = x.length}
+			  for (i = 0; i < x.length; i++) {
+				 x[i].style.display = "none";  
+			  }
+			  for (i = 0; i < dots.length; i++) {
+				 dots[i].className = dots[i].className.replace(" w3-white", "");
+			  }
+			  x[slideIndex-1].style.display = "block";  
+			  dots[slideIndex-1].className += " w3-white";
+			}
+		</script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112006846-1"></script>
 <script>
