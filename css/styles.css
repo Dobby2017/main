@@ -25,14 +25,12 @@ body {
 
 .hero-box {
 	height: 400px;
-	background-color: #FF00D7;
 	background-image: url(../images/banner.jpg);
 	background-size: cover;
 	margin: 1%;
 }
 .lesson-box {
 	height: 400px;
-	background-color: #FF00D7;
 	background-image: url(../images/banner_gobot.jpg);
 	background-size: cover;
 	margin: 1%;
