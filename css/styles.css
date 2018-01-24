@@ -3,6 +3,7 @@
 /*h1是給banner上的大字體*/
 .logo {
 	width: 99%;
+	padding-top: 15px;
 	padding-left: 15px;	
 	
 }

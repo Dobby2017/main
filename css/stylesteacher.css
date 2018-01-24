@@ -1,34 +1,31 @@
 /*h2和h3是給首頁的標題文字和內容使用*/
 /*關於我們標題*/
 .texttitle {
-	padding-top: 5px;
-	padding-bottom: 5px;
-	padding-left:20px; 
+	color: #2B65BF;
+	text-align: right;
+	width: 32%;
+	float:left;
 	font-size: 40px;
-	color:#FFFFFF;
-	background-color:#85DEE6;
-	width: 96.4%;
-	margin-top: 1%;
-	margin-left: 1%;
-	margin-right: 0.1%;
-    float:left;
+	line-height: 36px;
+	padding-top: 5%;
+	padding-left: 1%;
+	padding-right: 1%;
+	padding-bottom: 1%;
+	height: auto;
 }
 
 /*關於我們內容的圖文*/
 
 
 .DIVtext {
-	width: 94%;
+	width: 60%;
+	float:left;
 	font-size: 20px;
 	line-height: 36px;
-	margin-left:12px; 
-	margin-right: 7%; 
-    float:left;
-	background-color:#F3F3F3;
-	padding-top: 2%;
-	padding-left: 2%;
-	padding-right: 2%;
-	padding-bottom: 2%;
+	padding-top: 5%;
+	padding-left: 1%;
+	padding-right: 1%;
+	padding-bottom: 1%;
 	height: auto;
 }
 /*經歷*/
