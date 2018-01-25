@@ -42,13 +42,13 @@
 /*關於我們內容的圖文*/
 
 .DIVtext {
-	width: 60%;
+	width: 100%;
 	font-size: 25px;
 	line-height: 45px;
 	margin-left:0px; 
 	margin-right: 5%; 
     float:left;
-	background-color:#F3F3F3;
+	
 	padding-top: 2%;
 	padding-left: 5%;
 	padding-right: 5%;
@@ -59,6 +59,7 @@
 
 .DIVtext a {  
 	text-decoration:none;
+	color:chocolate;
 	padding: 5px;
 }
 
