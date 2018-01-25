@@ -2,7 +2,7 @@
 /* CSS Document */
 /*h1是給banner上的大字體*/
 .logo {
-	width: 99%;
+	width: 100%;
 	padding-top: 15px;
 	padding-left: 0px;	
 	
@@ -27,31 +27,31 @@ body {
 	height: 400px;
 	background-image: url(../images/banner_home.jpg);
 	background-size: cover;
-	margin: 1%;
+	margin: 1% 0%;
 }
 .gobot-box {
 	height: 400px;
 	background-image: url(../images/banner_gobot.jpg);
 	background-size: cover;
-	margin: 1%;
+	margin: 1% 0%;
 }
 .bloxels-box {
 	height: 400px;
 	background-image: url(../images/banner_bloxels.jpg);
 	background-size: cover;
-	margin: 1%;
+	margin: 1% 0%;
 }
 .scratchjr-box {
 	height: 400px;
 	background-image: url(../images/banner_scratchjr.jpg);
 	background-size: cover;
-	margin: 1%;
+	margin: 1% 0%;
 }
 .scratch-box {
 	height: 400px;
 	background-image: url(../images/banner_scratch.jpg);
 	background-size: cover;
-	margin: 1%;
+	margin: 1% 0%;
 }
 
 

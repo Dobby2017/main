@@ -1,43 +1,34 @@
 /*h2和h3是給首頁的標題文字和內容使用*/
 /*關於我們標題*/
 .texttitle6 {
-	padding-top: 5px;
-	padding-bottom: 5px;
-	padding-left:20px; 
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	font-size: 35px;
 	color:#FFFFFF;
-	background-color:#22A8E6;
-	width: 96.4%;
 	margin-top: 1%;
-	margin-left: 1%;
-	margin-right: 0.1%;
     float:left;
+	background-color:#22A8E6;
 }
 .texttitle8 {
-	padding-top: 5px;
-	padding-bottom: 5px;
-	padding-left:20px; 
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	font-size: 35px;
 	color:#FFFFFF;
-	background-color:#F35B6A;
-	width: 96.4%;
 	margin-top: 1%;
-	margin-left: 1%;
-	margin-right: 0.1%;
     float:left;
+	background-color:#F35B6A;
 }
 .texttitle10 {
-	padding-top: 5px;
-	padding-bottom: 5px;
-	padding-left:20px; 
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	font-size: 35px;
 	color:#FFFFFF;
-	background-color:#FFB217;
-	width: 96.4%;
 	margin-top: 1%;
-	margin-left: 1%;
-	margin-right: 0.1%;
     float:left;
+	background-color:#FFB217;
 }
 
 /*關於我們內容的圖文*/
@@ -45,25 +36,23 @@
 .DIVtext {
 	width: 50%;
 	font-size: 18px;
-	line-height: 24px;
-	margin-left:12px; 
-	margin-right: 7%; 
+	line-height: 30px;
+	margin-right: 2%; 
     float:left;
 	background-color:#F3F3F3;
 	padding-top: 2%;
-	padding-left: 2%;
-	padding-right: 2%;
+	padding-left: 5%;
+	padding-right: 5%;
 	padding-bottom: 2%;
 	height: auto;
 }
 .DIVimg {
-    width: 30%;
+    width: 35%;
     float: left;
 }
 .DIVimg img {
 	width: 100%;
-
-	margin: 1%; 
+	margin-top: 3%; 
 	background-color:#F3F3F3;
     border: 1px solid #D8D8D8;
 }
