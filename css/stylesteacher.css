@@ -23,14 +23,14 @@
 	font-size: 20px;
 	line-height: 36px;
 	padding-top: 5%;
-	padding-left: 1%;
+	padding-left: 3%;
 	padding-right: 1%;
 	padding-bottom: 1%;
 	height: auto;
 }
 /*經歷*/
 ul {
-    padding-left: 100Px;
+    padding-left: 50Px;
 }
 ul li a {
     color:#0000FF;
