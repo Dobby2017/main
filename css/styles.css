@@ -29,12 +29,35 @@ body {
 	background-size: cover;
 	margin: 1%;
 }
-.lesson-box {
+.gobot-box {
 	height: 400px;
 	background-image: url(../images/banner_gobot.jpg);
 	background-size: cover;
 	margin: 1%;
 }
+.bloxels-box {
+	height: 400px;
+	background-image: url(../images/banner_bloxels.jpg);
+	background-size: cover;
+	margin: 1%;
+}
+.scratchjr-box {
+	height: 400px;
+	background-image: url(../images/banner_scratchjr.jpg);
+	background-size: cover;
+	margin: 1%;
+}
+.scratch-box {
+	height: 400px;
+	background-image: url(../images/banner_scratch.jpg);
+	background-size: cover;
+	margin: 1%;
+}
+
+
+
+
+
 h1 {
 	color: #FEFEFE;	
 	font-size: 35px;
