@@ -6,13 +6,10 @@
 	width: 32%;
 	float:left;
 	font-size: 40px;
-	line-height: 36px;
 	padding-top: 5%;
-	padding-left: 1%;
-	padding-right: 1%;
-	padding-bottom: 1%;
 	height: auto;
 }
+
 
 /*關於我們內容的圖文*/
 
@@ -24,8 +21,6 @@
 	line-height: 36px;
 	padding-top: 5%;
 	padding-left: 3%;
-	padding-right: 1%;
-	padding-bottom: 1%;
 	height: auto;
 }
 /*經歷*/

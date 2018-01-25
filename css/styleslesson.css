@@ -1,9 +1,8 @@
 /*h2和h3是給首頁的標題文字和內容使用*/
 /*關於我們標題*/
 .texttitle6 {
+	padding: 10px 0px;
 	width: 100%;
-	padding-top: 10px;
-	padding-bottom: 10px;
 	font-size: 35px;
 	color:#FFFFFF;
 	margin-top: 1%;

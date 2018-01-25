@@ -7,21 +7,35 @@
 .w3-badge {
 	height:15px;width:15px;padding-bottom:0px;margin-top:200px;opacity: 0.5;}
 
+/*課表*/
+.timetabletitle {
+	padding: 5px 0px 5px 20px;
+	font-size: 35px;
+	color:#FFFFFF;
+	background-color:#85DEE6;
+	width: 100%;
+    float:left;
+}
 
+/*課表*/
+
+.timetabletext {
+	width: 100%;
+	font-size: 15px;
+	line-height: 20px;
+    float:left;
+	background-color:#F3F3F3;
+	height: auto;
+}
 
 
 /*關於我們標題*/
 .texttitle {
-	padding-top: 5px;
-	padding-bottom: 5px;
-	padding-left:20px; 
-	font-size: 40px;
+	padding: 5px 0px 5px 20px;
+	font-size: 35px;
 	color:#FFFFFF;
 	background-color:#85DEE6;
 	width: 100%;
-	margin-top: 0%;
-	margin-left: 0%;
-	margin-right: 0%;
     float:left;
 }
 
@@ -60,37 +74,7 @@
     border: 1px solid #D8D8D8;
 }
 
-/*課表*/
-.timetabletitle {
-	padding-top: 5px;
-	padding-bottom: 5px;
-	padding-left:20px; 
-	font-size: 40px;
-	color:#FFFFFF;
-	background-color:#85DEE6;
-	width: 100%;
-	margin-top: 1%;
-	margin-left: 0;
-	margin-right: 0;
-    float:left;
-}
 
-/*課表*/
-
-.timetabletext {
-	width: 100%;
-	font-size: 15px;
-	line-height: 20px;
-	margin-left:0; 
-	margin-right: 0%; 
-    float:left;
-	background-color:#F3F3F3;
-	padding-top: 0%;
-	padding-left: 0%;
-	padding-right: 0%;
-	padding-bottom: 0%;
-	height: auto;
-}
 h2 {
 	color: #000000;	
 	font-size: 20px;
