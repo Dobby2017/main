@@ -1,3 +1,14 @@
+.mySlides {
+	display:none;}
+.w3-left, .w3-right, .w3-badge {
+	cursor:pointer;}
+.w3-left, .w3-right{
+	font-size:50px;opacity: 0.5;}	
+.w3-badge {
+	height:15px;width:15px;padding-bottom:0px;margin-top:200px;opacity: 0.5;}
+
+
+
 
 /*關於我們標題*/
 .texttitle {
