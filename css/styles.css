@@ -4,7 +4,7 @@
 .logo {
 	width: 99%;
 	padding-top: 15px;
-	padding-left: 15px;	
+	padding-left: 0px;	
 	
 }
 
@@ -12,7 +12,7 @@ nav {
 	float: right;
 	padding-top: 30px;	 
 	padding-left: 0px;	
-	padding-right: 14px;	
+	padding-right: 0px;	
 	padding-bottom: 0px;	
 }
 
@@ -25,7 +25,7 @@ body {
 
 .hero-box {
 	height: 400px;
-	background-image: url(../images/banner.jpg);
+	background-image: url(../images/banner_home.jpg);
 	background-size: cover;
 	margin: 1%;
 }
@@ -65,7 +65,7 @@ nav ul li a, .dropbtn {
     display: inline-block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 12px;
     text-decoration: none;
 }
 
