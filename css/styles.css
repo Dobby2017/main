@@ -53,6 +53,12 @@ body {
 	background-size: cover;
 	margin: 1% 0%;
 }
+.mio-box {
+	height: 400px;
+	background-image: url(../images/banner_mio.jpg);
+	background-size: cover;
+	margin: 1% 0%;
+}
 
 
 
