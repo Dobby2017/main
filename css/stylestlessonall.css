@@ -1,0 +1,115 @@
+/*h2和h3是給首頁的標題文字和內容使用*/
+/*關於我們標題*/
+.texttitle {
+	color: #2B65BF;
+	text-align: right;
+	width: 32%;
+	float:left;
+	font-size: 40px;
+	padding-top: 5%;
+	height: auto;
+}
+
+
+/*關於我們內容的圖文*/
+
+
+.DIVtext {
+	width: 60%;
+	float:left;
+	font-size: 20px;
+	line-height: 36px;
+	padding-top: 5%;
+	padding-left: 3%;
+	height: auto;
+}
+/*經歷*/
+ul {
+    padding-left: 50Px;
+}
+ul li a {
+    color:#0000FF;
+}
+span {
+	padding-left: 150px;
+}
+.teacherlink a {  
+	font-size: 20px; 
+	border: 1px #4CAF50 solid;
+    border-radius: 5px;
+	color: #FFFFFF;  
+	background-color: #4CAF50; 
+	height: 20px; 
+	padding-top: 2px; 
+	padding-right: 2px; 
+	padding-bottom: 2px; 
+	padding-left: 2px;
+    text-decoration:none;
+}
+.teacherlink a:hover {  
+	font-size: 20px; 
+	border: 1px #605080 solid; 
+	cursor:pointer;
+    border-radius: 5px;
+	color: #FFFFFF;  
+	background-color:  #4CAF50;
+	height: 20px; 
+	padding-top: 2px; 
+	padding-right: 2px; 
+	padding-bottom: 2px; 
+	padding-left: 2px;
+}
+/*.DIVimg {
+    width: 30%;
+    float: left;
+}
+.DIVimg img {
+	width: 100%;
+	float: left;
+	margin: 1%; 
+	background-color:#F3F3F3;
+    border: 1px solid #D8D8D8;
+}*/
+table, th, td {
+	margin-bottom: 12px;
+    border: 1px solid #D3D3D3;
+	text-align: center;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+	background-color:#DDDDDD;}
+/*間隔的顏色不同*/
+tr:nth-child(even) {
+	background-color:#FFFFFF;
+}
+td {
+    padding: 8px;
+}
+td a:link {
+    text-decoration: none;
+}
+/*TABLET*/
+@media screen and (max-width: 1200px){
+	h1 {
+	font-size: 40px;
+	padding-top: 280px;
+	padding-left: 30px;
+	}
+
+.text {
+	width: 80%;
+	font-size: 35px;
+	line-height: 40px;
+	color: #FFFFFF;
+	height: auto;
+	display: block;
+	padding-left: 10%;
+	padding-right: 10%;
+	
+}
+}
