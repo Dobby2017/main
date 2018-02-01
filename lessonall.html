@@ -4,6 +4,8 @@
 <link rel="icon" href="https://dobby2017.github.io/main/images/page_icon.gif" type="image/gif" sizes="16x16">
 <meta charset="UTF-8">
 <title>多比思維｜兒童程式教育｜培養興趣‧建構思維‧綜合應用</title>
+<!--https://www.w3schools.com/w3css/4/w3.css會影響選單的版型-->
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="css/styles.css">
 <link rel="stylesheet" href="css/stylestlessonall.css">
 </head>
@@ -43,14 +45,30 @@
  	</header>
  	<br>
  	<hr>
-	<main>
+	<main><br>
+		<div class="w3-content w3-display-container" style="max-width:1200px">
+		  <a href="lessongobot.html"><img class="mySlides" src="https://dobby2017.github.io/main/images/banner_gobot.jpg" style="width:100%"></a>
+		  <a href="lessonscratchjr.html"><img class="mySlides" src="https://dobby2017.github.io/main/images/banner_scratchjr.jpg" style="width:100%"></a> 
+		  <a href="lessonbloxels.html"><img class="mySlides" src="https://dobby2017.github.io/main/images/banner_bloxels.jpg" style="width:100%"></a>
+		  <a href="lessonscratch.html"><img class="mySlides" src="https://dobby2017.github.io/main/images/banner_scratch.jpg" style="width:100%"></a>
+		  <a href="lessonscratch.html"><img class="mySlides" src="https://dobby2017.github.io/main/images/banner_mio.jpg" style="width:100%"></a>
+		  <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+			<div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+			<div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+			<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+			<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+			<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+			<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(4)"></span>
+			<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(5)"></span>
+		  </div>
+		</div><br>
 		<div class="texttitle">
 			 課程總表
 		</div>
 		<div class="DIVtext">
 		<table>
 		  <tr>
-			<td colspan="5">2018 春季班 熱烈招生中</td>
+			<td colspan="5">2018 春季班 <font color="#FF0000">熱烈招生中</font></td>
 		  </tr>
 		  <tr>
 			<th>課程</th>
@@ -91,7 +109,7 @@
 			<td>(六) 14:40-16:40</td>
 		  </tr>
 		  <tr>
-			<td><a href="lessonmio.html">Mio</a><font color=#000280>◎</font></td>
+			<td><a href="lessonmio.html">Mio</a><font color="#FF0000">◎</font></td>
 			<td>小三～小六</td>
 			<td>14</td>
 			<td>(六) 16:50-18:50</td>
@@ -104,14 +122,61 @@
 			<td>2/23 - 4/13</td>
 		  </tr>
 		  <tr>
-			<td colspan="5">以上課程歡迎預約試上 (單堂收費)</td>
+			<td colspan="5"><font color=#C56800>以上課程歡迎預約試上 (單堂收費)</font></td>
 		  </tr>
 		</table>
-		<font color="#FF0000">＊</font>不上機課程　<font color=#000280>◎</font>機器人課程
+		<font color="#FF0000">＊</font>不上機課程　<font color="#FF0000">◎</font>機器人課程
 			<span class="teacherlink"><a href="https://goo.gl/DcRS89" target="_blank">報名去 ➯</a><br><br></span>
 		</div>
 	</main>
 	<footer>
+		<script>
+		var myIndex = 0;
+		carousel();
+
+		function carousel() {
+			var i;
+			var x = document.getElementsByClassName("mySlides");
+			for (i = 0; i < x.length; i++) {
+			   x[i].style.display = "none";  
+			}
+			myIndex++;
+			if (myIndex > x.length) {myIndex = 1}    
+			x[myIndex-1].style.display = "block";  
+			setTimeout(carousel, 2500); // Change image every 2 seconds
+			//加下面這個就可以中間的圈圈和目前照片同步
+			showDivs(slideIndex = myIndex);
+		}
+		</script>
+<!-- w3.css slideshow w3.css slideshoww3.css slideshow-->
+		<script>
+		var slideIndex = 1;
+		showDivs(slideIndex);
+
+		function plusDivs(n) {
+		  showDivs(slideIndex += n);
+		}
+
+		function currentDiv(n) {
+		  showDivs(slideIndex = n);
+		}
+
+		function showDivs(n) {
+		  var i;
+		  var x = document.getElementsByClassName("mySlides");
+		  var dots = document.getElementsByClassName("demo");
+		  if (n > x.length) {slideIndex = 1}    
+		  if (n < 1) {slideIndex = x.length}
+		  for (i = 0; i < x.length; i++) {
+			 x[i].style.display = "none";  
+		  }
+		  for (i = 0; i < dots.length; i++) {
+			 dots[i].className = dots[i].className.replace(" w3-white", "");
+		  }
+		  x[slideIndex-1].style.display = "block";  
+		  dots[slideIndex-1].className += " w3-white";
+		}
+		</script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112006846-1"></script>
 <script>

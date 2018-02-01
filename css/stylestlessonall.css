@@ -1,3 +1,11 @@
+.mySlides {
+	display:none;}
+.w3-left, .w3-right, .w3-badge {
+	cursor:pointer;}
+.w3-left, .w3-right{
+	font-size:50px;opacity: 0.5;}	
+.w3-badge {
+	height:15px;width:15px;padding-bottom:0px;margin-top:200px;opacity: 0.5;}
 /*h2和h3是給首頁的標題文字和內容使用*/
 /*關於我們標題*/
 .texttitle {
@@ -92,6 +100,9 @@ td {
 }
 td a:link {
     text-decoration: none;
+}
+td a:hover {
+     text-decoration:underline;
 }
 /*TABLET*/
 @media screen and (max-width: 1200px){
