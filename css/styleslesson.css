@@ -112,6 +112,23 @@ td {
 #notyet td {
 	color:#7D7D7D;
 }
+.courseoutline a {  
+	border:none;
+    border-radius: 10px;
+	color: #FFFFFF; 
+	background-color: orange; 
+	padding: 5px; 
+	width: 130px: 0px;
+    text-decoration:none;
+}
+.courseoutline a:hover { 
+	cursor:pointer;
+	border:none;
+    border-radius: 10px;
+	color: #FFFFFF;  
+	background-color: darkorange; 
+	padding: 5px; 
+}
 /*TABLET*/
 @media screen and (max-width: 1200px){
 	h1 {
