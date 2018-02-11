@@ -55,30 +55,7 @@
 	background-color:#F3F3F3;
     border: 1px solid #D8D8D8;
 }
-.DIVtext a {  
-	border: 1px #A498BD solid; 
-    border-radius: 10px;
-	color: #FFFFFF; 
-	background-color: #4CAF50; 
-	height: 20px; 
-	padding-top: 5px; 
-	padding-right: 5px; 
-	padding-bottom: 5px; 
-	padding-left: 5px; 
-	width: 130px: 0px;
-    text-decoration:none;
-}
-.DIVtext a:hover { 
-	cursor:pointer;
-	border: 1px #605080 solid; 
-    border-radius: 10px;
-	color: #FFFFFF;  
-	background-color: #4CAF50; 
-	height: 20px; padding-top: 5px; 
-	padding-right: 5px; 
-	padding-bottom: 5px; 
-	padding-left: 5px; width: 130px: 0px;
-}
+
 
 .h1title{
 	font-size: 24px;
@@ -87,6 +64,13 @@
 .h2title{
 	font-size: 20px;
 	color: #FF0000;
+}
+.satisfactiontalbe table{
+    border: 0px;
+}
+.satisfactiontalbe td{
+    border: 0px;
+	text-align:left;
 }
 table, th, td {
 	margin-bottom: 12px;
@@ -129,6 +113,39 @@ td {
 	background-color: darkorange; 
 	padding: 5px; 
 }
+.teacherlink {
+	text-align:center;
+}
+.teacherlink a {  
+	font-size: 20px; 
+	border: 1px #4CAF50 solid;
+    border-radius: 5px;
+	color: #FFFFFF;  
+	background-color: #4CAF50; 
+	height: 20px; 
+	padding-top: 3px; 
+	padding-right: 10px; 
+	padding-bottom: 3px; 
+	padding-left: 10px;
+    text-decoration:none;
+}
+.teacherlink a:hover {  
+	font-size: 20px; 
+	border: 1px #605080 solid; 
+	cursor:pointer;
+    border-radius: 5px;
+	color: #FFFFFF;  
+	background-color:  #4CAF50;
+	height: 20px; 
+	padding-top: 3px; 
+	padding-right: 10px; 
+	padding-bottom: 3px; 
+	padding-left: 10px;
+}
+
+
+
+
 /*TABLET*/
 @media screen and (max-width: 1200px){
 	h1 {
