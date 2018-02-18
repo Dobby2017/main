@@ -21,10 +21,13 @@
 .big {
 	width: 100%;
 	height: 1950px;
+	align-content: center;
+	align-items: center;
+	align-self: center;
 }
 
 .col {
-	width: 22.8%;
+	width: 22%;
 	float: left;
 	margin: 1%;
 	background-color:#F3F3F3;
