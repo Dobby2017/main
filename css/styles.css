@@ -114,10 +114,10 @@ nav ul li.dropdown {
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
-
+/*下拉選單*/
 .dropdown-content a {
     color: white;
-    padding: 12px 16px;
+    padding: 6px 12px;
     text-decoration: none;
     display: block;
     text-align: left;
