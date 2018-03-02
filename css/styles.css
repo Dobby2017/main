@@ -20,7 +20,7 @@ body {
 	max-width: 1200px;
 	margin-left: auto;
 	margin-right: auto;
-	font-family: "微軟正黑體", "Microsoft JhengHei", "新細明體", "PMingLiU", "細明體", "MingLiU", "標楷體", "DFKai-sb", serif;
+	font-family: "微軟正黑體", "Microsoft JhengHei", "新細明體", "PMingLiU", "細明體", "MingLiU", "標楷體","webdings","Wingdings 3","DFKai-sb", serif;
 }
 
 .hero-box {
