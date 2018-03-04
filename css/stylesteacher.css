@@ -60,6 +60,9 @@ span {
 	padding-left: 2px;
     text-decoration:none;
 }
+.teacherlink {
+	text-align:center;
+}
 .teacherlink a:hover {  
 	font-size: 20px; 
 	border: 1px #605080 solid; 
