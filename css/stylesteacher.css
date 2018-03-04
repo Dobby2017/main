@@ -1,14 +1,20 @@
 /*h2和h3是給首頁的標題文字和內容使用*/
 /*關於我們標題*/
 .texttitle {
-
-	text-align: right;
 	width: 32%;
 	float:left;
 	padding-top: 5%;
 	height: auto;
 }
-
+.texttitle2 {
+	padding: 5px 0px;
+	width: 100%;
+	font-size: 25px;
+	color:#FFFFFF;
+	margin-top: 1%;
+    float:left;
+	background-color:#22A8E6;
+}
 
 /*關於我們內容的圖文*/
 
@@ -62,6 +68,7 @@ span {
 	font-size: 24px;
 	color: #000000;
 	font-weight: bold;
+	text-align: center;
 }
 .h2title{
 	font-size: 20px;
