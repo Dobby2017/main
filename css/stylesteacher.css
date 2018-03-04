@@ -1,5 +1,11 @@
 /*h2和h3是給首頁的標題文字和內容使用*/
 /*關於我們標題*/
+.DIVimg {
+	text-align: center;
+}
+.DIVimg img {
+	width: 80%;
+}
 .texttitle {
 	width: 32%;
 	float:left;
