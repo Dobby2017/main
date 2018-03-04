@@ -1,11 +1,10 @@
 /*h2和h3是給首頁的標題文字和內容使用*/
 /*關於我們標題*/
 .texttitle {
-	color: #2B65BF;
+
 	text-align: right;
 	width: 32%;
 	float:left;
-	font-size: 40px;
 	padding-top: 5%;
 	height: auto;
 }
@@ -59,18 +58,16 @@ span {
 	padding-bottom: 2px; 
 	padding-left: 2px;
 }
-/*.DIVimg {
-    width: 30%;
-    float: left;
+.h1title{
+	font-size: 24px;
+	color: #000000;
+	font-weight: bold;
 }
-.DIVimg img {
-	width: 100%;
-	float: left;
-	margin: 1%; 
-	background-color:#F3F3F3;
-    border: 1px solid #D8D8D8;
-}*/
-
+.h2title{
+	font-size: 20px;
+	font-weight: bold;
+	color: #FF0000;
+}
 
 /*TABLET*/
 @media screen and (max-width: 1200px){
