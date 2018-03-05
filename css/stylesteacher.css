@@ -6,6 +6,15 @@
 .DIVimg img {
 	width: 80%;
 }
+.texttitleword {
+	color: #2B65BF;
+	text-align: right;
+	width: 32%;
+	float:left;
+	font-size: 40px;
+	padding-top: 5%;
+	height: auto;
+}
 .texttitle {
 	width: 32%;
 	float:left;
