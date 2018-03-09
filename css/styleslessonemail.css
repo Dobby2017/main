@@ -149,7 +149,7 @@ input[type=name], input[type=text] {
     border-radius: 4px;
 }
 select {
-    width: 8%;
+    width: 10%;
     height: 30px;
 	margin: 10px;
     box-sizing: border-box;
