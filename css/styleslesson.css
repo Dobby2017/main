@@ -144,14 +144,3 @@ td {
 	padding-left: 10px;
 }
 
-
-
-
-/*TABLET*/
-@media screen and (max-width: 1200px){
-	h1 {
-	font-size: 40px;
-	padding-top: 280px;
-	padding-left: 30px;
-	}
-}
