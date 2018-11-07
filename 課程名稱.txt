@@ -18,9 +18,6 @@ App Inventor
 					  <a href="lessonscratchjr.html">ScratchJr</a>
 					  <a href="lessonbloxels.html">Bloxels</a>
 					  <a href="lessonscratch.html">Scratch</a>
-					  <!--<a href="lessonminecraft.html">Minecraft</a>-->
-					  <!--<a href="lessonozobot.html">《機器人》Ozobot</a>-->
-					  <a href="lessonmio.html">《機器人》Mio自走車</a>
-					  <!--<a href="lessonmicrobit.html">《機器人》Micro：bit</a>-->
-					  <!--<a href="lessonappinventer.html">App Inventer</a>-->
-					  <!--<a href="lessonwebdesign.html">網頁設計</a>-->
+					  <a href="lessonwedo.html">WeDo2.0</a>
+					  <a href="lessonmicrobit.html">《機器人》Micro：bit機器人</a>
+					  <a href="lessonappinventer.html">App Inventer機械獸</a>
