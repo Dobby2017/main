@@ -67,6 +67,11 @@
 	color:chocolate;
 	padding: 5px;
 }
+.DIVtext2title {
+	font-size: 43px; 
+	border: 1px #aaaaaa solid;
+	padding: 2px 2px;
+}
 
 .DIVimg {
     width: 30%;
