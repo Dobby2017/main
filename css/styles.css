@@ -35,6 +35,12 @@ body {
 	background-size: cover;
 	margin: 1% 0%;
 }
+.vacation-box {
+	height: 400px;
+	background-image: url(../images/banner_4plus_class.jpg);
+	background-size: cover;
+	margin: 1% 0%;
+}
 .bloxels-box {
 	height: 400px;
 	background-image: url(../images/banner_bloxels.jpg);
@@ -59,6 +65,7 @@ body {
 	background-size: cover;
 	margin: 1% 0%;
 }
+
 
 
 
