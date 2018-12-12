@@ -95,16 +95,16 @@
 	height: auto;
 }
 .DIVtext3 {
-	width: 90%;
-	font-size: 30px;
+	width: 95%;
+	font-size: 25px;
 	line-height: 35px;
-	margin: 0% 3% 5% 3%; 
+	margin: 0%; 
     float:left;
 	background-color:#F3F3F3;
 	padding-top: 0%;
-	padding-left: 2%;
-	padding-right: 2%;
-	padding-bottom: 2%;
+	padding-left: 5%;
+	padding-right: 0%;
+	padding-bottom: 0%;
 	height: auto;
 }
 .h1title{
