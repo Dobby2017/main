@@ -79,6 +79,11 @@ h1 {
 	padding-top: 90px;
 	padding-left: 670px;
 }
+/*大紅字促銷價格*/
+h2 {
+	color: #ff0000;	
+	font-size: 30px;
+}
 .email{
     text-align:right;
 	width: 95%;
