@@ -8,11 +8,13 @@
 }
 .texttitleword {
 	color: #2B65BF;
-	text-align: right;
-	width: 32%;
+	text-align: left;
+	width: 100%;
 	float:left;
 	font-size: 40px;
 	padding-top: 5%;
+	padding-left: 15%;
+	padding-bottom: 5%;
 	height: auto;
 }
 .texttitle {
@@ -51,6 +53,20 @@
 	padding-left: 3%;
 	height: auto;
 }
+.DIVtext1 {
+	width: 35%;
+	float: left;
+	text-align: right;
+}
+.DIVtext2 {
+	width: 65%;
+	font-size: 20px;
+	line-height: 35px;
+	float: left;
+}
+
+
+
 /*經歷*/
 ul {
     padding-left: 50Px;
