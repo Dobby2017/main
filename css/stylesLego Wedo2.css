@@ -1,0 +1,77 @@
+/*w3支援的跑馬燈程式-開始*/
+.mySlides {
+	display:none;}
+.w3-left, .w3-right, .w3-badge {
+	cursor:pointer;}
+.w3-left, .w3-right{
+	font-size:50px;opacity: 0.5;}	
+.w3-badge {
+	height:15px;width:15px;padding-bottom:0px;margin-top:200px;opacity: 0.5;}
+/*w3支援的跑馬燈程式-結束*/
+
+
+/*內容部份-開始*/
+.Bigtitle {/*最大的標題*/
+	color: #2B65BF;
+	text-align:center;
+	width: 100%;
+	float:left;
+	font-size: 40px;
+	font-family: Impact, Haettenschweiler, Franklin Gothic Bold, Arial Black," sans-serif";
+	padding-top: 5%;
+	height: auto;
+}
+.titleBg {/*標題有背景顏色*/
+	padding: 10px 0px;
+	width: 100%;
+	font-size: 35px;
+	color:#FFFFFF;
+	margin-top: 1%;
+    float:left;
+	background-color:#22A8E6;
+}
+
+/*關於我們內容的圖文*/
+
+
+.DIVtext {
+	width: 60%;
+	float:left;
+	font-size: 20px;
+	line-height: 36px;
+	padding-top: 5%;
+	padding-left: 3%;
+	height: auto;
+}
+
+
+table, th, td {
+	margin-bottom: 12px;
+    border: 1px solid #D3D3D3;
+	text-align: center;
+}
+table img {
+    width: 100px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+	background-color:#DDDDDD;}
+/*間隔的顏色不同*/
+tr:nth-child(even) {
+	background-color:#FFFFFF;
+}
+td {
+    padding: 8px;
+}
+td a:link {
+    text-decoration: none;
+}
+td a:hover {
+     text-decoration:underline;
+}
+/*內容部份-結束*/

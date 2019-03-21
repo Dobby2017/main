@@ -1,3 +1,4 @@
+/*w3支援的跑馬燈程式-開始*/
 .mySlides {
 	display:none;}
 .w3-left, .w3-right, .w3-badge {
@@ -6,41 +7,9 @@
 	font-size:50px;opacity: 0.5;}	
 .w3-badge {
 	height:15px;width:15px;padding-bottom:0px;margin-top:200px;opacity: 0.5;}
+/*w3支援的跑馬燈程式-結束*/
 
-/*課表*/
-.timetabletitle {
-	padding: 5px 0px 5px 20px;
-	font-size: 35px;
-	color:#FFFFFF;
-	background-color:#85DEE6;
-	width: 100%;
-    float:left;
-}
-
-/*課表*/
-
-.timetabletext {
-	width: 100%;
-	font-size: 15px;
-	line-height: 20px;
-    float:left;
-	background-color:#F3F3F3;
-	height: auto;
-}
-
-
-/*關於我們標題*/
-.texttitle {
-	padding: 5px 0px 5px 20px;
-	font-size: 35px;
-	color:#FFFFFF;
-	background-color:#85DEE6;
-	width: 100%;
-    float:left;
-}
-
-/*關於我們內容的圖文*/
-
+/*合作伙伴和2019年，台灣兒童程式教育元年-開始*/
 .DIVtext {
 	width: 100%;
     float:left;
@@ -48,17 +17,18 @@
 }
 .DIVtext1 {
 	width: 40%;
+	font-size: 1.2em;
 	line-height: 25px;
 	float: left;
 }
 .DIVtext1title {
-	font-size: 20px; 
+	font-size: 2em; 
 	border: 1px #aaaaaa solid;
 	padding: 2px 5px;
 }
 .DIVtext2 {
 	width: 60%;
-	font-size: 20px;
+	font-size: 1.2em;
 	line-height: 35px;
 	float: left;
 }
@@ -68,67 +38,29 @@
 	padding: 5px;
 }
 .DIVtext2title {
-	font-size: 35px; 
+	font-size: 2em; 
 	border: 1px #aaaaaa solid;
 	padding: 2px 2px;
 }
-
-.DIVimg {
-    width: 30%;
-    float: left;
-}
-.DIVimg img {
-	width: 100%;
-	float: left;
-	margin: 1%; 
-	background-color:#F3F3F3;
-    border: 1px solid #D8D8D8;
-}
+/*合作伙伴和2019年，台灣兒童程式教育元年-結束*/
 
 
-h2 {
-	color: #000000;	
-	font-size: 20px;
-}
-table, th, td {
-	margin-bottom: 12px;
-    border: 1px solid #D3D3D3;
-	text-align: center;
-}
-table {
-    border-collapse: collapse;
-    width: 100%;
-}
-th {
-    padding-top: 12px;
-    padding-bottom: 12px;
-	background-color:#DDDDDD;}
-
-tr:nth-child(even) {
-	background-color:#FFFFFF;
-}
-
-td {
-    padding: 8px;
-}
-
-
-/*7+9+11+內容圖文*/
-.col {
+/*7+9+11+下方分年齡木的三個區塊的內容和圖片-開始*/
+.col01 {/*下方分年齡木的三個區塊*/
 	width: 31.3%;
 	float: left;
 	margin: 1%;
 	background-color:#22A8E6;
 	height: 800px; 
 }
-.colb {
+.col02 {/*下方分年齡木的三個區塊*/
 	width: 31.3%;
 	float: left;
 	margin: 1%;
 	background-color:#F35B6A;
 	height: 800px;  
 }
-.colc {
+.col03 {/*下方分年齡木的三個區塊*/
 	width: 31.3%;
 	float: left;
 	margin: 1%;
@@ -137,7 +69,7 @@ td {
 }
 .coltitle{
 	color:#FFFFFF;
-	font-size: 35px;
+	font-size: 1.5px;
 	width: 90%;
 	display: block;
 	text-align: center;
@@ -145,8 +77,7 @@ td {
 	padding-left: 5%;
 	padding-right: 5%;
 }
-
-.col img {
+.col01 img {/*下方分年齡木的三個區塊的圖片*/
 	width: 100%;
 	height: auto;
 	display: block;
@@ -154,7 +85,7 @@ td {
 	padding-left: 10%;
 	padding-right: 10%;
 }
-.colb img {
+.col02 img {/*下方分年齡木的三個區塊的圖片*/
 	width: 100%;
 	height: auto;
 	display: block;
@@ -162,7 +93,7 @@ td {
 	padding-left: 10%;
 	padding-right: 10%;
 }
-.colc img {
+.col03 img {/*下方分年齡木的三個區塊的圖片*/
 	width: 100%;
 	height: auto;
 	display: block;
@@ -170,59 +101,26 @@ td {
 	padding-left: 10%;
 	padding-right: 10%;
 }
-.text {
+.text { /*下方分年齡三個區塊的文字*/
 	width: 90%;
-	font-size: 20px;
 	line-height: 30px;
 	color: #FFFFFF;
 	height: auto;
 	display: block;
 	padding-left: 10%;
 	padding-right: 0%;
-	
 }
-h7{
-	color: black;
-	font-weight:bold;
-}
-
-.text a { 
+.text a { /*下方分年齡三個區塊的文字的連結*/
 	    text-decoration:none;
 }
+/*7+9+11+下方分年齡木的三個區塊的內容和圖片-結束*/
 
-.lessonlink a {  
-	font-size: 12px; 
-	border: 1px #4CAF50 solid;
-    border-radius: 5px;
-	color: #FFFFFF;  
-	background-color: #4CAF50; 
-	height: 20px; 
-	padding-top: 2px; 
-	padding-right: 2px; 
-	padding-bottom: 2px; 
-	padding-left: 2px;
-    text-decoration:none;
-}
-.lessonlink a:hover {  
-	font-size: 12px; 
-	border: 1px #605080 solid; 
-	cursor:pointer;
-    border-radius: 5px;
-	color: #FFFFFF;  
-	background-color:  #4CAF50;
-	height: 20px; 
-	padding-top: 2px; 
-	padding-right: 2px; 
-	padding-bottom: 2px; 
-	padding-left: 2px;
-}
-.iframe {
-    padding-left: 23%;
-}
+	
+
 /*TABLET*/
 @media screen and (max-width: 1200px){
 	h1 {
-	font-size: 40px;
+	font-size: 2em;
 	padding-top: 280px;
 	padding-left: 30px;
 	}
@@ -240,7 +138,7 @@ h7{
 	}
 .text {
 	width: 80%;
-	font-size: 35px;
+	font-size: 1.5em;
 	line-height: 40px;
 	color: #FFFFFF;
 	height: auto;

@@ -1,3 +1,4 @@
+/*w3支援的跑馬燈程式-開始*/
 .mySlides {
 	display:none;}
 .w3-left, .w3-right, .w3-badge {
@@ -6,6 +7,7 @@
 	font-size:50px;opacity: 0.5;}	
 .w3-badge {
 	height:15px;width:15px;padding-bottom:0px;margin-top:200px;opacity: 0.5;}
+/*w3支援的跑馬燈程式-結束*/
 /*h2和h3是給首頁的標題文字和內容使用*/
 /*關於我們標題*/
 .texttitle {
