@@ -69,7 +69,7 @@
 }
 .coltitle{
 	color:#FFFFFF;
-	font-size: 1.5px;
+	font-size: 1.5em;
 	width: 90%;
 	display: block;
 	text-align: center;
@@ -102,6 +102,7 @@
 	padding-right: 10%;
 }
 .text { /*下方分年齡三個區塊的文字*/
+	font-size: 1.3em;
 	width: 90%;
 	line-height: 30px;
 	color: #FFFFFF;
