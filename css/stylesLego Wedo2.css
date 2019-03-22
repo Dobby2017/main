@@ -16,7 +16,7 @@
 	text-align:center;
 	width: 100%;
 	float:left;
-	font-size: 40px;
+	font-size: 4em;
 	font-family: Impact, Haettenschweiler, Franklin Gothic Bold, Arial Black," sans-serif";
 	padding-top: 5%;
 	height: auto;
@@ -24,7 +24,7 @@
 .titleBg {/*標題有背景顏色*/
 	padding: 10px 0px;
 	width: 100%;
-	font-size: 35px;
+	font-size: 2em;
 	color:#FFFFFF;
 	margin-top: 1%;
     float:left;
