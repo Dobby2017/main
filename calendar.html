@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+<head>
+<link rel="icon" href="https://dobby2017.github.io/main/images/page_icon.gif" type="image/gif" sizes="16x16">
+<meta charset="UTF-8">
+<title>多比思維｜兒童程式教育｜培養興趣‧建構思維‧綜合應用</title>
+<!--https://www.w3schools.com/w3css/4/w3.css會影響選單的版型-->
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="css/stylescalendar.css">
+</head>
+
+<body>
+	<header></header>
+	<main>
+<iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=dobbysteamkids%40gmail.com&amp;color=%23865A5A&amp;ctz=Asia%2FHong_Kong" style="border-width:0" width="1200" height="900" frameborder="0" scrolling="no"></iframe>
+
+<br><br><br><br>
+	</main>
+	<footer>
+		<script>
+		var myIndex = 0;
+		carousel();
+
+		function carousel() {
+			var i;
+			var x = document.getElementsByClassName("mySlides");
+			for (i = 0; i < x.length; i++) {
+			   x[i].style.display = "none";  
+			}
+			myIndex++;
+			if (myIndex > x.length) {myIndex = 1}    
+			x[myIndex-1].style.display = "block";  
+			setTimeout(carousel, 2500); // Change image every 2 seconds
+			//加下面這個就可以中間的圈圈和目前照片同步
+			showDivs(slideIndex = myIndex);
+		}
+		</script>
+<!-- w3.css slideshow w3.css slideshoww3.css slideshow-->
+		<script>
+		var slideIndex = 1;
+		showDivs(slideIndex);
+
+		function plusDivs(n) {
+		  showDivs(slideIndex += n);
+		}
+
+		function currentDiv(n) {
+		  showDivs(slideIndex = n);
+		}
+
+		function showDivs(n) {
+		  var i;
+		  var x = document.getElementsByClassName("mySlides");
+		  var dots = document.getElementsByClassName("demo");
+		  if (n > x.length) {slideIndex = 1}    
+		  if (n < 1) {slideIndex = x.length}
+		  for (i = 0; i < x.length; i++) {
+			 x[i].style.display = "none";  
+		  }
+		  for (i = 0; i < dots.length; i++) {
+			 dots[i].className = dots[i].className.replace(" w3-white", "");
+		  }
+		  x[slideIndex-1].style.display = "block";  
+		  dots[slideIndex-1].className += " w3-white";
+		}
+		</script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112006846-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-112006846-1');
+</script>
+	</footer>
+</body>
+</html>
