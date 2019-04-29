@@ -15,7 +15,6 @@
 	color: #F35B6A;
 	text-align:center;
 	width: 100%;
-	float:left;
 	font-size: 4em;
 	font-family: Impact, Haettenschweiler, Franklin Gothic Bold, Arial Black," sans-serif";
 	padding-top: 5%;
@@ -27,7 +26,6 @@
 	font-size: 2em;
 	color:#FFFFFF;
 	margin-top: 1%;
-    float:left;
 	background-color:#F35B6A;
 }
 

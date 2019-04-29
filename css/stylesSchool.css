@@ -68,10 +68,17 @@ tr:nth-child(even) {
 td {
     padding: 8px;
 }
-td a:link {
-    text-decoration: none;
+td a:link, a:visited {
+  background-color: white;
+  color: black;
+  border: 2px solid green;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
 }
-td a:hover {
-     text-decoration:underline;
+td a:hover, a:active {
+  background-color: green;
+  color: white;
 }
 /*內容部份-結束*/
