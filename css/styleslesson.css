@@ -139,6 +139,9 @@
     border: 0px;
 	text-align:left;
 }
+.tableimgwidth{
+	width: 100%
+}
 table, th, td {
 	margin-bottom: 12px;
     border: 1px solid #D3D3D3;
