@@ -15,6 +15,9 @@
     float:left;
 	height: auto;
 }
+.LearningPath img{
+	width: 100%;
+}
 .DIVtext1 {
 	width: 40%;
 	font-size: 1.2em;
@@ -23,7 +26,6 @@
 }
 .DIVtext1title {
 	font-size: 2em; 
-	border: 1px #aaaaaa solid;
 	padding: 2px 5px;
 }
 .DIVtext2 {
@@ -39,82 +41,21 @@
 }
 .DIVtext2title {
 	font-size: 2em; 
-	border: 1px #aaaaaa solid;
 	padding: 2px 2px;
+}
+.DIVtext3title {
+	text-align: center;
+	padding: 10px 0px;
+	width: 100%;
+	font-size: 35px;
+	color:#FFFFFF;
+	margin-top: 1%;
+    float:left;
+	background-color:#22A8E6;
 }
 /*合作伙伴和2019年，台灣兒童程式教育元年-結束*/
 
 
-/*7+9+11+下方分年齡木的三個區塊的內容和圖片-開始*/
-.col01 {/*下方分年齡木的三個區塊*/
-	width: 31.3%;
-	float: left;
-	margin: 1%;
-	background-color:#22A8E6;
-	height: 800px; 
-}
-.col02 {/*下方分年齡木的三個區塊*/
-	width: 31.3%;
-	float: left;
-	margin: 1%;
-	background-color:#F35B6A;
-	height: 800px;  
-}
-.col03 {/*下方分年齡木的三個區塊*/
-	width: 31.3%;
-	float: left;
-	margin: 1%;
-	background-color:#FFB217;
-	height: 800px;  
-}
-.coltitle{
-	color:#FFFFFF;
-	font-size: 1.5em;
-	width: 90%;
-	display: block;
-	text-align: center;
-	padding-top: 3%;
-	padding-left: 5%;
-	padding-right: 5%;
-}
-.col01 img {/*下方分年齡木的三個區塊的圖片*/
-	width: 100%;
-	height: auto;
-	display: block;
-	padding-top: 3%;
-	padding-left: 10%;
-	padding-right: 10%;
-}
-.col02 img {/*下方分年齡木的三個區塊的圖片*/
-	width: 100%;
-	height: auto;
-	display: block;
-	padding-top: 3%;
-	padding-left: 10%;
-	padding-right: 10%;
-}
-.col03 img {/*下方分年齡木的三個區塊的圖片*/
-	width: 100%;
-	height: auto;
-	display: block;
-	padding-top: 3%;
-	padding-left: 10%;
-	padding-right: 10%;
-}
-.text { /*下方分年齡三個區塊的文字*/
-	font-size: 1.3em;
-	width: 90%;
-	line-height: 30px;
-	color: #FFFFFF;
-	height: auto;
-	display: block;
-	padding-left: 10%;
-	padding-right: 0%;
-}
-.text a { /*下方分年齡三個區塊的文字的連結*/
-	    text-decoration:none;
-}
-/*7+9+11+下方分年齡木的三個區塊的內容和圖片-結束*/
 
 	
 
@@ -146,11 +87,4 @@
 	display: block;
 	padding-left: 10%;
 	padding-right: 10%;
-	
 }
-}					<div class="dropdown-content">
-					  <a href="lesson2019svacation1.html">文創藝術DIY x 科技生活機器人</a>					<div class="dropdown-content">
-					  <a href="lesson2019svacation1.html">文創藝術DIY x 科技生活機器人</a>					<div class="dropdown-content">
-					  <a href="lesson2019svacation1.html">文創藝術DIY x 科技生活機器人</a>					<div class="dropdown-content">
-					  <a href="lesson2019svacation1.html">文創藝術DIY x 科技生活機器人</a>					<div class="dropdown-content">
-					  <a href="lesson2019svacation1.html">文創藝術DIY x 科技生活機器人</a>
