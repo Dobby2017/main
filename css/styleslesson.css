@@ -1,4 +1,4 @@
-/*h2和h3是給首頁的標題文字和內容使用*/
+TTTT/*h2和h3是給首頁的標題文字和內容使用*/
 /*關於我們標題*/
 .texttitle6 {
 	padding: 10px 0px;
@@ -83,7 +83,7 @@
 }
 .DIVtext4 {
 	width: 95%;
-	font-size: 25px;
+	font-size: 1.2em;
 	line-height: 35px;
 	margin: 0%; 
     float:left;
@@ -94,7 +94,56 @@
 	padding-bottom: 1%;
 	height: auto;
 }
+.DIVtext4 img {
+	width: 550px;
+}
+.DIVtext4bigTitle {
+	font-size: 1.2em;
+	color: #0008A2;
+}
+.DIVtext4Title {
+	font-size: 1.2em;
+	color: #555555;
+}
+.DIVtext4T1 {
+	font-size: 1.1em;
+	color: #237AFF;
+}
+.DIVtext4T2 {
+	font-size: 0.8em;
+	color: #222222;
+}
+.DIVtext4T3 {
+	font-size: 1em;
+	color: #D90003;
+}
 
+.DIVtext4L {
+	width: 40%;
+	font-size: 1.2em;
+	line-height: 35px;
+	margin: 0%; 
+    float:left;
+	background-color: white;
+	padding-top: 1%;
+	padding-left: 5%;
+	padding-right: 1%;
+	padding-bottom: 1%;
+	height: auto;
+}
+.DIVtext4R {
+	width: 40%;
+	font-size: 1.2em;
+	line-height: 35px;
+	margin: 0%; 
+    float:left;
+	background-color: white;
+	padding-top: 1%;
+	padding-left: 5%;
+	padding-right: 1%;
+	padding-bottom: 1%;
+	height: auto;
+}
 
 .DIVyoutbe1 {
 	width: 45%;
