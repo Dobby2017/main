@@ -17,12 +17,14 @@
 	width: 100%;
 }
 .Text1L {
-	width: 50%;
+	width: 42%;
     float:left;
+	padding:2%;
 }
 .Text1R {
-	width: 50%;
+	width: 42%;
     float:left;
+	padding:2%;
 }
 
 .Text2L {
