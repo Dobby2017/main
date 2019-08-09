@@ -17,10 +17,8 @@
 	width: 100%;
 
 }
-.Text1 img {
-	width: 460px;
-	padding: 3%;
-}
+
+
 .Text1L {
 	width: 50%;
     float:left;
@@ -29,7 +27,14 @@
 	width: 50%;
     float:left;
 }
-
+.Text1L img {
+	width: 460px;
+	padding: 3%;
+}
+.Text1R img {
+	width: 460px;
+	padding: 3%;
+}
 
 
 
