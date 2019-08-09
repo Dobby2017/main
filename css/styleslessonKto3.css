@@ -28,13 +28,15 @@
 }
 .Text1 img {
 	width: 460px;
+	padding-left: 5%;
+	padding-right: 0%;
 }
 
 
 .Text2L {
 	width: 48%;
 	font-size: 1.2em;
-	line-height: 35px;
+	line-height: 30px;
 	margin: 0%; 
     float:left;
 	background-color: white;
