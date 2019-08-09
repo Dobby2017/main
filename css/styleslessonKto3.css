@@ -19,9 +19,18 @@
 }
 .Text1 img {
 	width: 460px;
-	padding: 5%;
-
+	padding: 3%;
 }
+.Text1L {
+	width: 50%;
+    float:left;
+}
+.Text1R {
+	width: 50%;
+    float:left;
+}
+
+
 
 
 .Text2L {
