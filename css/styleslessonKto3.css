@@ -15,16 +15,17 @@
 
 .Text1 {
 	width: 100%;
+	padding:2%;
 }
 .Text1L {
-	width: 42%;
+	width: 50%;
     float:left;
-	padding:2%;
+	padding:0%;
 }
 .Text1R {
-	width: 42%;
+	width: 50%;
     float:left;
-	padding:2%;
+	padding:0%;
 }
 
 .Text2L {
