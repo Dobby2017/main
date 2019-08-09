@@ -14,22 +14,13 @@
 /*關於我們內容的圖文*/
 
 .Text1 {
-	width: 95%;
-	font-size: 1.2em;
-	line-height: 35px;
-	margin: 0%; 
-    float:left;
-	background-color: white;
-	padding-top: 1%;
-	padding-left: 5%;
-	padding-right: 1%;
-	padding-bottom: 1%;
-	height: auto;
+	width: 100%;
+
 }
 .Text1 img {
 	width: 460px;
-	padding-left: 5%;
-	padding-right: 0%;
+	padding: 5%;
+
 }
 
 
