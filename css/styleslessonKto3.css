@@ -27,12 +27,12 @@
 	height: auto;
 }
 .Text1 img {
-	width: 550px;
+	width: 460px;
 }
 
 
 .Text2L {
-	width: 40%;
+	width: 48%;
 	font-size: 1.2em;
 	line-height: 35px;
 	margin: 0%; 
@@ -86,35 +86,40 @@
     float:left;
 	background-color:#F3F3F3;
 	padding-top: 0%;
-	padding-left: 5%;
+	padding-left: 0%;
 	padding-right: 0%;
 	padding-bottom: 0%;
 	height: auto;
 }
-.Text4L {
-	width: 45%;
+
+.Text3 img {
+	width: 470px;
+}	
+.Text3L {
+	width: 41%;
 	font-size: 18px;
-	line-height: 30px;
+	line-height: 35px;
 	margin-right: 2%; 
     float:left;
 	background-color:#F3F3F3;
-	padding-top: 0%;
-	padding-left: 2%;
-	padding-right: 2%;
-	padding-bottom: 0%;
+	padding-top: 2%;
+	padding-left: 4%;
+	padding-right: 4%;
+	padding-bottom: 2%;
 	height: auto;
 }
-.Text4R {
-	width: 45%;
+
+.Text3R {
+	width: 41%;
 	font-size: 18px;
-	line-height: 30px;
+	line-height: 35px;
 	margin-right: 0%; 
     float:left;
 	background-color:#F3F3F3;
-	padding-top: 0%;
-	padding-left: 2%;
-	padding-right: 2%;
-	padding-bottom: 0%;
+	padding-top: 2%;
+	padding-left: 4%;
+	padding-right: 4%;
+	padding-bottom: 2%;
 	height: auto;
 }
 
