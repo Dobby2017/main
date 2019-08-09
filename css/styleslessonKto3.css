@@ -19,25 +19,6 @@
 }
 
 
-.Text1L {
-	width: 50%;
-    float:left;
-}
-.Text1R {
-	width: 50%;
-    float:left;
-}
-.Text1L img {
-	width: 460px;
-	padding: 3%;
-}
-.Text1R img {
-	width: 500px;
-	padding: 3%;
-}
-
-
-
 .Text2L {
 	width: 48%;
 	font-size: 1.2em;
