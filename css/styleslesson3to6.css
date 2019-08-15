@@ -17,6 +17,7 @@
 	width: 95%;
 	font-size: 1.2em;
 	line-height: 35px;
+	color: crimson;
 	margin: 0%; 
     float:left;
 	background-color: white;
@@ -117,7 +118,7 @@
 
 .Text5 {
 	width: 95%;
-	font-size: 25px;
+	font-size: 20px;
 	line-height: 35px;
 	margin: 0%; 
     float:left;
