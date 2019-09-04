@@ -11,7 +11,28 @@
 </head>
 
 <body>
-	<header></header>
+	<header>
+		<div class="logo"><a href="index.html"><img src="images/logo.jpg" alt="多比思維"></a>
+		<nav>
+			<ul>
+				<li><a class="active" href="index.html">首頁</a></li>
+				<li><a href="idea.html">關於我們</a></li>
+				<li class="dropdown">
+					<a href="javascript:void(1)" class="dropbtn">課程資訊</a>
+					<div class="dropdown-content">
+					<a href="lesson2019svacation1.html">〔夏令營〕文創藝術DIY x 科技生活機器人</a>
+					<a href="lessonKto3.html">〔常態課程〕大班~3年級</a>
+					<a href="lesson3to6.html">〔常態課程〕3年級~6年級</a>
+					</div>
+				</li>
+				<li><a href="payment.html">課程繳費資訊</a></li>
+				<li><a href="School.html">照片集</a></li>
+				<li><a href="https://www.facebook.com/DobbySTEAM" target="_blank">Facebook</a></li>
+				<li><a href="https://www.youtube.com/channel/UC0--S2V-m38Xx9rphhLjAKw" target="_blank">YouTube</a></li>
+			</ul>
+		</nav>
+		</div>
+ 	</header>
 	<main>
 		<div class="Bigtitle">課後相片</div>
 		<div class="titleBg">
@@ -34,7 +55,7 @@ function password() {
 	passwd="";
 	while (passwd=="")		// Get the password
 		passwd=prompt("請輸入密碼：", "該學校老師提供的密碼");
-	if (passwd!="111")
+	if (passwd!="db101")
 		alert("密碼錯誤，不准進入！")
 	else
 		myWin=open("https://drive.google.com/open?id=1TpVApCjIBdR6ZoNqmmJp80rwLWQSZvVj", "displayWindow", "width=600,height=200,status=yes,toolbar=yes,location=yes,resizable=yes,menubar=yes,scrollbars=yes");
