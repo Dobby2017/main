@@ -118,6 +118,9 @@ nav ul li a, .dropbtn {
 nav ul li a:hover, .dropdown:hover .dropbtn {
     background-color: #4CAF50;
 }
+nav ul li a:visited {
+    color: white;
+}
 
 nav ul li.dropdown {
     display: inline-block;
