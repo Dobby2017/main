@@ -1,0 +1,141 @@
+<!doctype html>
+<html>
+<head>
+<link rel="icon" href="https://dobby2017.github.io/main/images/page_icon.gif" type="image/gif" sizes="16x16">
+<meta charset="UTF-8">
+<title>多比思維｜兒童程式教育｜培養興趣‧建構思維‧綜合應用｜不插電</title>
+<meta name="keywords" content="兒童程式教育  兒童程式設計，程式設計課程">
+<meta name="description" content="ScratchJr,Code.org + Unplugged,Ozobot,Bloxels,魔術方塊,不插電科學,Scratch,Minecraft,App Inventor,Micro:bit,Mio自走車,網頁設計,露比任務">
+<!--https://www.w3schools.com/w3css/4/w3.css會影響選單的版型-->
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="css/stylesindex.css">
+</head>
+ 
+<body>
+	<header>
+		<div class="logo"><a href="index.html"><img src="images/logo.jpg" alt="多比思維"></a>
+		<nav>
+			<ul>
+				<li><a class="active" href="index.html">首頁</a></li>
+				<li><a href="idea.html">關於我們</a></li>
+				<li class="dropdown">
+					<a href="javascript:void(1)" class="dropbtn">課程資訊</a>
+					<div class="dropdown-content">
+					<a href="lesson2019svacation1.html">〔夏令營〕文創藝術DIY x 科技生活機器人</a>
+					<a href="lessonKto3.html">〔常態課程〕大班~3年級</a>
+					<a href="lesson3to6.html">〔常態課程〕3年級~6年級</a>
+					</div>
+				</li>
+				<li><a href="payment.html">課程繳費資訊</a></li>
+				<li><a href="School.html">照片集</a></li>
+				<li><a href="https://www.facebook.com/DobbySTEAM" target="_blank">Facebook</a></li>
+				<li><a href="https://www.youtube.com/channel/UC0--S2V-m38Xx9rphhLjAKw" target="_blank">YouTube</a></li>
+			</ul>
+		</nav>
+		</div>
+ 	</header>
+	<main><br>
+
+	<!--保留首頁動態圖程式-->
+<!--		<div class="w3-content w3-display-container" style="max-width:1200px">
+		  <a href="lesson2019wvacation.html"><img class="mySlides" src="https://dobby2017.github.io/main/images/banner_3plus_class.jpg" style="width:100%"></a>
+		  <a href="lesson2019wvacation.html"><img class="mySlides" src="https://dobby2017.github.io/main/images/banner_3plus_class.jpg" style="width:100%"></a>
+		  <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+			<div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+			<div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+			<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+			<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+			<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+			<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(4)"></span>
+			<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(5)"></span>
+			<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(6)"></span>
+		  </div>
+		</div><br>-->
+		<div id="1" class="vacation-box" onClick="location.href='#108';" >
+			<!--<h1>學習是快樂的</h1>-->
+		</div>
+		<br>
+		<div class="DIVtext">
+		<div class="DIVtext1"><span class="DIVtext1title">        <img src="images/page_icon.gif">上課教室<a href="https://drive.google.com/open?id=1xpnQvsH1YKN0j_HJGqsdlmbxOXT9Nqoo"><img src="images/page_icon.gif"></a>
+         </span>
+          <ul>
+          台北市教室
+          	<li>信義教室-台北市光復南路290巷1號2樓之1(那裡空間協辨)</li><br>
+          新北市教室
+          	<li>福和教室-新北市中和區中山路二段131巷6號</li>
+          	<li>保平教室-新北市永和區保平路268巷28號</li>
+          </ul>
+		</div>
+		<div class="DIVtext2">
+		<span class="DIVtext2title">2019年，台灣兒童程式教育元年</span><br><br>
+		2019年，對台灣兒童程式教育來說是相當重要的一年，兒童程式教育到底要學什麼，多比思維在兒童程式教育近9年的經驗，教過數十套兒童程式教育相關教材。未來兒童程式教育要學什麼，看看我們為大家整理的表格。<br>讓我們一同開啟台灣兒童程式教育元年吧！<br>
+
+			<a href="idea.html">［教學理念］</a>
+		</div>
+		<div class="DIVtext3title">國小的程式學習路徑完美的結合108課綱國中程式素養教育</div>
+		<div id="108" class="LearningPath"><img src="images/Learning Path.png"></div>
+	  </div>
+	</main>
+	<footer>
+		<script>
+		var myIndex = 0;
+		carousel();
+
+		function carousel() {
+			var i;
+			var x = document.getElementsByClassName("mySlides");
+			for (i = 0; i < x.length; i++) {
+			   x[i].style.display = "none";  
+			}
+			myIndex++;
+			if (myIndex > x.length) {myIndex = 1}    
+			x[myIndex-1].style.display = "block";  
+			setTimeout(carousel, 2500); // Change image every 2 seconds
+			//加下面這個就可以中間的圈圈和目前照片同步
+			showDivs(slideIndex = myIndex);
+		}
+		</script>
+<!-- w3.css slideshow w3.css slideshoww3.css slideshow-->
+		<script>
+		var slideIndex = 1;
+		showDivs(slideIndex);
+
+		function plusDivs(n) {
+		  showDivs(slideIndex += n);
+		}
+
+		function currentDiv(n) {
+		  showDivs(slideIndex = n);
+		}
+
+		function showDivs(n) {
+		  var i;
+		  var x = document.getElementsByClassName("mySlides");
+		  var dots = document.getElementsByClassName("demo");
+		  if (n > x.length) {slideIndex = 1}    
+		  if (n < 1) {slideIndex = x.length}
+		  for (i = 0; i < x.length; i++) {
+			 x[i].style.display = "none";  
+		  }
+		  for (i = 0; i < dots.length; i++) {
+			 dots[i].className = dots[i].className.replace(" w3-white", "");
+		  }
+		  x[slideIndex-1].style.display = "block";  
+		  dots[slideIndex-1].className += " w3-white";
+		}
+		</script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112006846-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-112006846-1');
+</script>
+        <div class="footer">
+        © 2017 多比思維-兒童程式教育 &nbsp;</div>
+	</footer>
+</body>
+</html>
