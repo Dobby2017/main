@@ -31,7 +31,9 @@ TTTT/*h2和h3是給首頁的標題文字和內容使用*/
 }
 
 /*關於我們內容的圖文*/
-
+.imgP{
+	padding-left:100px;
+}
 .DIVtext {
 	width: 50%;
 	font-size: 18px;
