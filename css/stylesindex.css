@@ -10,40 +10,48 @@
 /*w3支援的跑馬燈程式-結束*/
 
 /*合作伙伴和2019年，台灣兒童程式教育元年-開始*/
-.DIVtext {
-	width: 100%;
-    float:left;
+.DIVclassroomImg{
+	text-align:center;
+}
+.DIVclassroomImg img{
+	width: 20%;
+}
+.DIVclassroom {
+	width: 98%;
 	height: auto;
-}
-.LearningPath img{
-	width: 100%;
-}
-.DIVtext1 {
-	width: 40%;
 	font-size: 1.2em;
-	line-height: 25px;
+	line-height: 38px;
 	float: left;
+	text-align:center;
+	padding:1%;
 }
-.DIVtext1title {
+
+.DIVclassroomTitle1 {
 	font-size: 2em; 
-	padding: 2px 5px;
+	padding: 20px 5px;
+
 }
-.DIVtext2 {
-	width: 60%;
+
+.DIVfirstYear {
+	width: 100%;
+	text-align:center;
+}
+.DIVfirstYearL {
+	width: 50%;
 	font-size: 1.2em;
 	line-height: 35px;
 	float: left;
+	padding: 0 5% 0 5% ;
 }
-.DIVtext2 a {  
-	text-decoration:none;
-	color:chocolate;
-	padding: 5px;
+.DIVfirstYearR {
+	width: 40%;
+	float: left;
 }
-.DIVtext2title {
-	font-size: 2em; 
-	padding: 2px 2px;
+.DIVfirstYearR img{
+	width: 100%;
 }
-.DIVtext3title {
+
+.LearningPathTitle {
 	text-align: center;
 	padding: 10px 0px;
 	width: 100%;
@@ -52,6 +60,9 @@
 	margin-top: 1%;
     float:left;
 	background-color:#22A8E6;
+}
+.LearningPath img{
+	width: 100%;
 }
 /*合作伙伴和2019年，台灣兒童程式教育元年-結束*/
 

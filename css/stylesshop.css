@@ -1,0 +1,53 @@
+.DIVbig {
+	width: 100%;
+	height: 1950px;
+
+	text-align:center;
+}
+
+.DIVcol {
+	width: 360px;
+	float: left;
+	margin: 1%;
+	background-color:#ffffff;
+    border: 1px solid #D8D8D8;
+    border-radius: 10px;
+	text-align: center;
+}
+.DIVcol img {
+	width: 90%;
+	height: auto;
+	display: block;
+	padding: 5%;
+}
+.DIVcolTitle{
+	color: #22A8E6;
+	font-size: 30px;
+	padding: 5%;
+}
+
+.DIVcolText{
+	color:deepskyblue;
+	font-size: 30px;
+    font-weight:bold;
+}
+
+.text {
+	font-size: 30px;
+    font-weight:bold;
+	padding: 5%;
+
+}
+
+
+
+
+
+/*TABLET*/
+@media screen and (max-width: 1200px){
+	h1 {
+	font-size: 40px;
+	padding-top: 280px;
+	padding-left: 30px;
+	}
+}
