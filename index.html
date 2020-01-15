@@ -6,8 +6,8 @@
 <title>多比思維｜兒童程式教育｜培養興趣‧建構思維‧綜合應用｜不插電</title>
 <meta name="keywords" content="兒童程式教育  兒童程式設計，程式設計課程">
 <meta name="description" content="ScratchJr,Code.org + Unplugged,Ozobot,Bloxels,魔術方塊,不插電科學,Scratch,Minecraft,App Inventor,Micro:bit,Mio自走車,網頁設計,露比任務">
-<!--https://www.w3schools.com/w3css/4/w3.css會影響選單的版型-->
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<!--https://www.w3schools.com/w3css/4/w3.css會影響選單的版型,用來做動態換畫面banner
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">-->
 <link rel="stylesheet" href="css/styles.css">
 <link rel="stylesheet" href="css/stylesindex.css">
 </head>
@@ -35,6 +35,7 @@
 		</nav>
 		</div>
  	</header>
+    
 	<main><br>
 
 	<!--保留首頁動態圖程式-->
@@ -51,29 +52,44 @@
 			<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(5)"></span>
 			<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(6)"></span>
 		  </div>
-		</div><br>-->
+		</div><br>
 		<div id="1" class="vacation-box" onClick="location.href='#108';" >
-			<!--<h1>學習是快樂的</h1>-->
-		</div>
+			<h1>學習是快樂的</h1>
+		</div>-->
+        <!--圖連結在css裡-->
+		<div class="index-img" onClick="location.href='#108';" > </div>
+        <!--舊<div id="1" class="vacation-box" onClick="location.href='#108';" > </div>-->
 		<br>
-		<div class="DIVtext">
-		<div class="DIVtext1"><span class="DIVtext1title">        <img src="images/page_icon.gif">上課教室<a href="https://dobby2017.github.io/main/ClassData.html"><img src="images/page_icon.gif"></a>
-         </span>
+        <div class="DIVclassroomImg">
+        <img src="images/classroom.png">
+        </div>
+		<div class="DIVclassroom">
+        <span class="DIVclassroomTitle1">        
+        <img src="images/page_icon.gif">上課教室
+        <a href="https://dobby2017.github.io/main/ClassData.html"><img src="images/page_icon.gif"></a>
+        </span>
           <ul>
-          台北市教室
-          	<li>信義教室-台北市光復南路290巷1號2樓之1(那裡空間協辨)</li><br>
-          新北市教室
-          	<li>福和教室-新北市中和區中山路二段131巷6號</li>
-          	<li>保平教室-新北市永和區保平路268巷28號</li>
+          台北市教室<br>
+          	信義教室-台北市光復南路290巷1號2樓之1(那裡空間協辨)<br>
+          新北市教室<br>
+          	福和教室-新北市中和區中山路二段131巷6號<br>
+          	保平教室-新北市永和區保平路268巷28號<br>
           </ul>
-		</div>
-		<div class="DIVtext2">
+        </div>
+		<div class="DIVfirstYear">
+
+		<div class="DIVfirstYearL">
 		<span class="DIVtext2title">2019年，台灣兒童程式教育元年</span><br><br>
-		2019年，對台灣兒童程式教育來說是相當重要的一年，兒童程式教育到底要學什麼，多比思維在兒童程式教育近9年的經驗，教過數十套兒童程式教育相關教材。未來兒童程式教育要學什麼，看看我們為大家整理的表格。<br>讓我們一同開啟台灣兒童程式教育元年吧！<br>
+		2020年，108課網開始實施了一段時間。多比思維也正積極的加緊腳步走在兒童程式教育的前端。目前的圑隊有大學的講師，高中的資訊老師和產學相關的優秀教師。未來兒童程式教育要學什麼<br>讓我們一同開啟台灣兒童程式教育元年吧！<br>
 
 			<a href="idea.html">［教學理念］</a>
 		</div>
-		<div class="DIVtext3title">國小的程式學習路徑完美的結合108課綱國中程式素養教育</div>
+        <div class="DIVfirstYearR">
+        <img src="images/first year.png">
+        </div>
+		</div>
+        
+		<div class="LearningPathTitle">國小的程式學習路徑完美的結合108課綱國中程式素養教育</div>
 		<div id="108" class="LearningPath"><img src="images/Learning Path.png"></div>
 	  </div>
 	</main>
