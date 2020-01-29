@@ -1,0 +1,78 @@
+﻿
+
+/*---------教學內容--------*/
+
+.teach-content
+{
+	padding: 100px 0;
+}
+teach-box
+{
+	margin:80px 0px;
+}
+.teach-box p
+{
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+
+
+.LearningPath-img img
+{
+	width: 100%;
+	margin-bottom:30px;
+}
+
+.class-img
+{
+	position:relative;
+	margin-bottom: 15px;
+}
+.class-img img
+{
+	width:100%;
+}
+.btn-buy
+{
+	width: 150px;
+	padding: 10px 0px;
+	outline: none !important;
+	border: 0px;
+	border-radius: 2px;
+	position: absolute;
+	background:#fff;
+    font-size: 20px;
+ 	left: 50%;
+	bottom: 0px;
+	transform: translate(-50%,0);
+	transition: .6s;
+	opacity: 0;
+	z-index: 1;
+}
+.btn-buy a:any-link 
+{
+    text-decoration: none;
+    color: #000;
+}
+.class-img:hover .btn-buy
+{
+	transform: translate(-50%,50%);
+	bottom: 50%;
+	opacity:1;
+}
+.overlay
+{
+	height: 0;
+	width:100%;
+	background: #333;
+	position:absolute;
+	top: 0;
+	opacity: 0;
+	transition: .5s;
+}
+.class-img:hover .overlay
+{
+	opacity: .5;
+	height:100%;
+}
+	
