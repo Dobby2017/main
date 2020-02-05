@@ -4,11 +4,11 @@
 
 .teach-content
 {
-	padding: 100px 0;
+	padding: 0px;
 }
-teach-box
+‧teach-box
 {
-	margin:80px 0px;
+	margin:0px 0px;
 }
 .teach-box p
 {
@@ -75,4 +75,44 @@ teach-box
 	opacity: .5;
 	height:100%;
 }
-	
+/*---------加開冬令營--------*/
+.Wplus-content
+{
+	padding-top: 50px;
+}
+Wplus-box
+{
+	margin:0px 0px;
+}
+.Wplus-box p
+{
+    font-size: 20px;
+    padding-bottom: 0px;
+}
+.Wplus-img img
+{
+	width: 100%;
+	margin-bottom:0px;
+}
+.subscribe
+{
+	max-width:240px;
+	margin-top: 00px;
+	padding: 10px;
+	background: #ffffff;
+	margin: 0px auto 0px;
+	}
+.subscribe a
+{
+	width: 200px;
+	display:block;
+	color:#fff !important;
+	background:#000;
+	text-decoration:none !important;
+	padding: 5px;
+	text-align:center;
+	}
+
+
+
+
