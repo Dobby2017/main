@@ -2,7 +2,7 @@
 
 .teach-content
 {
-	padding: 0px;
+	padding: 20px;
 }
 
 .title-style img
@@ -63,8 +63,37 @@
 	opacity: .5;
 	height:100%;
 }
+/*---------玩家狀態示範--------*/
 
-/*---------教學內容 2--------*/
+.player
+{
+    padding: 10px 0px;
+    background: #f5f6fc;
+}
+.player img
+{
+    width: 256px;
+    height: 192px;
+    padding: 5px;
+}
+.player h5
+{
+    margin-bottom: 5px
+}
+.player h6
+{
+    margin: 2px
+}
+.player h5::before
+{
+    content: '';
+    width: 40px;
+    height: 3px;
+    background: #4f74e8;
+    top: 24px;
+    position: absolute;
+}
+/*---------教學內容 2 同教學內容一--------*/
 
 /*---------多比課程--------*/
 
@@ -177,3 +206,21 @@ td a:hover, a:active {
 }
 /*內容部份-結束*/
 
+/*---------footer--------*/
+
+.footer
+{
+    margin-top: 150x;
+    background: #f5f6fc;
+}
+
+.footer-icons
+{
+    text-align: right;
+}
+.footer-icons .fa
+{
+    margin: 0 10px auto;
+    font-size: 20px;
+    cursor: pointer;
+}

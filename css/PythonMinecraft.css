@@ -54,3 +54,22 @@
     margin-top: 30px;
     font-weight: bold;
 }
+
+/*---------footer--------*/
+
+.footer
+{
+    margin-top: 150x;
+    background: #f5f6fc;
+}
+
+.footer-icons
+{
+    text-align: right;
+}
+.footer-icons .fa
+{
+    margin: 0 10px auto;
+    font-size: 20px;
+    cursor: pointer;
+}
