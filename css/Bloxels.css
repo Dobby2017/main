@@ -7,7 +7,8 @@
 
 .title-style img
 {
-    width: 410px;
+        width: 250px;
+        padding-top:20px; 
 }
 
 
@@ -222,4 +223,20 @@ td a:hover, a:active {
     margin: 0 10px auto;
     font-size: 20px;
     cursor: pointer;
+}
+
+
+
+
+
+
+/*---------for small device--------*/
+
+@media only screen and (max-width:900px)
+{
+    .title-style img
+    {
+        width: 200px;
+        padding-top:30px; 
+    }
 }
