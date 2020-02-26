@@ -21,6 +21,26 @@
 }
 
 
+.subscribe
+{
+	max-width:260px;
+	margin-top: 00px;
+	padding: 10px;
+	background: #ffffff;
+	margin: 0px auto 0px;
+	}
+.subscribe a
+{
+	width: 220px;
+	display:block;
+	color:#fff !important;
+	background:#393;
+	text-decoration:none !important;
+	padding: 5px;
+	text-align:center;
+	}
+
+
 /*---------test--------*/
 .btn-buy
 {
