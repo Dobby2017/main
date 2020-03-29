@@ -8,12 +8,16 @@
 {
     text-align: center;
 }
+.container td
+{
+    text-align:left;
+}
 
 /*---------footer--------*/
 
 .footer
 {
-    margin-top: 150x;
+    margin-top: 150px;
     background: #f5f6fc;
 }
 
