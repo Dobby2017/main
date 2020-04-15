@@ -1,4 +1,8 @@
-﻿
+﻿.container table{
+	table-layout: fixed;
+	word-wrap: break-word;
+}
+
 .fashion-brands
 {
 	margin: 0px 0 0px 0;
