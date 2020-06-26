@@ -40,6 +40,12 @@
 	text-align:center;
 	}
 
+/*---------文字樣式--------*/
+
+.text01 span 
+{
+font-family: Webdings
+}
 
 /*---------test--------*/
 .btn-buy
