@@ -1,4 +1,5 @@
-﻿*{
+﻿﻿*
+{
 	margin: 0;
 	padding: 0;
     font-family: "Microsoft YaHei", "FangSong", Arial, serif;
@@ -30,7 +31,7 @@
     margin-left: 30%;
 	width:200px;
 }
-.0navbar-brand /*logo置中*/
+.----navbar-brand /*logo置中*/
 {
 	left: 50%;
 	top: 25px;
@@ -88,16 +89,35 @@
 {
 	position:relative;
 }
-
-/*---------中間大標題------*/
-
+#header .btn-touch
+{
+    position:absolute;
+	left: 9%;
+	top: 79%;
+	font-size: 35px;
+	box-shadow: none;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 35px;
+    background-image: linear-gradient(to right, #a517ba, #5f7182);
+}
+#header .btn-touch a
+{
+	color:#fff !important;
+	text-decoration:none !important;
+}
+/*----------我們有那些課程----------*/
+.teach-content
+{
+	margin: 130px 0px;
+}
 .title-style h1
 {
 	padding: 40px 0px;
 }
 .title-style
 {
-	margin: 30px auto 30px;
+	margin: 50px auto 50px;
 	height: 120px;
 	width:80%;
 	max-width: 700px;
@@ -127,12 +147,39 @@
 	right: -10px;
 	z-index:-1;
 }
+.services img
+{
+	width: 400px;
+}
+.services h4
+{
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 8%;
+}
+.services p
+{
+	padding: 0px 60px;
 
+}
+#services .btn-primary
+{
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #a517ba, #5f7182);
+}
+#services .btn-primary a
+{
+	color:#fff !important;
+	text-decoration:none !important;
+}
 /*---------footer--------*/
 
 .footer
 {
-    margin-top: 80x;
+    margin-top: 80px;
     background: #f5f6fc;
 }
 .classroom1,.classroom2,.classroom3
@@ -215,5 +262,3 @@
     }
     
 }
-
-
