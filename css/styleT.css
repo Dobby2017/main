@@ -1,0 +1,174 @@
+﻿﻿*
+{
+	margin: 0;
+	padding: 0;
+    font-family: "Microsoft YaHei", "FangSong", Arial, serif;
+}
+/*-----最上方選單區塊-----*/
+.nav-header /*選單背景和距banner有多遠*/
+{
+    background:#f5f6fc;
+	margin-bottom: 50px;
+}
+.right-menu 
+{
+    float: right;
+    margin-right: 3%;
+}
+.right-menu a
+{
+	color:#000 !important;
+	text-decoration:none !important;
+}
+.right-menu li
+{
+	display: inline-block;
+	margin-top:30px !important;
+}
+.right-menu li .fa
+{
+	font-size:22px;
+	margin-right:20px;
+	cursor:pointer;
+}
+.navbar-brand img
+{
+    margin-left: 30%;
+	width:200px;
+}
+.--navbar-brand /*logo置中*/
+{
+	left: 50%;
+	top: 25px;
+	transform:translateX(-50%);
+	position:absolute;
+}
+.navbar-nav /*中間選單距logo多遠*/
+{
+    margin-left: 15%;
+    font-size: 20px; /*選單文字大小*/
+}
+.navbar-nav li a  /*選單在收起來會置右*/
+{
+    float: right;
+	color:#000 !important;
+    padding: 0px 15px !important;
+}
+.navbar-nav a:hover
+{
+    float: right;
+    font-weight:bold;
+    padding: 0px 15px !important;
+}
+.navbar
+{
+	padding: 0 35px !important;
+}
+.navbar-toggler
+{
+	border:none !important;
+	outline:none !important;
+	padding: 0 !important;
+	margin-top: 30;
+}
+.navbar-toggler .fa
+{
+	font-size: 30px;
+	cursor:pointer;
+}
+#nav-header .btn-touch
+{
+    
+	color: #fff;
+	font-size: 25px;
+    font-weight: 600;
+	box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 25px;
+    background-image: linear-gradient(to right, #a517ba, #5f7182);
+}
+/*-----靜態banner區塊-----*/
+.banner-img
+{
+	width: 100%;
+}
+.banner-img img
+{
+	width: 100%;
+	margin-bottom: -80px;
+}
+.banner
+{
+	position:relative;
+}
+#header .btn-touch
+{
+    position:absolute;
+	left: 9%;
+	top: 79%;
+	font-size: 35px;
+	box-shadow: none;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 35px;
+    background-image: linear-gradient(to right, #a517ba, #5f7182);
+}
+#header .btn-touch a
+{
+	color:#fff !important;
+	text-decoration:none !important;
+}
+
+/*---------footer--------*/
+
+.footer
+{
+    margin-top: 80px;
+    background: #f5f6fc;
+}
+.classroom1,.classroom2,.classroom3
+{
+    margin: 10px auto;
+}
+.copyright a
+{
+	color:#000 !important;
+	text-decoration:none !important;
+}
+.footer h5
+{
+    margin-bottom: 10px
+}
+.footer h5::before
+{
+    content: '';
+    width: 80px;
+    height: 3px;
+    background: #4f74e8;
+    top: 35px;
+    position: absolute;
+}
+.footer-icons
+{
+    text-align: right;
+}
+.footer-icons a
+{
+    text-decoration: none;
+    color: #000 !important;
+}
+.footer-icons .fa
+{
+    margin: 0 10px auto;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/*---------for small device--------*/
+
+@media only screen and (max-width:900px)
+{
+
+    
+}
