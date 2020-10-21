@@ -7,9 +7,9 @@
 /*-----最上方選單區塊-----*/
 .navbar /*選單的左右間距*/
 {
-	padding: 0 50px !important; 
+	padding: 0 30px !important; 
 }
-.nav-header /*選單背景顏色；和下方banner的距離*/ 
+.nav-header /*選單背景顏色；和下面banner的距離*/ 
 {
     background:#f5f6fc;
 	margin-bottom: 0px;
@@ -25,10 +25,14 @@
 	transform:translateX(-50%);
 	position:absolute;
 }
+.collapse /*選單*/
+{
+	position:absolute;
+	right: 0px;
+}
 .navbar-nav /*選單*/
 {
-    font-size: 20px; /*選單文字大小*/
-	margin-left: 600px;
+    font-size: 25px; /*選單文字大小*/
 }
 .navbar-nav li a  /*選單在收起來會置右*/
 {
@@ -62,6 +66,7 @@
 }
 #nav-header .btn-touch /*取得免費試上按鈕*/
 {
+	margin: 0 30px;
 	color: #fff;
 	font-size: 25px;
     font-weight: 600;
@@ -71,7 +76,17 @@
     border-radius: 25px;
     background-image: linear-gradient(to right, #a517ba, #5f7182);
 }
-/*-----靜態banner區塊-----*/
+#nav-header .btn-touch a
+{
+	color:#fff !important;
+	text-decoration:none !important;
+}
+#nav-header .btn-touch a:hover
+{
+	color:#fff !important;
+	text-decoration:none !important;
+}
+/*-----靜態banner區塊
 .banner-img
 {
 	width: 100%;
@@ -104,6 +119,7 @@
 	color:#fff !important;
 	text-decoration:none !important;
 }
+-----*/
 /*---------footer--------*/
 
 .footer
@@ -151,34 +167,27 @@
 
 /*---------for small device--------*/
 
-@media only screen and (max-width:1500px)
+@media only screen and (max-width:900px)
 {
-	.navbar-nav /*選單*/
-	{
-		font-size: 20px; /*選單文字大小*/
-		margin-left: 400px;
-	}
-    
-}
-@media only screen and (max-width:1300px)
-{
-	.navbar-nav /*選單*/
-	{
-		font-size: 20px; /*選單文字大小*/
-		margin-left: 200px;
-	}
-    
-}
-@media only screen and (max-width:1100px)
-{
-	.navbar-nav /*選單*/
-	{
-		font-size: 20px; /*選單文字大小*/
-		margin-left: 100px;
-	}
-	.nav-header /*選單背景顏色；和banner的距離*/ 
+	.nav-header /*選單背景顏色；和下面banner的距離*/ 
 	{
 		margin-bottom: 60px;
 	}
+	.collapse /*選單*/
+	{
+		position:inherit;
+	}
+	.navbar-nav li a  /*選單在收起來會置右*/
+	{
+		padding: 5px 0px !important;
+	}
+	.navbar-nav a:hover
+	{
+		padding: 5px 0px !important;
+	}
+#nav-header .btn-touch /*取得免費試上按鈕*/
+{
+	margin-right: 100px;
+}
     
 }
