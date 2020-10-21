@@ -10,7 +10,7 @@
 <title>Fun多比｜未來兒童教育</title> <!--網頁名稱-->
 <link rel="icon" href="https://dobby2017.github.io/main/images/page_icon.gif" type="image/gif" sizes="16x16">
 <!--第一個link是Favicon (favorites icon)-->
-<link rel="stylesheet" href="css/styleT.css">
+<link rel="stylesheet" href="css/styletT.css">
 <link rel="stylesheet" href="css/indexT.css">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -40,10 +40,6 @@
             <a class="nav-link" href="course.html">多比課程</a>
           </li>
         </ul>
-        <ul class="right-menu ml-auto">
-        <li><a href="https://www.facebook.com/DobbySTEAM"><i class="fa fa-facebook"> facebook</i></a></li>
-        <li><a href="https://www.youtube.com/channel/UC0--S2V-m38Xx9rphhLjAKw"><i class="fa fa-youtube-play"> YouTube</i></a></li>
-        </ul>
     	<div class="banner-title">
         	<button type="button" class="btn btn-touch"><a href="https://reurl.cc/n0mW0D" target="new">取得免費試上</a></button>
         </div>
@@ -68,6 +64,7 @@
 		  <a href="lesson2019wvacation.html"><img class="mySlides" src="https://dobby2017.github.io/main/images/banner_3plus_class.jpg" style="width:100%"></a>
 <!--放幾張圖-->
 		  <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+<!--向上和向下一頁，縮到最小會跑到選單那裡-->
 			<div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
 			<div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
 			<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
@@ -105,6 +102,20 @@
 </div>
 </div>
   </section>
+<!----------其它媒體連繫我們區塊---------->
+<section id="social-media">
+<div class="container text-center">
+<p>在其它媒體看到我們</p>
+    <div class="social-icons">
+    <a href="#"><img src="images/facebook.png"></a>
+    <a href="#"><img src="images/instagram.png"></a>
+    <a href="#"><img src="images/youtube.png"></a>
+    <a href="https://www.facebook.com/DobbySTEAM"><i class="fa fa-facebook"> facebook</i></a>
+    <a href="https://www.youtube.com/channel/UC0--S2V-m38Xx9rphhLjAKw"><i class="fa fa-youtube-play"> YouTube</i></a>
+    <a href="#"><i class="fa fa-instagram"> Instagram</i></a>
+    </div>
+</div>
+</section> 
 <!------------------footer----------------->
    <section class="footer">
        <div class="container">
@@ -125,16 +136,13 @@
             </div>
         </div>
         <hr>
-
-             
-
       </div>
             <div class="copyright">
             <p>Designed with <a href="TclassALL.html"><i class="fa fa-heart"></i></a> by DobbySteam</p>
              </div>  
   </section>
 <!------------------右下角浮動連結----------------->
-<a id="goTop" style="display:scroll;position:fixed;bottom:20px;right:10px;" href="https://reurl.cc/n0mW0D"><img alt='' border='0' onmouseover="this.src='https://dobby2017.github.io/main/images/Ozobot.png'" src="https://dobby2017.github.io/main/images/Ozobot.png" onmouseout="this.src='https://dobby2017.github.io/main/images/Ozobot.png'" /></a>
+<a id="goTop" style="display:scroll;position:fixed;bottom:20px;right:10px;" href="https://reurl.cc/n0mW0D"><img alt='' border='0' onmouseover="this.src='https://dobby2017.github.io/main/images/logo.jpg'" src="https://dobby2017.github.io/main/images/logo.jpg" onmouseout="this.src='https://dobby2017.github.io/main/images/logo.jpg'" /></a>
 <script type="text/javascript">
 $(function(){
     $("#gotop").click(function(){
@@ -165,7 +173,7 @@ $(function(){
 			myIndex++;
 			if (myIndex > x.length) {myIndex = 1}    
 			x[myIndex-1].style.display = "block";  
-			setTimeout(carousel, 2500); // Change image every 2 seconds
+			setTimeout(carousel, 2500); // Change image every 2.5 seconds
 			//加下面這個就可以中間的圈圈和目前照片同步
 			showDivs(slideIndex = myIndex);
 		}
