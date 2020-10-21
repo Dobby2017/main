@@ -7,9 +7,9 @@
 /*-----最上方選單區塊-----*/
 .navbar /*選單的左右間距*/
 {
-	padding: 0 30px !important; 
+	padding: 0 50px !important; 
 }
-.nav-header /*選單背景顏色；和banner的距離*/ 
+.nav-header /*選單背景顏色；和下方banner的距離*/ 
 {
     background:#f5f6fc;
 	margin-bottom: 0px;
