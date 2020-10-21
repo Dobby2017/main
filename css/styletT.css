@@ -1,0 +1,184 @@
+﻿﻿*
+{
+	margin: 0;
+	padding: 0;
+    font-family: "Microsoft YaHei", "FangSong", Arial, serif;
+}
+/*-----最上方選單區塊-----*/
+.navbar /*選單的左右間距*/
+{
+	padding: 0 30px !important; 
+}
+.nav-header /*選單背景顏色；和banner的距離*/ 
+{
+    background:#f5f6fc;
+	margin-bottom: 0px;
+}
+.navbar-brand img /*logo圖和大小*/
+{
+	width:200px;
+}
+.--navbar-brand /*logo置中*/
+{
+	left: 50%;
+	top: 25px;
+	transform:translateX(-50%);
+	position:absolute;
+}
+.navbar-nav /*選單*/
+{
+    font-size: 20px; /*選單文字大小*/
+	margin-left: 600px;
+}
+.navbar-nav li a  /*選單在收起來會置右*/
+{
+    float: right;
+	color:#000 !important;
+    padding: 0px 15px !important;
+
+}
+.navbar-nav a:hover
+{
+    float: right;
+    font-weight:bold;
+    padding: 0px 15px !important;
+}
+
+.navbar-toggler  /*收起來的條狀選單*/
+{
+	border:none !important;
+	outline:none !important;
+	padding: 0 !important;
+	margin-top: 0;
+}
+.navbar-toggler .fa /*收起來的條狀選單的大小*/
+{
+	font-size: 50px;
+	cursor:pointer;
+}
+.banner-title
+{
+	float:right;
+}
+#nav-header .btn-touch /*取得免費試上按鈕*/
+{
+	color: #fff;
+	font-size: 25px;
+    font-weight: 600;
+	box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 25px;
+    background-image: linear-gradient(to right, #a517ba, #5f7182);
+}
+/*-----靜態banner區塊-----*/
+.banner-img
+{
+	width: 100%;
+}
+.banner-img img
+{
+	width: 100%;
+	margin-bottom: -80px;
+}
+.banner
+{
+	position:relative;
+}
+#nav-header .btn-touch
+{
+	font-size: 25px;
+	box-shadow: none;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 30px;
+    background-image: linear-gradient(to right, #a517ba, #5f7182);
+}
+#nav-header .btn-touch a
+{
+	color:#fff !important;
+	text-decoration:none !important;
+}
+#nav-header .btn-touch a:hover
+{
+	color:#fff !important;
+	text-decoration:none !important;
+}
+/*---------footer--------*/
+
+.footer
+{
+    margin-top: 80px;
+    background: #f5f6fc;
+}
+.classroom1,.classroom2,.classroom3
+{
+    margin: 10px auto;
+}
+.copyright a
+{
+	color:#000 !important;
+	text-decoration:none !important;
+}
+.footer h5
+{
+    margin-bottom: 10px
+}
+.footer h5::before
+{
+    content: '';
+    width: 80px;
+    height: 3px;
+    background: #4f74e8;
+    top: 35px;
+    position: absolute;
+}
+.footer-icons
+{
+    text-align: right;
+}
+.footer-icons a
+{
+    text-decoration: none;
+    color: #000 !important;
+}
+.footer-icons .fa
+{
+    margin: 0 10px auto;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/*---------for small device--------*/
+
+@media only screen and (max-width:1500px)
+{
+	.navbar-nav /*選單*/
+	{
+		font-size: 20px; /*選單文字大小*/
+		margin-left: 400px;
+	}
+    
+}
+@media only screen and (max-width:1300px)
+{
+	.navbar-nav /*選單*/
+	{
+		font-size: 20px; /*選單文字大小*/
+		margin-left: 200px;
+	}
+    
+}
+@media only screen and (max-width:1100px)
+{
+	.navbar-nav /*選單*/
+	{
+		font-size: 20px; /*選單文字大小*/
+		margin-left: 100px;
+	}
+	.nav-header /*選單背景顏色；和banner的距離*/ 
+	{
+		margin-bottom: 60px;
+	}
+    
+}
