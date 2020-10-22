@@ -4,43 +4,34 @@
 	padding: 0;
     font-family: "Microsoft YaHei", "FangSong", Arial, serif;
 }
-
-.right-menu /*右邊選單*/
+/*-----最上方選單區塊-----*/
+.navbar /*選單的左右間距*/
 {
-    float: right;
-    margin-right: 3%;
+	padding: 0 30px !important; 
 }
-.right-menu a
+.nav-header /*選單背景顏色；和下面banner的距離*/ 
 {
-	color:#000 !important;
-	text-decoration:none !important;
+    background:#f5f6fc;
+	margin-bottom: 0px;
 }
-.right-menu li
+.navbar-brand img /*logo圖和大小*/
 {
-	display: inline-block;
-	margin-top:30px !important;
-}
-.right-menu li .fa
-{
-	font-size:22px;
-	margin-right:20px;
-	cursor:pointer;
-}
-.navbar-brand img
-{
-    margin-left: 30%;
 	width:200px;
 }
-.----navbar-brand /*logo置中*/
+.--navbar-brand /*logo置中*/
 {
 	left: 50%;
 	top: 25px;
 	transform:translateX(-50%);
 	position:absolute;
 }
-.navbar-nav /*中間選單距logo多遠*/
+.collapse /*選單*/
 {
-    margin-left: 15%;
+	position:absolute;
+	right: 0px;
+}
+.navbar-nav /*選單*/
+{
     font-size: 20px; /*選單文字大小*/
 }
 .navbar-nav li a  /*選單在收起來會置右*/
@@ -48,6 +39,7 @@
     float: right;
 	color:#000 !important;
     padding: 0px 15px !important;
+
 }
 .navbar-nav a:hover
 {
@@ -55,26 +47,49 @@
     font-weight:bold;
     padding: 0px 15px !important;
 }
-.header
-{
-    background:#f5f6fc;
-	margin-bottom: 80px;
-}
-.navbar
-{
-	padding: 0 35px !important;
-}
-.navbar-toggler
+
+.navbar-toggler  /*收起來的條狀選單*/
 {
 	border:none !important;
 	outline:none !important;
 	padding: 0 !important;
-	margin-top: 30;
+	margin-top: 0;
 }
-.navbar-toggler .fa
+.navbar-toggler .fa /*收起來的條狀選單的大小*/
 {
-	font-size: 30px;
+	font-size: 50px;
 	cursor:pointer;
+}
+.navbar-title
+{
+	float:right;
+}
+#nav-header .btn-touch /*取得免費試上按鈕*/
+{
+	margin: 0 30px;
+	color: #fff;
+	font-size: 25px;
+    font-weight: 600;
+	box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 25px;
+    background-image: linear-gradient(to right, #a517ba, #5f7182);
+}
+#nav-header .btn-touch a
+{
+	color:#fff !important;
+	text-decoration:none !important;
+}
+#nav-header .btn-touch a:hover
+{
+	color:#fff !important;
+	text-decoration:none !important;
+}
+/*-----靜態banner區塊-----*/
+.banner
+{
+	position:relative;
 }
 .banner-img
 {
@@ -85,96 +100,30 @@
 	width: 100%;
 	margin-bottom: -80px;
 }
-.banner
+.banner-title
 {
-	position:relative;
+	position:absolute;
+	left: 10%;
+	top: 45%;
+}	
+.banner-title h1
+{
+	font-size: 75px;
+	//background: rgba(0,0,0,0.75);
+	color: #fff;
+	line-height: 60px;
+	padding: 0px 10px 5px 10px;
 }
-#header .btn-touch
+.banner-title p
 {
-    position:absolute;
-	left: 9%;
-	top: 79%;
 	font-size: 35px;
-	box-shadow: none;
-    padding: 10px 30px;
-    border: none;
-    border-radius: 35px;
-    background-image: linear-gradient(to right, #a517ba, #5f7182);
+	//background: rgba(0,0,0,0.75);
+	color: #fff;
+	line-height: 60px;
+	padding: 0px 10px 5px 10px;
 }
-#header .btn-touch a
-{
-	color:#fff !important;
-	text-decoration:none !important;
-}
-/*----------我們有那些課程----------*/
-.teach-content
-{
-	margin: 130px 0px;
-}
-.title-style h1
-{
-	padding: 40px 0px;
-}
-.title-style
-{
-	margin: 50px auto 50px;
-	height: 120px;
-	width:80%;
-	max-width: 700px;
-	background: #fff;
-	position:relative;
-	box-shadow: 0px 4px 5px 0px rgba(0,0,50,0.5);
-}
-.title-style::after
-{
-	content:'';
-	height: 100px;
-	width: 200px;
-	background-color: #ffb607;
-	position: absolute;
-	top: -10px;
-	left: -10px;
-	z-index:-1;
-}
-.title-style::before
-{
-	content: '';
-	height: 100px;
-	width: 200px;
-	background-color: #ffb607;
-	position: absolute;
-	bottom: -10px;
-	right: -10px;
-	z-index:-1;
-}
-.services img
-{
-	width: 400px;
-}
-.services h4
-{
-    font-size: 30px;
-    font-weight: 600;
-    margin-top: 8%;
-}
-.services p
-{
-	padding: 0px 60px;
 
-}
-#services .btn-primary
-{
-    box-shadow: none;
-    padding: 8px 25px;
-    border: none;
-    border-radius: 20px;
-    background-image: linear-gradient(to right, #a517ba, #5f7182);
-}
-#services .btn-primary a
-{
-	color:#fff !important;
-	text-decoration:none !important;
-}
+
 /*---------footer--------*/
 
 .footer
@@ -182,15 +131,11 @@
     margin-top: 80px;
     background: #f5f6fc;
 }
-.classroom1,.classroom2,.classroom3
+.-classroom1,.classroom2,.classroom3
 {
     margin: 10px auto;
 }
-.copyright a
-{
-	color:#000 !important;
-	text-decoration:none !important;
-}
+
 .footer h5
 {
     margin-bottom: 10px
@@ -204,6 +149,7 @@
     top: 35px;
     position: absolute;
 }
+/*--
 .footer-icons
 {
     text-align: right;
@@ -219,46 +165,51 @@
     font-size: 20px;
     cursor: pointer;
 }
-
+--*/
+.copyright a
+{
+	color:#000 !important;
+	text-decoration:none !important;
+}
+/*----------連繫我們區塊-----------*/
+.footer-box .fa 
+{
+    margin-right: 8px;
+    font-size: 20px;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    padding-top: 5px;
+    border-radius: 2px;
+    background-image: linear-gradient(to right, #a517ba, #5f7182);
+}
 /*---------for small device--------*/
 
 @media only screen and (max-width:900px)
 {
-    .navbar-brand img
-    {
-        margin-left: 0%;
-        width:200px;
-    }
-    .right-menu 
-    {
-        margin-right: 0px;
-    }
-     .banner-img
-    {
-        margin: 40px auto;
-        width: 100%;
-    }
-    .title-style h1
-    {
-        font-size: 25px;
-    }
-    .teach-box p
-    {
-        font-size: 15px;
-        padding-bottom: 50px;
-    }
-    .offer img
-    {
-        margin-top: 20px !important;
-        margin-bottom: 0 !important;
-    }
-    .footer-icons
-    {
-        text-align: center;
-    }
-    .copyright
-    {
-        text-align: center;
-    }
+	.nav-header /*選單背景顏色；和下面banner的距離*/ 
+	{
+		margin-bottom: 60px;
+	}
+	.collapse /*選單*/
+	{
+		position:inherit;
+	}
+	.navbar-nav /*選單*/
+{
+    font-size: 25px; /*選單文字大小*/
+}
+	.navbar-nav li a  /*選單在收起來會置右*/
+	{
+		padding: 5px 0px !important;
+	}
+	.navbar-nav a:hover
+	{
+		padding: 5px 0px !important;
+	}
+#nav-header .btn-touch /*取得免費試上按鈕*/
+{
+	margin-right: 100px;
+}
     
 }

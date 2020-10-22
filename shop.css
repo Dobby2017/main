@@ -1,0 +1,63 @@
+﻿
+/*---------多比商品--------*/
+.teach-content /*--和上下面的個區塊的距離--*/
+{
+	margin: 0px 0px 0px 0px;
+}
+.title-style h1
+{
+	padding: 40px 0px;
+}
+.title-style
+{
+	margin: 50px auto 50px;
+	height: 120px;
+	width:80%;
+	max-width: 700px;
+	background: #fff;
+	position:relative;
+	box-shadow: 0px 4px 5px 0px rgba(0,0,50,0.5);
+}
+.title-style::after
+{
+	content:'';
+	height: 100px;
+	width: 200px;
+	background-color: #ffb607;
+	position: absolute;
+	top: -10px;
+	left: -10px;
+	z-index:-1;
+}
+.title-style::before
+{
+	content: '';
+	height: 100px;
+	width: 200px;
+	background-color: #ffb607;
+	position: absolute;
+	bottom: -10px;
+	right: -10px;
+	z-index:-1;
+}
+.fashion-blog
+{
+	margin: 180px 0px 150px 0;
+}
+.blog-img
+{
+	margin: 80px 0px 30px 0;
+	height: 180px;
+	width: 270px;
+	display: inline-block;
+}
+.blog-img img
+{
+	height: 100%;
+	width: 100%;
+}
+.fashion-blog h5
+{
+	margin-top: 20px;
+	font-weight: bold;
+}
