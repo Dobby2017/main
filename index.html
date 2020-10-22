@@ -3,25 +3,29 @@
 <head>
 <!--viewport手機螢幕呈現最佳閱讀的狀態;width=device-width自動符合所有不同手機螢幕;手機螢幕畫面的初始縮放比例為 100%-->
 <!--這一個設定是響應式的設計的啟端，為的是將"內容的寬度參數" 等於 "設備的顯示寬度"這樣之後在CSS裡面設定width:100%才會符合設備的顯示寬度-->
-<!--第一個link是網頁的標示圖，最後兩個link是連結bootstrap的css元素和公用圖檔-->
-<!--最下面有Global的網站分析 Global site tag (gtag.js) - Google Analytics -->
+<!--下面這一行viewport一定要加才能做響應式網頁--> 
 <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8" >
-<meta name="keywords" content="兒童程式教育  兒童程式設計，程式設計課程">
+<meta name="keywords" content="兒童程式教育  兒童多元學習，未來兒童教育">
 <meta name="description" content="ScratchJr,Code.org + Unplugged,Ozobot,Bloxels,魔術方塊,不插電科學,Scratch,Minecraft,App Inventor,Micro:bit,Mio自走車,網頁設計,露比任務">
-<title>多比思維｜兒童程式教育</title>
-<link rel="icon" href="https://dobby2017.github.io/main/images/page_icon.gif" type="image/gif" sizes="16x16">   
+<title>多比思維｜未來兒童教育-把最好的教育帶給孩子</title> <!--網頁名稱-->
+<link rel="icon" href="https://dobby2017.github.io/main/images/page_icon.gif" type="image/gif" sizes="16x16">
+<!--第一個link是Favicon (favorites icon)-->
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/index.css">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<!--1. font awesome 4 cdn 2. Font Awesome CSS--> 
+<!--https://www.w3schools.com/w3css/4/w3.css會影響選單的版型,用來做動態換畫面banner-->
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<!--1. bootstrap 2. Get started 3. CSS & JS-->
 </head>
  <body>
- <section id="header" class="header">
+ <section id="nav-header" class="nav-header">
      <nav class="navbar navbar-expand-lg navbar-light">
       <a class="navbar-brand" href="#"><img src="images/logo.jpg" alt="logo"></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <i class="fa fa-bars"></i>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
@@ -36,23 +40,39 @@
             <a class="nav-link" href="course.html">多比課程</a>
           </li>
         </ul>
-        <ul class="right-menu ml-auto">
-        <li><a href="https://www.facebook.com/DobbySTEAM"><i class="fa fa-facebook"> facebook</i></a></li>
-        <li><a href="https://www.youtube.com/channel/UC0--S2V-m38Xx9rphhLjAKw"><i class="fa fa-youtube-play"> YouTube</i></a></li>
-        </ul>
+    	<div class="navbar-title">
+        	<button type="button" class="btn btn-touch"><a href="https://reurl.cc/n0mW0D" target="new">取得免費試上</a></button>
+        </div>
       </div>
     </nav>
+<!--靜態banner圖-->
     <div class="banner">
     	<div  class="banner-img">
         	<img src="images/banner.jpg">
         </div>
     	<div class="banner-title">
-        	<button type="button" class="btn btn-touch"><a href="https://reurl.cc/n0mW0D" target="new">取得免費試上</a></button>
+        	<h1>兒童多元學習中心</h1>
+            <p>把最好的教育帶給孩子</p>
         </div>
     </div>
  </section>
-
- <!----------我們有那些課程---------->
+<!--動態banner圖，包含1。放幾張圖；2。向上和向下一頁，縮到最小會跑到選單那裡；3。有幾個圈圈
+<section class="banner">
+		<div class="w3-content w3-display-container" style="max-width:100%">
+		  <a href="lesson2019wvacation.html"><img class="mySlides" src="https://dobby2017.github.io/main/images/banner_3plus_class.jpg" style="width:100%"></a>
+		  <a href="lesson2019wvacation.html"><img class="mySlides" src="https://dobby2017.github.io/main/images/banner_3plus_class.jpg" style="width:100%"></a>
+		  <a href="lesson2019wvacation.html"><img class="mySlides" src="https://dobby2017.github.io/main/images/banner_3plus_class.jpg" style="width:100%"></a>
+		  <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+			<div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+			<div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+			<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+			<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+			<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+		  </div>
+		</div>
+</section>
+-->
+<!----------我們有那些課程---------->
  <section id="services" class="teach-content">
  	<div class="container">                         
     </div>
@@ -61,17 +81,17 @@
         </div>
 <div class="row text-center">
 <div class="col-md-4 services">
-<img src="images/2020S.jpg" class="service-img">
+<img src="images/ClassGroup1.jpg" class="service-img">
 <h4>多比兒少機器人檢定</h4>
 <p>多比兒少機器人檢定是針對國小以下學童所設計的機器人檢定。有分初級，一級和二級。對學生的手作能力，機器人的知識和構造都能有充份的認知. </p>
 </div>
 <div class="col-md-4 services">
-<img src="images/6-8years.jpg" class="service-img">
+<img src="images/ClassGroup2.jpg" class="service-img">
 <h4>程式遊戲園地</h4>
 <p>包含目前最主流的程式學習，有多比歷險記、Scratch Jr、Scratch、Microbit、網站製作。透過遊戲的學習和互動，一步步的提升程式的能力. </p>
 </div>
 <div class="col-md-4 services">
-<img src="images/9-11years.jpg" class="service-img">
+<img src="images/ClassGroup3.jpg" class="service-img">
 <h4>創客藝術園地</h4>
 <p>Bloxels平板遊戲設計、3D筆造型師、3D列印建模和定格動畫，發揮及增強孩子們的藝術，設計，寫作，拍攝等素養.</p>
 </div>
@@ -80,63 +100,114 @@
 </div>
 </div>
   </section>
-  <!------------------footer----------------->
-                                                
+<!----------其它媒體看到我們區塊---------->
+<section id="social-media">
+<div class="container text-center">
+<p>在其它媒體看到我們</p>
+    <div class="social-icons">
+    <a href="https://www.facebook.com/DobbySTEAM"><img src="images/fb-icon.png"></a>
+    <a href="#"><img src="images/ig-icon.png"></a>
+    <a href="https://www.youtube.com/channel/UC0--S2V-m38Xx9rphhLjAKw"><img src="images/youtube-icon.png"></a>
+    </div>
+</div>
+</section> 
+<!------------------footer----------------->
    <section class="footer">
        <div class="container">
         <div class="row">
+			<!--
             <div class="col-md-4">
-                <div class="classroom1">
-                    <h5>信義教室</H5>
+                    <h5>常態教室</h5>
                     <p>台北市光復南路290巷1號2樓之1</p>
-                </div>
             </div>
             <div class="col-md-4">
-                <div class="classroom2">
-                    <h5>福和教室</H5>
+                    <h5>營隊教室</h5>
                     <p>新北市中和區中山路二段131巷6號</p>               
-                </div>
             </div>
-            <div class="col-md-4">
-                <div class="classroom3">
-                    <h5>保平教室</H5>
-                    <p>新北市永和區保平路268巷28號</p> 
-                </div>
+            <div class="col-md-4 footer-box">
+                    <h5>連繫我們</h5>
+                        <p><i class="fa fa-user"></i>LINE ID：fundobby</p>
+    					<p><i class="fa fa-phone"></i>  0912345678  </p>
+  						<p><i class="fa fa-envelope-o"></i>  fundobby@gmail.com  </p>
             </div>
-            <div class="col-md-4">
-                <div class="classroom3">
-                    <h5>新莊教室</H5>
-                    <p>新莊區幸福路564巷1弄3號</p> 
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="classroom3">
-                    <h5>101景觀教室</H5>
-                    <p>台北市信義區莊敬路423巷7弄1號3樓</p> 
-                </div>
-            </div>
+			-->
         </div>
         <hr>
-        <div class="row">
-            <div class="col-md-8">
-            <p class="copyright">Designed with <a href="TclassALL.html"><i class="fa fa-heart"></i></a> by DobbySteam</p>
-             </div>               
-            <div class="col-md-4">   
-                <div class="footer-icons">
-                   <a href="https://www.facebook.com/DobbySTEAM"><i class="fa fa-facebook"></i></a>
-                   <a href="https://www.youtube.com/channel/UC0--S2V-m38Xx9rphhLjAKw"><i class="fa fa-youtube-play"></i></a>
-                 </div>
-            </div>
-        </div>
       </div>
+            <div class="copyright text-center">
+            <p>Designed with <a href="TclassALL.html"><i class="fa fa-heart"></i></a> by 多比思維兒童多元學習中心</p>
+             </div>  
   </section>
+<!------------------右下角浮動連結----------------->
+<a id="goTop" style="display:scroll;position:fixed;bottom:20px;right:10px;" href="https://reurl.cc/n0mW0D"><img alt='' border='0' onmouseover="this.src='https://dobby2017.github.io/main/images/touchme.png'" src="https://dobby2017.github.io/main/images/touchme.png" onmouseout="this.src='https://dobby2017.github.io/main/images/touchme.png'" /></a>
+<script type="text/javascript">
+$(function(){
+    $("#gotop").click(function(){
+        jQuery("html,body").animate({
+            scrollTop:0
+        },1000);
+    });
+    $(window).scroll(function() {
+        if ( $(this).scrollTop() > 300){
+            $('#gotop').fadeIn("fast");
+        } else {
+            $('#gotop').stop().fadeOut("fast");
+        }
+    });
+});
+</script>
+<!-- w3.css slideshow w3.css slideshoww3.css slideshow-->
+		<script>
+		var myIndex = 0;
+		carousel();
 
+		function carousel() {
+			var i;
+			var x = document.getElementsByClassName("mySlides");
+			for (i = 0; i < x.length; i++) {
+			   x[i].style.display = "none";  
+			}
+			myIndex++;
+			if (myIndex > x.length) {myIndex = 1}    
+			x[myIndex-1].style.display = "block";  
+			setTimeout(carousel, 2500); // Change image every 2.5 seconds
+			//加下面這個就可以中間的圈圈和目前照片同步
+			showDivs(slideIndex = myIndex);
+		}
+		</script>
+<!-- w3.css slideshow w3.css slideshoww3.css slideshow-->
+		<script>
+		var slideIndex = 1;
+		showDivs(slideIndex);
+
+		function plusDivs(n) {
+		  showDivs(slideIndex += n);
+		}
+		function currentDiv(n) {
+		  showDivs(slideIndex = n);
+		}
+		function showDivs(n) {
+		  var i;
+		  var x = document.getElementsByClassName("mySlides");
+		  var dots = document.getElementsByClassName("demo");
+		  if (n > x.length) {slideIndex = 1}    
+		  if (n < 1) {slideIndex = x.length}
+		  for (i = 0; i < x.length; i++) {
+			 x[i].style.display = "none";  
+		  }
+		  for (i = 0; i < dots.length; i++) {
+			 dots[i].className = dots[i].className.replace(" w3-white", "");
+		  }
+		  x[slideIndex-1].style.display = "block";  
+		  dots[slideIndex-1].className += " w3-white";
+		}
+		</script>
+<!--Global的網站分析 Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112006846-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'UA-112006846-1');
 </script>
 </body>
