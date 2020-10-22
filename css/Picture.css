@@ -1,0 +1,36 @@
+﻿
+.fashion-brands
+{
+	margin: 0px 0 0px 0;
+}
+
+.container table
+{
+    text-align: center;
+}
+
+.container th
+{
+    padding-top: 12px;
+    padding-bottom: 12px;
+	background-color:#ffb607;
+}
+
+/*---------footer--------*/
+
+.footer
+{
+    margin-top: 150px;
+    background: #f5f6fc;
+}
+
+.footer-icons
+{
+    text-align: right;
+}
+.footer-icons .fa
+{
+    margin: 0 10px auto;
+    font-size: 20px;
+    cursor: pointer;
+}

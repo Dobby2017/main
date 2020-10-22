@@ -42,9 +42,13 @@
 
 /*---------文字樣式--------*/
 
+.text01 
+{
+	text-align:left;
+}
 .text01 span 
 {
-font-family: Webdings
+	font-family: Webdings;
 }
 
 /*---------test--------*/

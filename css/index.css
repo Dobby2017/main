@@ -1,118 +1,101 @@
-﻿
-
-/*---------教學內容--------*/
-
-.teach-content
+﻿/*----------w3支援的跑馬燈程式----------*/
+.mySlides {
+	display:none;}
+.w3-left, .w3-right, .w3-badge {
+	cursor:pointer;}
+.w3-left, .w3-right{
+	font-size:50px;opacity: 0.5;}	
+.w3-badge {
+	height:15px;width:15px;padding-bottom:0px;margin-top:200px;opacity: 0.5;}
+/*----------我們有那些課程----------*/
+.teach-content /*--和上下面的個區塊的距離--*/
 {
-	padding: 0px;
+	margin: 100px 0px 30px 0px;
 }
-‧teach-box
+.title-style h1
 {
-	margin:0px 0px;
+	padding: 40px 0px;
 }
-.teach-box p
+.title-style
 {
-    font-size: 20px;
-    padding-bottom: 50px;
-}
-
-
-.LearningPath-img img
-{
-	width: 100%;
-	margin-bottom:30px;
-}
-
-.class-img
-{
+	margin: 50px auto 50px;
+	height: 120px;
+	width:80%;
+	max-width: 700px;
+	background: #fff;
 	position:relative;
-	margin-bottom: 15px;
+	box-shadow: 0px 4px 5px 0px rgba(0,0,50,0.5);
 }
-.class-img img
+.title-style::after
 {
-	width:100%;
-}
-.btn-buy
-{
-	width: 150px;
-	padding: 10px 0px;
-	outline: none !important;
-	border: 0px;
-	border-radius: 2px;
-	position: absolute;
-	background:#fff;
-    font-size: 20px;
- 	left: 50%;
-	bottom: 0px;
-	transform: translate(-50%,0);
-	transition: .6s;
-	opacity: 0;
-	z-index: 1;
-}
-.btn-buy a:any-link 
-{
-    text-decoration: none;
-    color: #000;
-}
-.class-img:hover .btn-buy
-{
-	transform: translate(-50%,50%);
-	bottom: 50%;
-	opacity:1;
-}
-.overlay
-{
-	height: 0;
-	width:100%;
-	background: #333;
-	position:absolute;
-	top: 0;
-	opacity: 0;
-	transition: .5s;
-}
-.class-img:hover .overlay
-{
-	opacity: .5;
-	height:100%;
-}
-/*---------加開冬令營--------*/
-.Wplus-content
-{
-	padding-top: 50px;
-}
-Wplus-box
-{
-	margin:0px 0px;
-}
-.Wplus-box p
-{
-    font-size: 20px;
-    padding-bottom: 0px;
-}
-.Wplus-img img
-{
-	width: 100%;
-	margin-bottom:0px;
-}
-.subscribe
-{
-	max-width:240px;
-	margin-top: 00px;
-	padding: 10px;
-	background: #ffffff;
-	margin: 0px auto 0px;
-	}
-.subscribe a
-{
+	content:'';
+	height: 100px;
 	width: 200px;
-	display:block;
+	background-color: #ffb607;
+	position: absolute;
+	top: -10px;
+	left: -10px;
+	z-index:-1;
+}
+.title-style::before
+{
+	content: '';
+	height: 100px;
+	width: 200px;
+	background-color: #ffb607;
+	position: absolute;
+	bottom: -10px;
+	right: -10px;
+	z-index:-1;
+}
+.services img
+{
+	width: 400px;
+}
+.services h4
+{
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 8%;
+}
+.services p
+{
+	padding: 0px 60px;
+
+}
+#services .btn-primary
+{
+	font-size: 25px;
+	box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 25px;
+    background-image: linear-gradient(to right, #a517ba, #5f7182);
+}
+#services .btn-primary a
+{
 	color:#fff !important;
-	background:#000;
 	text-decoration:none !important;
-	padding: 5px;
-	text-align:center;
-	}
-
-
-
+}
+/*----------其它媒體看到我們區塊-----------*/
+#social-media
+{
+    background: #f8f9fa;
+    padding: 0px 0;
+}
+#social-media p
+{
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.social-icons img
+{
+    width: 60px;
+    transition: 0.5s;
+}
+.social-icons a:hover img
+{
+    transform: translateY(-10px);
+}
 
