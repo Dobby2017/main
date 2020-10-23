@@ -93,6 +93,7 @@
 {
     width: 60px;
     transition: 0.5s;
+	margin: 0 20px;
 }
 .social-icons a:hover img
 {
