@@ -10,7 +10,7 @@
 /*----------我們有那些課程----------*/
 .teach-content /*--和上下面的個區塊的距離--*/
 {
-	margin: 100px 0px 30px 0px;
+	margin: 120px 0px 30px 0px;
 }
 .title-style h1
 {
@@ -50,7 +50,7 @@
 }
 .services img
 {
-	width: 400px;
+	width: 80%;
 }
 .services h4
 {
@@ -81,7 +81,7 @@
 #social-media
 {
     background: #f8f9fa;
-    padding: 0px 0;
+    padding: 100px 0;
 }
 #social-media p
 {

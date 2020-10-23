@@ -207,9 +207,18 @@
 	{
 		padding: 5px 0px !important;
 	}
-#nav-header .btn-touch /*取得免費試上按鈕*/
-{
-	margin-right: 100px;
-}
-    
+	#nav-header .btn-touch /*取得免費試上按鈕*/
+	{
+		margin-right: 100px;
+	}
+    .banner-title h1
+	{
+		font-size: 35px;
+		line-height: 30px;
+	}
+	.banner-title p
+	{
+		font-size: 25px;
+		line-height: 30px;
+	}
 }
