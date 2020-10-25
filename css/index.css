@@ -51,6 +51,7 @@
 .services img
 {
 	width: 80%;
+	border-radius: 200px;
 }
 .services h4
 {
