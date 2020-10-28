@@ -1,13 +1,4 @@
-﻿/*----------w3支援的跑馬燈程式----------*/
-.mySlides {
-	display:none;}
-.w3-left, .w3-right, .w3-badge {
-	cursor:pointer;}
-.w3-left, .w3-right{
-	font-size:50px;opacity: 0.5;}	
-.w3-badge {
-	height:15px;width:15px;padding-bottom:0px;margin-top:200px;opacity: 0.5;}
-/*----------我們有那些課程----------*/
+﻿/*----------我們有那些課程----------*/
 .teach-content /*--和上下面的個區塊的距離--*/
 {
 	margin: 120px 0px 30px 0px;
@@ -167,5 +158,38 @@
 .social-icons a:hover img
 {
     transform: translateY(-10px);
+}
+
+
+
+/*----------教室和訊息區塊-----------*/
+.class-info
+{
+    margin-top: 80px;
+    background: #f5f6fc;
+}
+.class-info h5
+{
+    margin-bottom: 10px
+}
+.class-info h5::before
+{
+    content: '';
+    width: 72px;
+    height: 4px;
+    background: #4f74e8;
+    top: 31px;
+    position: absolute;
+}
+.class-info-box .fa 
+{
+    margin-right: 8px;
+    font-size: 20px;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    padding-top: 5px;
+    border-radius: 2px;
+    background-image: linear-gradient(to right, #a517ba, #5f7182);
 }
 

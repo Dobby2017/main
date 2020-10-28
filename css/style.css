@@ -4,10 +4,19 @@
 	padding: 0;
     font-family: "Microsoft YaHei", "FangSong", Arial, serif;
 }
+/*----------w3支援的跑馬燈程式----------*/
+.mySlides {
+	display:none;}
+.w3-left, .w3-right, .w3-badge {
+	cursor:pointer;}
+.w3-left, .w3-right{
+	font-size:50px;opacity: 0.5;}	
+.w3-badge {
+	height:15px;width:15px;padding-bottom:0px;margin-top:200px;opacity: 0.5;}
 /*-----最上方選單區塊-----*/
-.navbar /*選單的左右間距*/
+.navbar /*選單的左右間距，選單不受控，要在下面調整*/
 {
-	padding: 0 30px !important; 
+	padding: 0 0 0 15% !important; 
 }
 .nav-header /*選單背景顏色；和下面banner的距離*/ 
 {
@@ -25,10 +34,10 @@
 	transform:translateX(-50%);
 	position:absolute;
 }
-.collapse /*選單*/
+.collapse /*選單靠右的距離*/
 {
 	position:absolute;
-	right: 0px;
+	right: 15%;
 }
 .navbar-nav /*選單*/
 {
@@ -105,7 +114,8 @@
 	position:absolute;
 	left: 10%;
 	top: 45%;
-}	
+}
+/*-----靜態banner區塊的文字先不放背景顏色-----*/
 .banner-title h1
 {
 	font-size: 75px;
@@ -123,66 +133,17 @@
 	padding: 0px 10px 5px 10px;
 }
 
-
 /*---------footer--------*/
-
 .footer
 {
-    margin-top: 80px;
+    margin-top: 0px;
     background: #f5f6fc;
 }
-.-classroom1,.classroom2,.classroom3
+.footer p
 {
-    margin: 10px auto;
+	align-content: center;
 }
 
-.footer h5
-{
-    margin-bottom: 10px
-}
-.footer h5::before
-{
-    content: '';
-    width: 80px;
-    height: 3px;
-    background: #4f74e8;
-    top: 35px;
-    position: absolute;
-}
-/*--
-.footer-icons
-{
-    text-align: right;
-}
-.footer-icons a
-{
-    text-decoration: none;
-    color: #000 !important;
-}
-.footer-icons .fa
-{
-    margin: 0 10px auto;
-    font-size: 20px;
-    cursor: pointer;
-}
---*/
-.copyright a
-{
-	color:#000 !important;
-	text-decoration:none !important;
-}
-/*----------連繫我們區塊-----------*/
-.footer-box .fa 
-{
-    margin-right: 8px;
-    font-size: 20px;
-    height: 30px;
-    width: 30px;
-    text-align: center;
-    padding-top: 5px;
-    border-radius: 2px;
-    background-image: linear-gradient(to right, #a517ba, #5f7182);
-}
 /*---------for small device--------*/
 
 @media only screen and (max-width:900px)
@@ -195,10 +156,14 @@
 	{
 		position:inherit;
 	}
-	.navbar-nav /*選單*/
-{
-    font-size: 25px; /*選單文字大小*/
-}
+	.collapse /*選單靠右的距離*/
+	{
+		right: 0%;
+	}
+		.navbar-nav /*選單*/
+	{
+		font-size: 25px; /*選單文字大小*/
+	}
 	.navbar-nav li a  /*選單在收起來會置右*/
 	{
 		padding: 5px 0px !important;
