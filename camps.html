@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<!--viewport手機螢幕呈現最佳閱讀的狀態;width=device-width自動符合所有不同手機螢幕;手機螢幕畫面的初始縮放比例為 100%-->
+<!--這一個設定是響應式的設計的啟端，為的是將"內容的寬度參數" 等於 "設備的顯示寬度"這樣之後在CSS裡面設定width:100%才會符合設備的顯示寬度-->
+<!--下面這一行viewport一定要加才能做響應式網頁--> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8" >
+<meta name="keywords" content="兒童程式教育  兒童多元學習，未來兒童教育">
+<meta name="description" content="ScratchJr,Code.org + Unplugged,Ozobot,Bloxels,魔術方塊,不插電科學,Scratch,Minecraft,App Inventor,Micro:bit,Mio自走車,網頁設計,露比任務">
+<title>多比思維｜未來兒童教育-把最好的教育帶給孩子</title> <!--網頁名稱-->
+<link rel="icon" href="https://dobby2017.github.io/main/images/page_icon.gif" type="image/gif" sizes="16x16">
+<!--第一個link是Favicon (favorites icon)-->
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/camps.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<!--1. font awesome 4 cdn 2. Font Awesome CSS--> 
+<!--https://www.w3schools.com/w3css/4/w3.css會影響選單的版型,用來做動態換畫面banner-->
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<!--1. bootstrap 2. Get started 3. CSS & JS-->
+</head>
+ <body>
+ <section id="nav-header" class="nav-header">
+     <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="#"><img src="images/logo.jpg" alt="logo"></a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">多比首頁</a>
+          </li>
+<!--
+          <li class="nav-item">
+            <a class="nav-link" href="camps.html">寒暑期營隊</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="course.html">多比課程</a>
+          </li>
+-->
+        </ul>
+    	<div class="navbar-title">
+        	<button type="button" class="btn btn-touch"><a href="https://reurl.cc/n0mW0D" target="new">取得免費試上</a></button>
+        </div>
+      </div>
+    </nav>
+<!--靜態banner圖-->
+    <div class="banner">
+    	<div  class="banner-img">
+        	<img src="images/banner.jpg">
+        </div>
+    	<div class="banner-title">
+        	<h1>兒童多元未來學習中心</h1>
+            <p>把最好的教育帶給孩子</p>
+        </div>
+    </div>
+ </section>
+
+<!----------為什麼選擇我們---------->
+ <section id="about-us" class="about-us">
+ 	<div class="container">                         
+    
+        <div class="title-style text-center">
+            <h1>寒暑期營隊</h1>
+        </div>
+<div class="row">
+<div class="col-md-6 about-us-text">
+<p class="about-title">未來教育的教材，教學，教法</p>
+    <ui>
+	<li>全方位領域的發展 </li>
+    <li>最豐富多樣化的課程 </li>
+    <li>最完整有系統的師資 </li>
+    <li>跨領域未來性的教學 </li>
+    </ui>
+</div>
+<div class="col-md-6 text-center">
+<img src="images/about-us.jpg" class="img-fluid">    
+</div>
+</div>
+	</div>
+  </section>
+
+<!------------------footer----------------->
+   <section class="footer text-center">
+	   <div class="container">
+		<div class="row">
+			<div class="col-md-12">
+            <p>Designed with <a href="TclassALL.html"><i class="fa fa-heart"></i></a> by 多比思維</p>
+			</div>	
+		</div>   
+		</div>
+  </section>
+<!--Global的網站分析 Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112006846-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-112006846-1');
+</script>
+</body>
+</html>
