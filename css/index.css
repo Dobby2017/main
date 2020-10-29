@@ -5,7 +5,8 @@
 }
 .title-style h1
 {
-	padding: 40px 0px;
+	padding: 30px 0px;
+	font-size: 50px;
 }
 .title-style
 {
@@ -110,27 +111,22 @@
 	right: -10px;
 	z-index:-1;
 }
-.about-us-text /*--和上下面的個區塊的距離--*/
+.about-us-text /*--文字和上下面的個區塊的距離--*/
 {
-	margin: 130px 0px 0px 0px;
+	margin: 100px 0px 0px 0px;
+	font-size: 25px;
+	padding: 0px 50px ;
 }
 .about-title
 {
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 600;
     margin-top: -18%;
 }
-/*--文字的上下間隔--*/
-#about-us ui li
+.about-us p
 {
-    margin: 0px 0px;
-}
-/*--標題和文字的間隔--*/
-#about-us ui
-{
-	margin-left: 10px;
-	font-size: 25px;
-	line-height: 30px;
+	padding: 0px 35px ;
+	padding: 0px 35px ;
 }
 .about-us img
 {
