@@ -34,6 +34,10 @@
 	transform:translateX(-50%);
 	position:absolute;
 }
+.nav-important /*寒暑期營隊*/
+{
+	background: #ffb607;
+}
 .collapse /*選單靠右的距離*/
 {
 	position:absolute;
@@ -143,7 +147,9 @@
 {
 	align-content: center;
 }
-
+.footer a:hover{
+    color: #000000
+}
 /*---------for small device--------*/
 
 @media only screen and (max-width:900px)

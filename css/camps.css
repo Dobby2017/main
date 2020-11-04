@@ -1,6 +1,43 @@
-﻿
-/*----------為什麼選擇我們-----------*/
-.about-us /*--和上下面的個區塊的距離--*/
+﻿/*-----靜態banner區塊-----*/
+.lesson-banner
+{
+	position:relative;
+}
+.lesson-banner-img
+{
+	width: 100%;
+}
+.lesson-banner-img img
+{
+	width: 100%;
+	margin-bottom: -80px;
+}
+.lesson-banner-title
+{
+	position:absolute;
+	left: 20%;
+	top: 85%;
+}
+/*-----靜態banner區塊的文字先不放背景顏色-----*/
+.lesson-banner-title h1
+{
+	font-size: 75px;
+	background: rgba(0,0,0,0.75);
+	color: #fff;
+	line-height: 70px;
+	padding: 0px 10px 5px 10px;
+}
+.lesson-banner-title p
+{
+	font-size: 35px;
+	background: rgba(0,0,0,0.75);
+	color: #fff;
+	line-height: 40px;
+	padding: 0px 10px 5px 10px;
+	text-align: center;
+}
+/*----------寒暑期營隊-----------*/
+.camps /*--和上下面的個區塊的距離--*/
 {
 	margin: 150px 0px 30px 0px;
 }
@@ -40,31 +77,62 @@
 	right: -10px;
 	z-index:-1;
 }
-.about-us-text /*--和上下面的個區塊的距離--*/
+.camps-text /*--和上下面的個區塊的距離--*/
 {
 	margin: 130px 0px 0px 0px;
 }
-.about-title
+.camps h4 /*--title文字的上下距離--*/
 {
-    font-size: 40px;
+    font-size: 45px;
     font-weight: 600;
-    margin-top: -18%;
+    margin-top: -5%;
 }
 /*--文字的上下間隔--*/
-#about-us ui li
+#camps ui li
 {
     margin: 0px 0px;
 }
 /*--標題和文字的間隔--*/
-#about-us ui
+#camps ui
 {
 	margin-left: 10px;
 	font-size: 25px;
 	line-height: 30px;
 }
-.about-us img
+.camps img
 {
-	width: 100%;
-	border-radius: 20px;
+	width: 70%;
+	border-radius: 60%;
 }
-
+#camps .btn-lesson /*取得免費試上按鈕*/
+{
+	margin: 30px 0px;
+	color: #fff;
+	font-size: 25px;
+    font-weight: 600;
+	box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 25px;
+    background-image: linear-gradient(to right, #a517ba, #5f7182);
+}
+#camps .btn-lesson a
+{
+	color:#fff !important;
+	text-decoration:none !important;
+}
+#camps .btn-lesson a:hover
+{
+	color:#fff !important;
+	text-decoration:none !important;
+}
+#camps p 
+{
+	font-size: 15px;
+}
+.camps h5 /*--title文字的上下距離--*/
+{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 0%;
+}

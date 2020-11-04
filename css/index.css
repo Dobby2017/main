@@ -125,13 +125,12 @@
 }
 .about-us p
 {
-	padding: 0px 35px ;
-	padding: 0px 35px ;
+	padding: 0px 60px ;
 }
 .about-us img
 {
-	width: 100%;
-	border-radius: 20px;
+	width: 60%;
+	border-radius: 50%;
 }
 /*----------其它媒體看到我們區塊-----------*/
 #social-media
