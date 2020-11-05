@@ -105,7 +105,16 @@
 .camps img
 {
 	width: 70%;
-	border-radius: 60%;
+	border-radius: 50%;
+}
+.camps-lesson
+{
+	margin-bottom: 100px;
+}
+.camps-lesson img
+{
+	width: 100%;
+	border-radius: 0%;
 }
 #camps .btn-lesson /*取得免費試上按鈕*/
 {
