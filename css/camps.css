@@ -86,9 +86,15 @@
 }
 .camps h4 /*--title文字的上下距離--*/
 {
-    font-size: 45px;
+    font-size: 35px;
     font-weight: 600;
-    margin-top: -5%;
+    margin-top: -20%;
+}
+#camps p
+{
+	margin-left: 10px;
+	font-size: 20px;
+	line-height: 30px;
 }
 /*--文字的上下間隔--*/
 #camps ui li
@@ -99,24 +105,32 @@
 #camps ui
 {
 	margin-left: 10px;
-	font-size: 25px;
+	font-size: 15px;
 	line-height: 30px;
 }
 .camps img
 {
 	width: 70%;
-	border-radius: 50%;
+	border-radius: 5px;
 }
 .camps-lesson
 {
-	margin-bottom: 100px;
+	margin-bottom: 10px;
 }
 .camps-lesson img
 {
 	width: 100%;
 	border-radius: 0%;
 }
-#camps .btn-lesson /*取得免費試上按鈕*/
+.camps-lesson-text
+{
+	margin-bottom: 100px;
+}
+.camps-lesson-text ui
+{
+	list-style-type: disc;
+}
+#camps .btn-lesson /*透過FB小編報名課程*/
 {
 	margin: 30px 0px;
 	color: #fff;
@@ -138,13 +152,9 @@
 	color:#fff !important;
 	text-decoration:none !important;
 }
-#camps p 
-{
-	font-size: 15px;
-}
 .camps h5 /*--title文字的上下距離--*/
 {
     font-size: 40px;
     font-weight: 600;
-    margin-top: 0%;
+    margin-top: 5%;
 }
