@@ -41,13 +41,15 @@
 {
 	margin: 150px 0px 30px 0px;
 }
+/*--中間的文字大標題-開始--*/
 .title-style h1
 {
-	padding: 40px 0px;
+	padding: 30px 0px;
+	font-size: 50px;
 }
 .title-style
 {
-	margin: 50px auto 50px;
+	margin: 100px auto 80px;
 	height: 120px;
 	width:80%;
 	max-width: 700px;
@@ -77,6 +79,7 @@
 	right: -10px;
 	z-index:-1;
 }
+/*--中間的文字大標題-結束--*/
 .camps-text /*--和上下面的個區塊的距離--*/
 {
 	margin: 130px 0px 0px 0px;

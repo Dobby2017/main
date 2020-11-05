@@ -3,6 +3,7 @@
 {
 	margin: 120px 0px 30px 0px;
 }
+/*--中間的文字大標題-開始--*/
 .title-style h1
 {
 	padding: 30px 0px;
@@ -10,7 +11,7 @@
 }
 .title-style
 {
-	margin: 50px auto 50px;
+	margin: 100px auto 80px;
 	height: 120px;
 	width:80%;
 	max-width: 700px;
@@ -40,6 +41,7 @@
 	right: -10px;
 	z-index:-1;
 }
+/*--中間的文字大標題-結束--*/
 .services img
 {
 	width: 100%;
@@ -73,44 +75,9 @@
 /*----------為什麼選擇我們-----------*/
 .about-us /*--和上下面的個區塊的距離--*/
 {
-	margin: 50px 0px 30px 0px;
+	margin: 10px 0px 30px 0px;
 }
-.title-style h1
-{
-	padding: 40px 0px;
-}
-.title-style
-{
-	margin: 50px auto 50px;
-	height: 120px;
-	width:80%;
-	max-width: 700px;
-	background: #fff;
-	position:relative;
-	box-shadow: 0px 4px 5px 0px rgba(0,0,50,0.5);
-}
-.title-style::after
-{
-	content:'';
-	height: 100px;
-	width: 200px;
-	background-color: #ffb607;
-	position: absolute;
-	top: -10px;
-	left: -10px;
-	z-index:-1;
-}
-.title-style::before
-{
-	content: '';
-	height: 100px;
-	width: 200px;
-	background-color: #ffb607;
-	position: absolute;
-	bottom: -10px;
-	right: -10px;
-	z-index:-1;
-}
+
 .about-us-text /*--文字和上下面的個區塊的距離--*/
 {
 	margin: 100px 0px 0px 0px;
@@ -125,7 +92,7 @@
 }
 .about-us p
 {
-	padding: 0px 60px ;
+	padding: 0px 40px ;
 }
 .about-us img
 {
@@ -136,7 +103,7 @@
 #social-media
 {
     background: #f8f9fa;
-    padding: 100px 0;
+    padding: 80px 0;
 }
 #social-media p
 {
@@ -160,7 +127,7 @@
 /*----------教室和訊息區塊-----------*/
 .class-info
 {
-    margin-top: 80px;
+    margin-top: 0px;
     background: #f5f6fc;
 }
 .class-info h5
