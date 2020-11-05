@@ -1,44 +1,67 @@
-<!doctype html>
+<!DOCTYPE HTML>
 <html>
 <head>
+<!--viewport手機螢幕呈現最佳閱讀的狀態;width=device-width自動符合所有不同手機螢幕;手機螢幕畫面的初始縮放比例為 100%-->
+<!--這一個設定是響應式的設計的啟端，為的是將"內容的寬度參數" 等於 "設備的顯示寬度"這樣之後在CSS裡面設定width:100%才會符合設備的顯示寬度-->
+<!--下面這一行viewport一定要加才能做響應式網頁--> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8" >
+<meta name="keywords" content="多元學習，未來教育, 程式教育，多樣性學習">
+<meta name="description" content="3D筆，3D列印，ScratchJr,Ozobot,Bloxels,Scratch,Minecraft,App Inventor,Micro:bit,HTML, CSS,網頁設計,露比任務">
+<title>多比思維｜未來兒童教育-把最好的教育帶給孩子</title> <!--網頁名稱-->
 <link rel="icon" href="https://dobby2017.github.io/main/images/page_icon.gif" type="image/gif" sizes="16x16">
-<meta charset="UTF-8">
-<title>多比思維｜兒童程式教育｜培養興趣‧建構思維‧綜合應用｜不插電</title>
-<meta name="keywords" content="兒童程式教育  兒童程式設計，程式設計課程">
-<meta name="description" content="ScratchJr,Code.org + Unplugged,Ozobot,Bloxels,魔術方塊,不插電科學,Scratch,Minecraft,App Inventor,Micro:bit,Mio自走車,網頁設計,露比任務">
-<!--https://www.w3schools.com/w3css/4/w3.css會影響選單的版型-->
+<!--第一個link是Favicon (favorites icon)-->
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/index.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<!--1. font awesome 4 cdn 2. Font Awesome CSS--> 
+<!--https://www.w3schools.com/w3css/4/w3.css會影響選單的版型,用來做動態換畫面banner-->
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="css/styles.css">
-<link rel="stylesheet" href="css/stylesindex.css">
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<!--1. bootstrap 2. Get started 3. CSS & JS-->
 </head>
- 
-<body>
-	<header>
-		<div class="logo"><a href="index.html"><img src="images/logo.jpg" alt="多比思維"></a>
-		<nav>
-			<ul>
-				<li><a class="active" href="index.html">首頁</a></li>
-				<li><a href="idea.html">關於我們</a></li>
-				<li class="dropdown">
-					<a href="javascript:void(1)" class="dropbtn">課程資訊</a>
-					<div class="dropdown-content">
-					<a href="lesson2019svacation1.html">〔夏令營〕文創藝術DIY x 科技生活機器人</a>
-					<a href="lessonKto3.html">〔常態課程〕大班~3年級</a>
-					<a href="lesson3to6.html">〔常態課程〕3年級~6年級</a>
-					</div>
-				</li>
-				<li><a href="payment.html">課程繳費資訊</a></li>
-				<li><a href="School.html">照片集</a></li>
-				<li><a href="https://www.facebook.com/DobbySTEAM" target="_blank">Facebook</a></li>
-				<li><a href="https://www.youtube.com/channel/UC0--S2V-m38Xx9rphhLjAKw" target="_blank">YouTube</a></li>
-			</ul>
-		</nav>
-		</div>
- 	</header>
-	<main><br>
-
-	<!--保留首頁動態圖程式-->
-<!--		<div class="w3-content w3-display-container" style="max-width:1200px">
+ <body>
+ <section id="nav-header" class="nav-header">
+     <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="#"><img src="images/logo.jpg" alt="logo"></a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">多比首頁</a>
+          </li>
+          <li class="nav-item nav-important">
+            <a class="nav-link" href="camps.html">寒暑期營隊</a>
+          </li>
+<!--
+          <li class="nav-item">
+            <a class="nav-link" href="course.html">多比課程</a>
+          </li>
+-->
+        </ul>
+    	<div class="navbar-title">
+        	<button type="button" class="btn btn-touch"><a href="https://reurl.cc/n0mW0D" target="new">取得免費試上</a></button>
+        </div>
+      </div>
+    </nav>
+<!--靜態banner圖-->
+    <div class="banner">
+    	<div  class="banner-img">
+        	<img src="images/banner.jpg">
+        </div>
+    	<div class="banner-title">
+        	<h1>多樣性學習，找出興趣</h1>
+            <p>把最好的教育帶給孩子</p>
+        </div>
+    </div>
+ </section>
+<!--動態banner圖，包含1。放幾張圖；2。向上和向下一頁，縮到最小會跑到選單那裡；3。有幾個圈圈
+<section class="banner">
+		<div class="w3-content w3-display-container" style="max-width:100%">
+		  <a href="lesson2019wvacation.html"><img class="mySlides" src="https://dobby2017.github.io/main/images/banner_3plus_class.jpg" style="width:100%"></a>
 		  <a href="lesson2019wvacation.html"><img class="mySlides" src="https://dobby2017.github.io/main/images/banner_3plus_class.jpg" style="width:100%"></a>
 		  <a href="lesson2019wvacation.html"><img class="mySlides" src="https://dobby2017.github.io/main/images/banner_3plus_class.jpg" style="width:100%"></a>
 		  <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
@@ -47,37 +70,124 @@
 			<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
 			<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
 			<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
-			<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(4)"></span>
-			<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(5)"></span>
-			<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(6)"></span>
 		  </div>
-		</div><br>-->
-		<div id="1" class="vacation-box" onClick="location.href='#108';" >
-			<!--<h1>學習是快樂的</h1>-->
 		</div>
-		<br>
-		<div class="DIVtext">
-		<div class="DIVtext1"><span class="DIVtext1title">        <img src="images/page_icon.gif">上課教室<a href="https://drive.google.com/open?id=1xpnQvsH1YKN0j_HJGqsdlmbxOXT9Nqoo"><img src="images/page_icon.gif"></a>
-         </span>
-          <ul>
-          台北市教室
-          	<li>信義教室-台北市光復南路290巷1號2樓之1(那裡空間協辨)</li><br>
-          新北市教室
-          	<li>福和教室-新北市中和區中山路二段131巷6號</li>
-          	<li>保平教室-新北市永和區保平路268巷28號</li>
-          </ul>
-		</div>
-		<div class="DIVtext2">
-		<span class="DIVtext2title">2019年，台灣兒童程式教育元年</span><br><br>
-		2019年，對台灣兒童程式教育來說是相當重要的一年，兒童程式教育到底要學什麼，多比思維在兒童程式教育近9年的經驗，教過數十套兒童程式教育相關教材。未來兒童程式教育要學什麼，看看我們為大家整理的表格。<br>讓我們一同開啟台灣兒童程式教育元年吧！<br>
+</section>
+-->
+<!----------我們有那些課程---------->
+ <section id="services" class="teach-content">
+ 	<div class="container">                         
+        <div class="title-style text-center">
+            <h1>我們有那些課程</h1>
+        </div>
+<div class="row text-center">
+<div class="col-md-4 services">
+<img src="images/ClassGroup1.jpg" class="service-img">
+<h4>多比兒少機器人檢定</h4>
+<p>多比兒少機器人檢定是針對國小以下學童所設計的機器人檢定。有分初級，一級和二級。對學生的手作能力，機器人的知識和構造都能有充份的認知. </p>
+</div>
+<div class="col-md-4 services">
+<img src="images/ClassGroup2.jpg" class="service-img">
+<h4>程式遊戲園地</h4>
+<p>包含目前最主流的程式學習，有多比歷險記、Scratch Jr、Scratch、Microbit、網站製作。透過遊戲的學習和互動，一步步的提升程式的能力. </p>
+</div>
+<div class="col-md-4 services">
+<img src="images/ClassGroup3.jpg" class="service-img">
+<h4>創客藝術園地</h4>
+<p>Bloxels平板遊戲設計、3D筆造型師、3D列印建模和定格動畫，發揮及增強孩子們的藝術，設計，寫作，拍攝等素養.</p>
+</div>
+<!--
+<div class="col-md-12 text-center">
+    <button type="button" class="btn btn-primary"><a href="course.html">所有課程</a></button>
+</div>
+-->
+</div>
+	</div>
+  </section>
+<!----------為什麼選擇我們---------->
+ <section id="about-us" class="about-us">
+ 	<div class="container">                         
+        <div class="title-style text-center">
+            <h1>為什麼選擇我們</h1>
+        </div>
+<div class="row">
+<div class="col-md-6 about-us-text">
+<p class="about-title">未來教育的教材，教學，教法</p>
+<p>我們做的每一件事都是以孩子為出發點。我們熱愛新的事物，我們採用不同的教育方式。
+找到最有熱誠的老師，編寫最適合孩子的教案，提供未來所需的教育方式。
+孩子上起課來很好玩也很有趣，我們提供的課程特別棒！來上我們的課吧！
+</p>
+</div>
+<div class="col-md-6 text-center">
+               <video width="100%" src="https://dobby2017.github.io/main/video/%E6%A9%9F%E6%A2%B0%E6%89%8B%E8%87%82.mp4" controls></video>
+</div>
+</div>
+	</div>
+  </section>
+<!----------其它媒體看到我們區塊---------->
+<section id="social-media">
+<div class="container text-center">
+<p>在其它媒體看到我們</p>
+    <div class="social-icons">
+    <a href="https://www.facebook.com/DobbySTEAM"><img src="images/fb-icon.png"></a>
+    <a href="https://www.instagram.com/dobbysteam/"><img src="images/ig-icon.png"></a>
+    <a href="https://www.youtube.com/channel/UC0--S2V-m38Xx9rphhLjAKw"><img src="images/youtube-icon.png"></a>
+    </div>
+</div>
+</section>
+<!------------------教室和訊息區塊-----------------> 
+   <section class="class-info">
+    <div class="container">
+        <div class="row">
 
-			<a href="idea.html">［教學理念］</a>
+            <div class="col-md-4">
+                    <h5>台北教室</h5>
+					<p>《松江南京教室》臺北市吉林路26巷17號B1</p>
+                    <p>《那裡空間教室》台北市光復南路290巷1號2樓之1</p>
+            </div>
+            <div class="col-md-4">
+                    <h5>新北教室</h5>
+                    <p>《新北永和教室》新北市永和區保平路268巷28號</p>  
+                    <p>《新北中和教室》新北市中和區中山路二段131巷6號</p>  
+            </div>
+            <div class="col-md-4 class-info-box">
+                    <h5>連繫我們</h5>
+                        <!--<p><i class="fa fa-user"></i>LINE @：fundobby</p>
+    					<p><i class="fa fa-phone"></i>  0912345678</p>-->
+  						<p><i class="fa fa-envelope-o"></i>  dobbysteamkids@gmail.com</p>
+            </div>
+        </div>
+	</div>
+  </section>
+<!------------------footer----------------->
+   <section class="footer text-center">
+	   <div class="container">
+		<div class="row">
+			<div class="col-md-12">
+            <p>Designed with <a href="TclassALL.html"><i class="fa fa-heart"></i></a> by 多比思維</p>
+			</div>	
+		</div>   
 		</div>
-		<div class="DIVtext3title">國小的程式學習路徑完美的結合108課綱國中程式素養教育</div>
-		<div id="108" class="LearningPath"><img src="images/Learning Path.png"></div>
-	  </div>
-	</main>
-	<footer>
+  </section>
+<!------------------右下角浮動連結----------------->
+<a id="goTop" style="display:scroll;position:fixed;bottom:20px;right:10px;" href="https://reurl.cc/n0mW0D"><img alt='' border='0' onmouseover="this.src='https://dobby2017.github.io/main/images/touchme.png'" src="https://dobby2017.github.io/main/images/touchme.png" onmouseout="this.src='https://dobby2017.github.io/main/images/touchme.png'" /></a>
+<script type="text/javascript">
+$(function(){
+    $("#gotop").click(function(){
+        jQuery("html,body").animate({
+            scrollTop:0
+        },1000);
+    });
+    $(window).scroll(function() {
+        if ( $(this).scrollTop() > 300){
+            $('#gotop').fadeIn("fast");
+        } else {
+            $('#gotop').stop().fadeOut("fast");
+        }
+    });
+});
+</script>
+<!-- w3.css slideshow w3.css slideshoww3.css slideshow-->
 		<script>
 		var myIndex = 0;
 		carousel();
@@ -91,7 +201,7 @@
 			myIndex++;
 			if (myIndex > x.length) {myIndex = 1}    
 			x[myIndex-1].style.display = "block";  
-			setTimeout(carousel, 2500); // Change image every 2 seconds
+			setTimeout(carousel, 2500); // Change image every 2.5 seconds
 			//加下面這個就可以中間的圈圈和目前照片同步
 			showDivs(slideIndex = myIndex);
 		}
@@ -104,11 +214,9 @@
 		function plusDivs(n) {
 		  showDivs(slideIndex += n);
 		}
-
 		function currentDiv(n) {
 		  showDivs(slideIndex = n);
 		}
-
 		function showDivs(n) {
 		  var i;
 		  var x = document.getElementsByClassName("mySlides");
@@ -125,17 +233,13 @@
 		  dots[slideIndex-1].className += " w3-white";
 		}
 		</script>
-<!-- Global site tag (gtag.js) - Google Analytics -->
+<!--Global的網站分析 Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112006846-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'UA-112006846-1');
 </script>
-        <div class="footer">
-        © 2017 多比思維-兒童程式教育 &nbsp;</div>
-	</footer>
 </body>
 </html>
