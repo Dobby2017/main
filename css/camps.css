@@ -158,3 +158,22 @@
     font-weight: 600;
     margin-top: 5%;
 }
+
+
+/*---------for small device--------*/
+
+@media only screen and (max-width:900px)
+{
+    .lesson-banner-title h1
+	{
+		font-size: 30px;
+		line-height: 30px;
+	}
+	.lesson-banner-title p
+	{
+		font-size: 25px;
+		line-height: 30px;
+	}
+}
+
+

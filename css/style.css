@@ -184,10 +184,20 @@
 	}
     .banner-title h1
 	{
-		font-size: 35px;
+		font-size: 30px;
 		line-height: 30px;
 	}
 	.banner-title p
+	{
+		font-size: 25px;
+		line-height: 30px;
+	}
+    .lesson-banner-title h1
+	{
+		font-size: 10px;
+		line-height: 30px;
+	}
+	.lesson-banner-title p
 	{
 		font-size: 25px;
 		line-height: 30px;
