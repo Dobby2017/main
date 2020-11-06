@@ -133,6 +133,12 @@
 		font-size: 25px;
 		line-height: 30px;
 	}
+	.lesson-banner-title
+	{
+		position:absolute;
+		left: 20%;
+		top: 70%;
+	}
 }
 
 
