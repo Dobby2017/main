@@ -90,14 +90,13 @@
 /*--文字的上下間隔--*/
 #FBarticle ui li
 {
-    margin: 0px 0px;
+    margin: 0px 50px;
 }
 /*--標題和文字的間隔--*/
 #FBarticle ui
 {
-	margin-left: 10px;
 	font-size: 25px;
-	line-height: 30px;
+	line-height: 40px;
 }
 #FBarticle ui a
 {
