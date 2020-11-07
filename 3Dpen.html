@@ -3,169 +3,100 @@
 <head>
 <!--viewport手機螢幕呈現最佳閱讀的狀態;width=device-width自動符合所有不同手機螢幕;手機螢幕畫面的初始縮放比例為 100%-->
 <!--這一個設定是響應式的設計的啟端，為的是將"內容的寬度參數" 等於 "設備的顯示寬度"這樣之後在CSS裡面設定width:100%才會符合設備的顯示寬度-->
-<!--第一個link是網頁的標示圖，最後兩個link是連結bootstrap的css元素和公用圖檔-->
-<!--最下面有Global的網站分析 Global site tag (gtag.js) - Google Analytics -->
+<!--下面這一行viewport一定要加才能做響應式網頁--> 
 <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8" >
-<meta name="keywords" content="兒童程式教育  兒童程式設計，程式設計課程">
-<meta name="description" content="ScratchJr,Code.org + Unplugged,Ozobot,Bloxels,魔術方塊,不插電科學,Scratch,Minecraft,App Inventor,Micro:bit,Mio自走車,網頁設計,露比任務">
-<title>多比思維｜兒童程式教育</title>
-<link rel="icon" href="https://dobby2017.github.io/main/images/page_icon.gif" type="image/gif" sizes="16x16"> 
+<meta name="keywords" content="多元學習，未來教育, 程式教育  ">
+<meta name="description" content="3D筆，3D列印，ScratchJr,Ozobot,Bloxels,Scratch,Minecraft,App Inventor,Micro:bit,HTML, CSS,網頁設計,露比任務">
+<title>多比思維｜未來兒童教育-把最好的教育帶給孩子</title> <!--網頁名稱-->
+<link rel="icon" href="https://dobby2017.github.io/main/images/page_icon.gif" type="image/gif" sizes="16x16">
+<!--第一個link是Favicon (favorites icon)-->
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/3Dpen.css">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<!--1. font awesome 4 cdn 2. Font Awesome CSS--> 
+<!--https://www.w3schools.com/w3css/4/w3.css會影響選單的版型,用來做動態換畫面banner-->
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<!--1. bootstrap 2. Get started 3. CSS & JS-->
 </head>
  <body>
-  
-
-  <!------------------多比課程----------------->
- 
-   <section class="fashion-brands">
-    <div class="title-style text-center">
-    	<img src="images/3Dpen/3Dpen.png">
-    </div>
-    <div class="container">
-        <div class="row text-center">
-            <div class="col-md-3">
-                <div class="brand-logo">
-                    <img src="images/3Dpen/3Dpen.png">
-                    <button type="button" class="btn-buy"><a href="https://drive.google.com/file/d/1PItc0sDHCLc_uT2TqBM1mh3EM8rUGzCU/view?usp=sharing">上課去</a></button>   
-                </div>
-                <p>01課前準備</p>     
-            </div>
-        </div>
-    </div>
- </section>
-  <!------------------教學內容 1------------------>
- <section class="teach-content">
- 	<div class="container">
-        <div class="row">
-        	<div class="col-md-6 text-center">
-                <h4>太陽花</h4>
-            	<div class="class-img">
-                	<img src="images/3Dpen/3D圖檔-太陽花.jpg">
-                    <button type="button" class="btn-buy"></button>
-                    <div class="overlay"></div>
-                </div>
-            </div>
-            <div class="col-md-6 text-center">
-                <h4>搖搖馬</h4>
-            	<div class="class-img">
-                	<img src="images/3Dpen/3D圖檔-搖搖馬.jpg">
-                    <button type="button" class="btn-buy"></button>
-                    <div class="overlay"></div>
-                </div>
-            </div>
-            <div class="col-md-6 text-center">
-                <h4>杯墊</h4>
-            	<div class="class-img">
-                	<img src="images/3Dpen/3D圖檔-杯墊.jpg">
-                    <button type="button" class="btn-buy"></button>
-                    <div class="overlay"></div>
-                </div>
-            </div>
-            <div class="col-md-6 text-center">
-                <h4>熱氣球</h4>
-            	<div class="class-img">
-                	<img src="images/3Dpen/3D圖檔-熱氣球.jpg">
-                    <button type="button" class="btn-buy"></button>
-                    <div class="overlay"></div>
-                </div>
-            </div>
-            <div class="col-md-6 text-center">
-                <h4>燈籠</h4>
-            	<div class="class-img">
-                	<img src="images/3Dpen/3D圖檔-燈籠.jpg">
-                    <button type="button" class="btn-buy"></button>
-                    <div class="overlay"></div>
-                </div>
-            </div>
-            <div class="col-md-6 text-center">
-                <h4>眼鏡</h4>
-            	<div class="class-img">
-                	<img src="images/3Dpen/3D圖檔-眼鏡.jpg">
-                    <button type="button" class="btn-buy"></button>
-                    <div class="overlay"></div>
-                </div>
-            </div>
-            <div class="col-md-6 text-center">
-                <h4>腳踏車</h4>
-            	<div class="class-img">
-                	<img src="images/3Dpen/3D圖檔-腳踏車.jpg">
-                    <button type="button" class="btn-buy"></button>
-                    <div class="overlay"></div>
-                </div>
-            </div>
-            <div class="col-md-6 text-center">
-                <h4>艾菲爾鐵塔-進階</h4>
-            	<div class="class-img">
-                	<img src="images/3Dpen/3D圖檔-艾菲爾鐵塔-進階.jpg">
-                    <button type="button" class="btn-buy"></button>
-                    <div class="overlay"></div>
-                </div>
-            </div>
-            <div class="col-md-6 text-center">
-                <h4>艾菲爾鐵塔</h4>
-            	<div class="class-img">
-                	<img src="images/3Dpen/3D圖檔-艾菲爾鐵塔.jpg">
-                    <button type="button" class="btn-buy"></button>
-                    <div class="overlay"></div>
-                </div>
-            </div>
-            <div class="col-md-6 text-center">
-                <h4>蝴蝶</h4>
-            	<div class="class-img">
-                	<img src="images/3Dpen/3D圖檔-蝴蝶.jpg">
-                    <button type="button" class="btn-buy"></button>
-                    <div class="overlay"></div>
-                </div>
-            </div>
-            <div class="col-md-6 text-center">
-                <h4>長椅</h4>
-            	<div class="class-img">
-                	<img src="images/3Dpen/3D圖檔-長椅.jpg">
-                    <button type="button" class="btn-buy"></button>
-                    <div class="overlay"></div>
-                </div>
-            </div>
-            <div class="col-md-6 text-center">
-                <h4>飛機</h4>
-            	<div class="class-img">
-                	<img src="images/3Dpen/3D圖檔-飛機.jpg">
-                    <button type="button" class="btn-buy"></button>
-                    <div class="overlay"></div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-                                                
-   <!------------------footer----------------->
-<section class="footer">
-      <div class="container">
-        <hr>
-        <div class="row">
-            <div class="col-md-8">
-            <p class="copyright">Designed with <i class="fa fa-heart"></i> by DobbySteam</p>
-             </div>               
-            <div class="col-md-4">   
-                <div class="footer-icons">
-                   <a href="https://www.facebook.com/DobbySTEAM"><i class="fa fa-facebook"></i></a>
-                   <a href="https://www.youtube.com/channel/UC0--S2V-m38Xx9rphhLjAKw"><i class="fa fa-youtube-play"></i></a>
-                 </div>
-            </div>
+ <section id="nav-header" class="nav-header">
+     <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="#"><img src="images/logo.jpg" alt="logo"></a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">多比首頁</a>
+          </li>
+<!--
+          <li class="nav-item">
+            <a class="nav-link" href="camps.html">寒暑期營隊</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="course.html">多比課程</a>
+          </li>
+-->
+        </ul>
+    	<div class="navbar-title">
+        	<button type="button" class="btn btn-touch"><a href="https://reurl.cc/n0mW0D" target="new">取得免費試上</a></button>
         </div>
       </div>
-</section>
-    
+    </nav>
+ </section>
+
+<!----------3D筆---------->
+ <section id="lesson-3dpen" class="lesson-3dpen">
+ 	<div class="container">                         
+        <div class="title-style text-center">
+            <h1>3D筆</h1>
+        </div>
+        <div class="row">
+            <div class="col-md-6 text-center">
+                <div class="pen-logo">
+                    <img src="images/3Dpen/3Dpen.png">
+                    <button type="button" class="btn-buy"><a href="https://drive.google.com/file/d/1Arqt5ADup3U2gbaAiE28A415Nl7k0Y5e/view?usp=sharing">上課去</a></button>   
+                </div>
+                <p>課前準備及上課事項</p>     
+            </div>
+            <div class="col-md-6 ">
+                <p>領取教材注意事項</p>
+				<ui>
+					<li>3D筆1人1隻</li>
+					<li>剪刀2人1隻</li>
+					<li>線材1人1堂2卷</li>
+					<li>透明夾1人1張></li>
+					<li>範例圖卡1堂1張</li>
+					<li>10孔充電器3個</li>
+					<li>5米延長線3條</li>
+					<li>膠帶，筆，姓名貼</li>
+					<li>亞麻繩</li>
+				</ui>
+            </div>
+        </div>
+	</div>
+  </section>
+
+<!------------------footer----------------->
+   <section class="footer text-center">
+	   <div class="container">
+		<div class="row">
+			<div class="col-md-12">
+            <p>Designed with <a href="TclassALL.html"><i class="fa fa-heart"></i></a> by 多比思維</p>
+			</div>	
+		</div>   
+		</div>
+  </section>
+<!--Global的網站分析 Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112006846-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'UA-112006846-1');
 </script>
 </body>
