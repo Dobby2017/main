@@ -133,8 +133,8 @@
 }
 .text-content
 {
-	margin-bottom: 150px;
-	padding-top: 50px
+	margin-bottom: 100px;
+	padding-top: 40px
 }
 .text-content span
 {
@@ -169,6 +169,29 @@
     font-size: 40px;
     font-weight: 600;
     margin-top: 5%;
+}
+.info
+{
+	margin: -50px 0 50px 0;
+	margin: -50px 0 50px 0;
+	font-size: 20px;
+}
+.info h1
+{
+	padding:  20px;
+	text-align: center;
+	font-weight: 600;
+	color: #ffb607;
+}
+.info h6
+{
+	font-weight: 600;
+	font-size: 20px;
+	color: #ffb607;
+}
+.info ui
+{
+	list-style-type:decimal;
 }
 
 
