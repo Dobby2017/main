@@ -34,7 +34,7 @@
 	transform:translateX(-50%);
 	position:absolute;
 }
-.nav-important /*寒暑期營隊*/
+--.nav-important /*寒暑期營隊*/
 {
 	background: #ffb607;
 }
@@ -51,14 +51,14 @@
 {
 	float: right;
 	color:#000 !important;
-    padding: 20px 15px !important;
+    //padding: 20px 15px !important;
 
 }
 .navbar-nav a:hover
 {
     float: right;
     font-weight:bold;
-    padding: 20px 15px !important;
+    //padding: 20px 15px !important;
 }
 
 .navbar-toggler  /*收起來的條狀選單*/
@@ -98,6 +98,19 @@
 {
 	color:#fff !important;
 	text-decoration:none !important;
+}
+#nav-header .btn
+{
+	font-size: 20px;
+	background: #ffb607;
+}
+#nav-header .dropdown-menu
+{
+	font-size: 20px;
+}
+.dropdown-item
+{
+	font-size: 20px;
 }
 /*-----靜態banner區塊-----*/
 .banner
@@ -166,21 +179,14 @@
 	{
 		right: 0%;
 	}
-		.navbar-nav /*選單*/
+	.navbar-nav /*選單*/
 	{
 		font-size: 25px; /*選單文字大小*/
 	}
-	.navbar-nav li a  /*選單在收起來會置右*/
-	{
-		padding: 5px 0px !important;
-	}
-	.navbar-nav a:hover
-	{
-		padding: 5px 0px !important;
-	}
+
 	#nav-header .btn-touch /*取得免費試上按鈕*/
 	{
-		margin-right: 100px;
+		margin-right: 150px;
 	}
     .banner-title h1
 	{
