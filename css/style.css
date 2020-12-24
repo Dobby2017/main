@@ -132,6 +132,12 @@
 	left: 10%;
 	top: 45%;
 }
+.banner-video
+{
+	position:absolute;
+	left: 65%;
+	top: 30%;
+}
 /*-----靜態banner區塊的文字先不放背景顏色-----*/
 .banner-title h1
 {
