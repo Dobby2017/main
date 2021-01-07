@@ -1,0 +1,112 @@
+﻿/*-----靜態banner區塊-----*/
+.lesson-banner
+{
+	position:relative;
+}
+.lesson-banner-img
+{
+	width: 100%;
+	
+}
+.lesson-banner-img img
+{
+	width: 100%;
+	margin-bottom: -80px;
+	background-image: linear-gradient(to right, #a517ba, #5f7182);
+}
+.lesson-banner-title
+{
+	position:absolute;
+	left: 30%;
+	top: 50%;
+}
+/*-----靜態banner區塊的文字先不放背景顏色-----*/
+.lesson-banner-title h1
+{
+	font-size: 75px;
+	//background: rgba(0,0,0,0.75);
+	color: #fff;
+	line-height: 70px;
+	padding: 0px 10px 5px 10px;
+}
+.lesson-banner-title p
+{
+	font-size: 35px;
+	//background: rgba(0,0,0,0.75);
+	color: #fff;
+	line-height: 40px;
+	padding: 0px 10px 5px 10px;
+	text-align: center;
+}
+/*----------寒暑期營隊-----------*/
+.FBarticle /*--和上下面的個區塊的距離--*/
+{
+	margin: 150px 0px 30px 0px;
+}
+/*--中間的文字大標題-開始--*/
+.title-style h1
+{
+	padding: 30px 0px;
+	font-size: 50px;
+}
+.title-style
+{
+	margin: 100px auto 80px;
+	height: 120px;
+	width:80%;
+	max-width: 700px;
+	background: #fff;
+	position:relative;
+	box-shadow: 0px 4px 5px 0px rgba(0,0,50,0.5);
+}
+.title-style::after
+{
+	content:'';
+	height: 100px;
+	width: 200px;
+	background-color: #ffb607;
+	position: absolute;
+	top: -10px;
+	left: -10px;
+	z-index:-1;
+}
+.title-style::before
+{
+	content: '';
+	height: 100px;
+	width: 200px;
+	background-color: #ffb607;
+	position: absolute;
+	bottom: -10px;
+	right: -10px;
+	z-index:-1;
+}
+/*---------課前準備--------*/
+.gift /*--和上下面的個區塊的距離--*/
+{
+	margin: 150px 0px 0px 0px;
+}
+.gift-logo
+{
+    width: 300px;
+    height: 300px;
+    background: #fff;
+    border-radius: 10%;
+    margin: 50px auto 30px;
+    box-shadow: 0px 2px 40px 0px rgba(110,130,208,0.18);
+}
+.gift-logo img
+{
+	width: 240px;
+    height: 240px;
+    margin: 30px auto;
+}
+.gift p
+{
+    margin-top: 30px;
+    font-weight: bold;
+}
+.gift ui
+{
+	list-style-type: decimal;
+}
