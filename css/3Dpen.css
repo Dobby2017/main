@@ -1,8 +1,4 @@
-﻿/*----------3D筆-----------*/
-.lesson-3dpen /*--和上下面的個區塊的距離--*/
-{
-	margin: 50px 0px 30px 0px;
-}
+﻿/*----------大標題-----------*/
 .title-style h1
 {
 	padding: 40px 0px;
@@ -39,12 +35,12 @@
 	right: -10px;
 	z-index:-1;
 }
-/*---------3D筆-多比課程--------*/
-.lesson-3dpen
+/*---------課前準備--------*/
+.lesson-before /*--和上下面的個區塊的距離--*/
 {
-	margin: 0px 0 0px 0;
+	margin: 50px 0px 30px 0px;
 }
-.pen-logo
+.class-logo
 {
     width: 200px;
     height: 200px;
@@ -53,45 +49,85 @@
     margin: 50px auto 30px;
     box-shadow: 0px 2px 40px 0px rgba(110,130,208,0.18);
 }
-.pen-logo img
+.class-logo img
 {
 	width: 200px;
     height: 200px;
     margin: 00px auto;
 }
-.btn-buy
-{
-	width: 200px;
-	padding: 10px 0px;
-	outline: none !important;
-	border: 0px;
-	border-radius: 2px;
-	position: absolute;
-	background:#fff;
- 	left: 50%;
-	bottom: 0px;
-	transform: translate(-50%,0);
-	transition: .6s;
-	opacity: 0;
-	z-index: 1;
-}
-.btn-buy a:any-link 
-{
-    text-decoration: none;
-    color: #000;
-}
-.pen-logo:hover .btn-buy
-{
-	transform: translate(-50%,50%);
-	bottom: 50%;
-	opacity:1;
-}
-.lesson-3dpen p
+
+.lesson-before p
 {
     margin-top: 30px;
     font-weight: bold;
 }
-.lesson-3dpen ui
+.lesson-before ui
+{
+	list-style-type: decimal;
+}/*----------大標題-----------*/
+.title-style h1
+{
+	padding: 40px 0px;
+}
+.title-style
+{
+	margin: 50px auto 50px;
+	height: 120px;
+	width:80%;
+	max-width: 700px;
+	background: #fff;
+	position:relative;
+	box-shadow: 0px 4px 5px 0px rgba(0,0,50,0.5);
+}
+.title-style::after
+{
+	content:'';
+	height: 100px;
+	width: 200px;
+	background-color: #ffb607;
+	position: absolute;
+	top: -10px;
+	left: -10px;
+	z-index:-1;
+}
+.title-style::before
+{
+	content: '';
+	height: 100px;
+	width: 200px;
+	background-color: #ffb607;
+	position: absolute;
+	bottom: -10px;
+	right: -10px;
+	z-index:-1;
+}
+/*---------課前準備--------*/
+.lesson-before /*--和上下面的個區塊的距離--*/
+{
+	margin: 50px 0px 30px 0px;
+}
+.class-logo
+{
+    width: 200px;
+    height: 200px;
+    background: #fff;
+    border-radius: 5%;
+    margin: 50px auto 30px;
+    box-shadow: 0px 2px 40px 0px rgba(110,130,208,0.18);
+}
+.class-logo img
+{
+	width: 200px;
+    height: 200px;
+    margin: 00px auto;
+}
+
+.lesson-before p
+{
+    margin-top: 30px;
+    font-weight: bold;
+}
+.lesson-before ui
 {
 	list-style-type: decimal;
 }
