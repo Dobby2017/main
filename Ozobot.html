@@ -1,320 +1,196 @@
-<!doctype html>
+<!DOCTYPE HTML>
 <html>
 <head>
+<!--viewport手機螢幕呈現最佳閱讀的狀態;width=device-width自動符合所有不同手機螢幕;手機螢幕畫面的初始縮放比例為 100%-->
+<!--這一個設定是響應式的設計的啟端，為的是將"內容的寬度參數" 等於 "設備的顯示寬度"這樣之後在CSS裡面設定width:100%才會符合設備的顯示寬度-->
+<!--下面這一行viewport一定要加才能做響應式網頁--> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8" >
+<meta name="keywords" content="多元學習，未來教育, 程式教育  ">
+<meta name="description" content="3D筆，3D列印，ScratchJr,Ozobot,Bloxels,Scratch,Minecraft,App Inventor,Micro:bit,HTML, CSS,網頁設計,露比任務">
+<title>多比思維｜未來兒童教育-把最好的教育帶給孩子</title> <!--網頁名稱-->
 <link rel="icon" href="https://dobby2017.github.io/main/images/page_icon.gif" type="image/gif" sizes="16x16">
-<meta charset="UTF-8">
-<title>多比思維｜兒童程式教育｜培養興趣‧建構思維‧綜合應用</title>
-<!--https://www.w3schools.com/w3css/4/w3.css會影響選單的版型-->
+<!--第一個link是Favicon (favorites icon)-->
+<link rel="stylesheet" href="css/Ozobot.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<!--1. font awesome 4 cdn 2. Font Awesome CSS--> 
+<!--https://www.w3schools.com/w3css/4/w3.css會影響選單的版型,用來做動態換畫面banner-->
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="css/styles.css">
-<link rel="stylesheet" href="css/stylesOzobot.css">
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<!--1. bootstrap 2. Get started 3. CSS & JS-->
 </head>
+ <body>
+<!----------課前準備---------->
+ <section id="lesson-before" class="lesson-before">
+ 	<div class="container">
+		<!----------大標題---------->
+        <div class="title-style text-center">
+            <h1>Ozobot</h1>
+        </div>
+        <div class="row">
+            <div class="col-md-3 ">
+                <p>領取教材清單</p>
+				<ui>
+					<li>牌卡2人1組</li>
+					<li>地圖兩人1張</li>
+					<li>材料包2人1包</li>
+				</ui>
+            </div>
+            <div class="col-md-6 text-center">
+                <div class="class-logo">
+                    <img src="images/Ozobot.png">
+                </div>
+            </div>
+            <div class="col-md-3 ">
+                <p>歸還教材清單</p>
+				<ui>
+					<li>牌卡2人1組</li>
+					<li>地圖兩人1張</li>
+					<li>材料包2人1包</li>
+				</ui>
+            </div>
+        </div>
+	</div>
+ </section>
+<!----------上課裝備---------->
+ <section id="lesson-material" class="lesson-material">
+	  	<div class="container">
+			<div class="row text-center">
+            <div class="col-md-12">
+					<h1>學生製作的裝備參考圖(請老師提供照片)</h1>
+            </div>
+            <div class="col-md-2">
+					<img src="images/Ozobot.png">
+            </div>
+            <div class="col-md-2">
+					<img src="images/Ozobot.png">
+            </div>
+            <div class="col-md-2">
+					<img src="images/Ozobot.png">
+            </div>
+            <div class="col-md-2">
+					<img src="images/Ozobot.png">
+            </div>
+            <div class="col-md-2">
+					<img src="images/Ozobot.png">
+            </div>
+            <div class="col-md-2">
+					<img src="images/Ozobot.png">
+            </div>
+        </div>
+	</div>
+  </section>
+<!----------上課內容---------->
+ <section id="lesson-content" class="lesson-content">
+	  	<div class="container">
+			        <div class="row text-center">
+            <div class="col-md-3">
+                    <a href=""><img src="images/Ozobot/1自由創作.jpg"></a>
+                <p><a href="https://drive.google.com/open?id=1CrE_t21j3h0BNgdBnzyb_vIe2amc9B8z" target="_blank">01 循線機器人</a></p>
+				<a href="https://www.youtube.com/watch?v=8gy5tYVR-28" target="_blank">快速運輸機器人</a><br>
+				<a href="https://www.youtube.com/watch?v=nQ365jzwk5w" target="_blank">火星好奇號流浪者</a><br>
+				<a href="https://video.foxnews.com/v/2344302610001/#sp=show-clips" target="_blank">上學的機器人</a><br>
+				<a href="https://www.youtube.com/watch?v=Dd3N9CFKe9M" target="_blank">循線火車</a>
+            </div>
+            <div class="col-md-3">
+                    <a href=""><img src="images/Ozobot/2機器人的本領.jpg"></a>
+                <p><a href="https://drive.google.com/open?id=1PUFIQBLucLPc6TFMZ6iapmUWxlQanTyB" target="_blank">02 機器人的本領</a></p>    
+            </div>
+            <div class="col-md-3">
+                    <a href=""><img src="images/Ozobot/3機器人去那裡.jpg"></a>
+                <p><a href="https://drive.google.com/open?id=1A29IkMfzS6eM1q7itSTr8aEbmQut8BKX" target="_blank">03 機器人去那裡</a></p>  
+            </div>
+            <div class="col-md-3">
+                    <a href=""><img src="images/Ozobot/4顏色程式碼畫法.jpg"></a>
+                <p><a href="https://drive.google.com/open?id=1n1Py43CqAIEHGyvbY0Q71AjrNajO3h-Y" target="_blank">04 顏色程式碼畫法</a></p>  
+            </div>
+            <div class="col-md-3">
+                    <a href=""><img src="images/Ozobot/5復活節的彩蛋.jpg"></a>
+                <p><a href="https://drive.google.com/open?id=1SPHMSF1hvQfy_Tk26A5IdklhTBYycUWj" target="_blank">05 復活節的彩蛋</a></p>
+				<a href="https://drive.google.com/open?id=1QnXyA0SQW7h12kFWC_AQXZsE7UswYCXr" target="_blank">什麼是復活節呢？</a>
+            </div>
+            <div class="col-md-3">
+                    <a href=""><img src="images/Ozobot/6飛行過河.jpg"></a>
+                <p><a href="https://drive.google.com/open?id=18rxUV_9gbASbmtQtmT7vMZ5gMgAneOlG" target="_blank">06 飛行過河</a></p>   
+            </div>
+            <div class="col-md-3">
+                    <a href=""><img src="images/Ozobot/7環島旅行.jpg"></a>
+                <p><a href="https://drive.google.com/open?id=19PbTXa4mX6r2Eay4YRNHWN1EAwSzWwWX" target="_blank">07 環島旅行</a></p>    
+            </div>
+            <div class="col-md-3">
+                    <a href=""><img src="images/Ozobot/8能源巡航.jpg"></a>
+                <p><a href="https://drive.google.com/open?id=1Bufr6TC-pl4aRlka9CIRAOHk6jV-scU8" target="_blank">08 能源巡航</a></p>
+				<a href="http://bit.ly/2FxHoTG" target="_blank">認識再生能源</a><br>
+				<a href="http://bit.ly/2FzzHMR" target="_blank">「化石能源」是什麼</a><br>
+				<a href="http://bit.ly/2Fycmev" target="_blank">再生能源超級爭霸戰</a>
+            </div>
+            <div class="col-md-3">
+                    <a href=""><img src="images/Ozobot/9搶旗.jpg"></a>
+                <p><a href="https://drive.google.com/open?id=1oP5bB320Yxm1ltew1WaWrscUKGz_TJUK" target="_blank">09 搶旗</a></p>  
+				<a href="https://www.ifreesite.com/world/" target="_blank">全球國旗</a>
+            </div>
+            <div class="col-md-3">
+                    <a href=""><img src="images/Ozobot/10大隊接力.jpg"></a>
+                <p><a href="https://drive.google.com/open?id=1emtRjNcYFbV53MdQB89wTZbfxZQJJHeZ" target="_blank">10 大隊接力</a></p>
+            </div>
+            <div class="col-md-3">
+                    <a href=""><img src="images/Ozobot/11愛心拼字.jpg"></a>
+                <p><a href="https://drive.google.com/file/d/1m2_2QAsvmKBREewq89Ua2_YqCIDAns5d/view?usp=sharing">11 愛心拼字</a></p>   
+            </div>
+            <div class="col-md-3">
+                    <a href=""><img src="images/Ozobot/12資源回收.jpg"></a>
+                <p><a href="https://drive.google.com/file/d/1R9Ck7QjAeza79Kr7w9DY1c5ZlxDG-xTG/view?usp=sharing">12 資源回收</a></p>  
+				<a href="http://bit.ly/2FyuTHw" target="_blank">淺談你我都知道的資源回收</a><br>
+				<a href="http://bit.ly/2FAHE4a" target="_blank">資源回收勿亂丟，回收愛地球</a><br>
+                <a href="http://bit.ly/2FAHJ7Y" target="_blank">三分鐘教你輕鬆愛世界</a>
+            </div>
+            <div class="col-md-3">
+                    <a href=""><img src="images/Ozobot/13兔子找紅蘿蔔.jpg"></a>
+                <p><a href="https://drive.google.com/file/d/1em3ToF7h0UAZfziwuEaeqyP7inftMaFZ/view?usp=sharing">13 兔子找紅蘿蔔</a></p>
+            </div>
+            <div class="col-md-3">
+                    <a href=""><img src="images/Ozobot/14歐寶要回家.jpg"></a>
+                <p><a href="https://drive.google.com/file/d/1TrCTol0NZWu20FsvJJS9-1SsszJ_yJw4/view?usp=sharing">14 歐寶要回家</a></p>   
+            </div>
+            <div class="col-md-3">
+                    <a href=""><img src="images/Ozobot/15奪寶.jpg"></a>
+                <p><a href="https://drive.google.com/file/d/1IUYipkiJeaof2WAI4M5wsReZW0W8m4g0/view?usp=sharing">15 奪寶</a></p>
+            </div>
+            <div class="col-md-3">
+                    <a href=""><img src="images/Ozobot/16推雪球.jpg"></a>
+                <p><a href="https://drive.google.com/file/d/1nZ6Y7EuQccy5fhiikPKMpmhcpp_14Tzd/view?usp=sharing">16 推雪球</a></p>   
+            </div>
+            <div class="col-md-3">
+                    <a href=""><img src="images/Ozobot/17保齡球大賽.jpg"></a>
+                <p><a href="https://drive.google.com/file/d/1oZKm-RvuB2C577M73e62f5P31SeOomqB/view?usp=sharing">17 保齡球大賽</a></p>
+            </div>
+            <div class="col-md-3">
+                    <a href=""><img src="images/Ozobot/18總統大遊行.jpg"></a>
+                <p><a href="https://drive.google.com/file/d/144SXd5lctF_k-6cgPIv5xkl1TqmRPaQy/view?usp=sharing">18 總統大遊行</a></p>   
+            </div>
+            </div>	
+        </div>
+	</div>
+  </section>
 
-<body>
-	<header></header>
-	<main>
-		<div class="Bigtitle">
-			 Ozobot  
+<!------------------footer----------------->
+   <section class="footer text-center">
+	   <div class="container">
+		<div class="row">
+			<div class="col-md-12">
+            <p>Designed with <a href="TclassALL.html"><i class="fa fa-heart"></i></a> by 多比思維</p>
+			</div>	
+		</div>   
 		</div>
-		<div class="titleBg">
-			 &nbsp;&nbsp;初階
-		</div>
-		<div><br><a href="https://drive.google.com/open?id=1xKUSQfny-YQQ3vbWVG9AyChj6oMdVeon" target="_blank">顏色程式碼_簡單版</a> / 
-	       <a href="https://drive.google.com/open?id=1GnNTJphLYLAl1uh52JEUnqnSkPidLBmx" target="_blank">顏色程式碼</a> / 
-	       <a href="https://drive.google.com/open?id=1hy8WCD3smwIu7yEyFbD3UY7CypgZalNP" target="_blank">校正和讀取程式</a> / 
-	       <a href="https://drive.google.com/open?id=1TeDp-7oPiTVQoPRmRqFF-vULjZaOFjNp" target="_blank">學生自由創作作品</a><br>
-			
-			<a href="https://gnddb.herokuapp.com/slimes" target="_blank"><img width="200" src="images/Ozobot/ozobot裝備.jpg" >超酷裝備參考</a><br>
-			
-		       <table>
-		         <tbody>
-		           <tr>
-		             <th>週次</th>
-		             <th>圖檔</th>
-		             <th>介紹</th>
-		             <th>教案</th>
-		             <th>補充教案</th>
-		             <th>程式比賽</th>
-		             <th>主題課程-太空之旅</th>
-	               </tr>
-		           <tr>
-	            	 <td>1</td>
-	            	 <td><img src="images/Ozobot/1自由創作.jpg"></td>
-	            	 <td><a href="https://www.youtube.com/watch?v=8gy5tYVR-28" target="_blank">快速運輸機器人</a><br>
-                       <a href="https://www.youtube.com/watch?v=nQ365jzwk5w" target="_blank">火星好奇號流浪者</a><br>
-                       <a href="https://video.foxnews.com/v/2344302610001/#sp=show-clips" target="_blank">上學的機器人</a><br>
-                     <a href="https://www.youtube.com/watch?v=Dd3N9CFKe9M" target="_blank">循線火車</a></td>
-		             <td><a href="https://drive.google.com/open?id=1CrE_t21j3h0BNgdBnzyb_vIe2amc9B8z" target="_blank">循線機器人</a></td>
-		             <td>&nbsp;</td>
-		             <td>&nbsp;</td>
-		             <td><a href="https://www.youtube.com/watch?v=qLRy5Ttf1w0" target="_blank">太陽家庭</a><br><a href="https://www.youtube.com/watch?v=qLRy5Ttf1w0" target="_blank">太陽系的形成</a><br><a href="https://www.youtube.com/watch?v=MbUZwR-Rgmw" target="_blank">太陽系行星介紹</a></td>
-	               </tr>
-		           <tr>
-		             <td>2</td>
-		             <td><img src="images/Ozobot/2機器人的本領.jpg"></td>
-		             <td>&nbsp;</td>
-		             <td><a href="https://drive.google.com/open?id=1PUFIQBLucLPc6TFMZ6iapmUWxlQanTyB" target="_blank">機器人的本領</a></td>
-		             <td>裝備-臉</td>
-		             <td>速度</td>
-		             <td>&nbsp;</td>
-	               </tr>
-		           <tr>
-		             <td>3</td>
-		             <td><img src="images/Ozobot/3機器人去那裡.jpg"></td>
-		             <td>&nbsp;</td>
-		             <td><a href="https://drive.google.com/open?id=1A29IkMfzS6eM1q7itSTr8aEbmQut8BKX" target="_blank">機器人去那裡</a></td>
-		             <td>&nbsp;</td>
-		             <td>速度、方向</td>
-		             <td>&nbsp;</td>
-	               </tr>
-		           <tr>
-		             <td>4</td>
-		             <td><img src="images/Ozobot/4顏色程式碼畫法.jpg"></td>
-		             <td>&nbsp;</td>
-		             <td><a href="https://drive.google.com/open?id=1n1Py43CqAIEHGyvbY0Q71AjrNajO3h-Y" target="_blank">顏色程式碼畫法</a></td>
-		             <td>&nbsp;</td>
-		             <td>速度、方向、動作</td>
-		             <td>&nbsp;</td>
-	               </tr>
-		           <tr>
-		             <td>5</td>
-		             <td><img src="images/Ozobot/5復活節的彩蛋.jpg"></td>
-		             <td><a href="https://www.youtube.com/watch?v=nOCpfHyt6hU" target="_blank">復活節的由來 </a><br><a href="https://drive.google.com/open?id=1QnXyA0SQW7h12kFWC_AQXZsE7UswYCXr" target="_blank">什麼是復活節呢？</a></td>
-		             <td><a href="https://drive.google.com/open?id=1SPHMSF1hvQfy_Tk26A5IdklhTBYycUWj" target="_blank">復活節的彩蛋</a></td>
-		             <td>裝備-兔子耳</td>
-		             <td>速度、方向、動作</td>
-		             <td>&nbsp;</td>
-	               </tr>
-		           <tr>
-		             <td>6</td>
-		             <td><img src="images/Ozobot/6飛行過河.jpg"></td>
-		             <td>&nbsp;</td>
-		             <td><a href="https://drive.google.com/open?id=18rxUV_9gbASbmtQtmT7vMZ5gMgAneOlG" target="_blank">飛行過河</a></td>
-		             <td>裝備-飛行裝備</td>
-		             <td>速度、方向、動作</td>
-		             <td>&nbsp;</td>
-	               </tr>
-		           <tr>
-		             <td>7</td>
-		             <td><img src="images/Ozobot/7環島旅行.jpg"></td>
-		             <td>&nbsp;</td>
-		             <td><a href="https://drive.google.com/open?id=19PbTXa4mX6r2Eay4YRNHWN1EAwSzWwWX" target="_blank">環島旅行</a></td>
-		             <td>裝備-旅行裝備</td>
-		             <td>綜合運用</td>
-		             <td>&nbsp;</td>
-	               </tr>
-		           <tr>
-		             <td>8</td>
-		             <td><img src="images/Ozobot/8能源巡航.jpg"></td>
-		             <td><a href="http://bit.ly/2FxHoTG" target="_blank">認識再生能源</a><br>
-		               <a href="http://bit.ly/2Fycmev" target="_blank">再生能源超級爭霸戰</a><br>
-		               <a href="http://bit.ly/2FzzHMR" target="_blank">「化石能源」是什麼？</a></td>
-		             <td><a href="https://drive.google.com/open?id=1Bufr6TC-pl4aRlka9CIRAOHk6jV-scU8" target="_blank">能源巡航</a></td>
-		             <td>&nbsp;</td>
-		             <td>速度、方向、動作</td>
-		             <td>&nbsp;</td>
-	               </tr>
-		           <tr>
-		             <td>9</td>
-		             <td><img src="images/Ozobot/9搶旗.jpg"></td>
-		             <td><a href="https://www.ifreesite.com/world/" target="_blank">全球國旗</a></td>
-		             <td><a href="https://drive.google.com/open?id=1oP5bB320Yxm1ltew1WaWrscUKGz_TJUK" target="_blank">搶旗</a></td>
-		             <td>裝備-大盜</td>
-		             <td>綜合運用</td>
-		             <td>&nbsp;</td>
-	               </tr>
-		           <tr>
-		             <td>10</td>
-		             <td><img src="images/Ozobot/10大隊接力.jpg"></td>
-		             <td>&nbsp;</td>
-		             <td><a href="https://drive.google.com/open?id=1emtRjNcYFbV53MdQB89wTZbfxZQJJHeZ" target="_blank">大隊接力</a></td>
-		             <td>裝備-賽跑選手</td>
-		             <td>綜合運用</td>
-		             <td>&nbsp;</td>
-	               </tr>
-		           <tr>
-		             <td>11</td>
-		             <td><img src="images/Ozobot/11愛心拼字.jpg"></td>
-		             <td>&nbsp;</td>
-		             <td><a href="https://drive.google.com/file/d/1m2_2QAsvmKBREewq89Ua2_YqCIDAns5d/view?usp=sharing">愛心拼字</a></td>
-		             <td>&nbsp;</td>
-		             <td>速度、方向、動作</td>
-		             <td>&nbsp;</td>
-	               </tr>
-		           <tr>
-		             <td>12</td>
-		             <td><img src="images/Ozobot/12資源回收.jpg"></td>
-		             <td><a href="http://bit.ly/2FyuTHw" target="_blank">淺談你我都知道的資源回收</a><br>
-                       <a href="http://bit.ly/2FAHE4a" target="_blank">資源回收勿亂丟，回收愛地球</a><br>
-                     <a href="http://bit.ly/2FAHJ7Y" target="_blank">三分鐘教你輕鬆愛世界</a></td>
-		             <td><a href="https://drive.google.com/file/d/1R9Ck7QjAeza79Kr7w9DY1c5ZlxDG-xTG/view?usp=sharing">資源回收</a></td>
-		             <td>&nbsp;</td>
-		             <td>速度、方向、動作</td>
-		             <td>&nbsp;</td>
-	               </tr>
-		           <tr>
-		             <td>13</td>
-		             <td><img src="images/Ozobot/13兔子找紅蘿蔔.jpg"></td>
-		             <td>&nbsp;</td>
-		             <td><a href="https://drive.google.com/file/d/1em3ToF7h0UAZfziwuEaeqyP7inftMaFZ/view?usp=sharing">兔子找紅蘿蔔</a></td>
-		             <td>&nbsp;</td>
-		             <td>速度、方向、動作</td>
-		             <td>&nbsp;</td>
-	               </tr>
-		           <tr>
-		             <td>14</td>
-		             <td><img src="images/Ozobot/14歐寶要回家.jpg"></td>
-		             <td>&nbsp;</td>
-		             <td><a href="https://drive.google.com/file/d/1TrCTol0NZWu20FsvJJS9-1SsszJ_yJw4/view?usp=sharing">歐寶要回家</a></td>
-		             <td>&nbsp;</td>
-		             <td>速度、方向、動作</td>
-		             <td>&nbsp;</td>
-	               </tr>
-		           <tr>
-		             <td>15</td>
-		             <td><img src="images/Ozobot/15奪寶.jpg"></td>
-		             <td>&nbsp;</td>
-		             <td><a href="https://drive.google.com/file/d/1IUYipkiJeaof2WAI4M5wsReZW0W8m4g0/view?usp=sharing">奪寶</a></td>
-		             <td>&nbsp;</td>
-		             <td>速度、方向、動作</td>
-		             <td>&nbsp;</td>
-	               </tr>
-		           <tr>
-		             <td>16</td>
-		             <td><img src="images/Ozobot/16推雪球A3.jpg"></td>
-		             <td>&nbsp;</td>
-		             <td><a href="https://drive.google.com/file/d/1nZ6Y7EuQccy5fhiikPKMpmhcpp_14Tzd/view?usp=sharing">推雪球</a></td>
-		             <td>&nbsp;</td>
-		             <td>綜合運用</td>
-		             <td>&nbsp;</td>
-	               </tr>
-		           <tr>
-		             <td>17</td>
-		             <td><img src="images/Ozobot/17保齡球大賽.jpg"></td>
-		             <td>&nbsp;</td>
-		             <td><a href="https://drive.google.com/file/d/1oZKm-RvuB2C577M73e62f5P31SeOomqB/view?usp=sharing">保齡球大賽</a></td>
-		             <td>&nbsp;</td>
-		             <td>綜合運用</td>
-		             <td>&nbsp;</td>
-	               </tr>
-		           <tr>
-		             <td>18</td>
-		             <td><img src="images/Ozobot/18總統大遊行.jpg"></td>
-		             <td>&nbsp;</td>
-		             <td><a href="https://drive.google.com/file/d/144SXd5lctF_k-6cgPIv5xkl1TqmRPaQy/view?usp=sharing">總統大遊行</a></td>
-		             <td>&nbsp;</td>
-		             <td>&nbsp;</td>
-		             <td>&nbsp;</td>
-	               </tr>
-		           <tr>
-		             <td>&nbsp;</td>
-		             <td>&nbsp;</td>
-		             <td>&nbsp;</td>
-		             <td>&nbsp;</td>
-		             <td>&nbsp;</td>
-		             <td>&nbsp;</td>
-		             <td>&nbsp;</td>
-	               </tr>
-		           <tr>
-		             <td>&nbsp;</td>
-		             <td>&nbsp;</td>
-		             <td>&nbsp;</td>
-		             <td>&nbsp;</td>
-		             <td>&nbsp;</td>
-		             <td>&nbsp;</td>
-		             <td>&nbsp;</td>
-	               </tr>
-		           <tr>
-		             <td>&nbsp;</td>
-		             <td>&nbsp;</td>
-		             <td>&nbsp;</td>
-		             <td>&nbsp;</td>
-		             <td>&nbsp;</td>
-		             <td>&nbsp;</td>
-		             <td>&nbsp;</td>
-	               </tr>
-		           <tr>
-		             <td>&nbsp;</td>
-		             <td>&nbsp;</td>
-		             <td>&nbsp;</td>
-		             <td>&nbsp;</td>
-		             <td>&nbsp;</td>
-		             <td>&nbsp;</td>
-		             <td>&nbsp;</td>
-	               </tr>
-		           <tr>
-		             <td>&nbsp;</td>
-		             <td>&nbsp;</td>
-		             <td>&nbsp;</td>
-		             <td>&nbsp;</td>
-		             <td>&nbsp;</td>
-		             <td>&nbsp;</td>
-		             <td>&nbsp;</td>
-	               </tr>
-	             </tbody>
-          </table>
-		</div>
-
-
-<br><br><br><br>
-	</main>
-	<footer>
-		<script>
-		var myIndex = 0;
-		carousel();
-
-		function carousel() {
-			var i;
-			var x = document.getElementsByClassName("mySlides");
-			for (i = 0; i < x.length; i++) {
-			   x[i].style.display = "none";  
-			}
-			myIndex++;
-			if (myIndex > x.length) {myIndex = 1}    
-			x[myIndex-1].style.display = "block";  
-			setTimeout(carousel, 2500); // Change image every 2 seconds
-			//加下面這個就可以中間的圈圈和目前照片同步
-			showDivs(slideIndex = myIndex);
-		}
-		</script>
-<!-- w3.css slideshow w3.css slideshoww3.css slideshow-->
-		<script>
-		var slideIndex = 1;
-		showDivs(slideIndex);
-
-		function plusDivs(n) {
-		  showDivs(slideIndex += n);
-		}
-
-		function currentDiv(n) {
-		  showDivs(slideIndex = n);
-		}
-
-		function showDivs(n) {
-		  var i;
-		  var x = document.getElementsByClassName("mySlides");
-		  var dots = document.getElementsByClassName("demo");
-		  if (n > x.length) {slideIndex = 1}    
-		  if (n < 1) {slideIndex = x.length}
-		  for (i = 0; i < x.length; i++) {
-			 x[i].style.display = "none";  
-		  }
-		  for (i = 0; i < dots.length; i++) {
-			 dots[i].className = dots[i].className.replace(" w3-white", "");
-		  }
-		  x[slideIndex-1].style.display = "block";  
-		  dots[slideIndex-1].className += " w3-white";
-		}
-		</script>
-<!-- Global site tag (gtag.js) - Google Analytics -->
+  </section>
+<!--Global的網站分析 Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112006846-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'UA-112006846-1');
 </script>
-	</footer>
 </body>
 </html>
