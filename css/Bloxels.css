@@ -1,242 +1,94 @@
-﻿/*---------教學內容 1--------*/
-
-.teach-content
+﻿/*----------大標題-----------*/
+.title-style h1
 {
-	padding: 20px;
+	padding: 40px 0px;
 }
-
-.title-style img
+.title-style
 {
-        width: 250px;
-        padding-top:20px; 
-}
-
-
-.class-img
-{
+	margin: 50px auto 50px;
+	height: 120px;
+	width:80%;
+	max-width: 700px;
+	background: #fff;
 	position:relative;
-	margin: 0px 0 20px 0 ;
+	box-shadow: 0px 4px 5px 0px rgba(0,0,50,0.5);
 }
-.class-img img
+.title-style::after
 {
-	width:100%;
-}
-.btn-buy
-{
-	width: 150px;
-	padding: 10px 0px;
-	outline: none !important;
-	border: 0px;
-	border-radius: 2px;
+	content:'';
+	height: 100px;
+	width: 200px;
+	background-color: #ffb607;
 	position: absolute;
-	background:#fff;
-    font-size: 20px;
- 	left: 50%;
-	bottom: 0px;
-	transform: translate(-50%,0);
-	transition: .6s;
-	opacity: 0;
-	z-index: 1;
+	top: -10px;
+	left: -10px;
+	z-index:-1;
 }
-.btn-buy a:any-link 
+.title-style::before
 {
-    text-decoration: none;
-    color: #000;
+	content: '';
+	height: 100px;
+	width: 200px;
+	background-color: #ffb607;
+	position: absolute;
+	bottom: -10px;
+	right: -10px;
+	z-index:-1;
 }
-.class-img:hover .btn-buy
+/*---------課前準備--------*/
+.lesson-before /*--和上下面的個區塊的距離--*/
 {
-	transform: translate(-50%,50%);
-	bottom: 50%;
-	opacity:1;
+	margin: 50px 0px 30px 0px;
 }
-.overlay
-{
-	height: 0;
-	width:100%;
-	background: #333;
-	position:absolute;
-	top: 0;
-	opacity: 0;
-	transition: .5s;
-}
-.class-img:hover .overlay
-{
-	opacity: .5;
-	height:100%;
-}
-/*---------玩家狀態示範--------*/
-
-.player
-{
-    padding: 10px 0px;
-    background: #f5f6fc;
-}
-.player img
-{
-    width: 192px;
-    height: 144px;
-    padding: 5px;
-}
-.player h5
-{
-    margin-bottom: 5px
-}
-.player h6
-{
-    margin: 2px
-}
-.player h5::before
-{
-    content: '';
-    width: 40px;
-    height: 3px;
-    background: #4f74e8;
-    top: 24px;
-    position: absolute;
-}
-/*---------教學內容 2 同教學內容一--------*/
-
-/*---------多比課程--------*/
-
-.fashion-brands
-{
-	margin: 0px 0 0px 0;
-}
-.brand-logo
+.class-logo
 {
     width: 200px;
     height: 200px;
     background: #fff;
-    border-radius: 50%;
+    border-radius: 5%;
     margin: 50px auto 30px;
     box-shadow: 0px 2px 40px 0px rgba(110,130,208,0.18);
 }
-.brand-logo img
-{
-	width: 150px;
-    margin: 50px auto;
-}
-
-
-.btn-buy
+.class-logo img
 {
 	width: 200px;
-	padding: 10px 0px;
-	outline: none !important;
-	border: 0px;
-	border-radius: 2px;
-	position: absolute;
-	background:#fff;
- 	left: 50%;
-	bottom: 0px;
-	transform: translate(-50%,0);
-	transition: .6s;
-	opacity: 0;
-	z-index: 1;
+    height: 200px;
+    margin: 00px auto;
 }
-.btn-buy a:any-link 
+
+.lesson-before p
 {
-    text-decoration: none;
-    color: #000;
+    margin-top: 30px;
+    font-weight: bold;
 }
-.brand-logo:hover .btn-buy
+.lesson-before ui
 {
-	transform: translate(-50%,50%);
-	bottom: 50%;
-	opacity:1;
+	list-style-type: decimal;
 }
-
-
-
-.fashion-brands p
+/*---------上課材料--------*/
+.lesson-material 
+{
+    margin-top: 30px;
+    font-weight: bold;
+}
+.lesson-material img
+{
+	width: 100%;
+    margin: 00px auto;
+}
+/*---------上課內容--------*/
+.lesson-content p
 {
     margin-top: 30px;
     font-weight: bold;
 }
 
-
-/*---------table--------*/
-
-.DIVtext {
-	width: 60%;
-	float:left;
-	font-size: 20px;
-	line-height: 36px;
-	padding-top: 5%;
-	padding-left: 3%;
-	height: auto;
-}
-
-
-table, th, td {
-	margin-bottom: 12px;
-    border: 1px solid #D3D3D3;
-	text-align: center;
-}
-table img {
-    width: 100px;
-}
-table {
-    border-collapse: collapse;
-    width: 100%;
-}
-th {
-    padding-top: 12px;
-    padding-bottom: 12px;
-	background-color:#DDDDDD;}
-/*間隔的顏色不同*/
-tr:nth-child(even) {
-	background-color:#FFFFFF;
-}
-td {
-    padding: 8px;
-}
-td a:link, a:visited {
-  background-color: white;
-  color: black;
-  border: 2px solid green;
-  padding: 5px 10px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-}
-td a:hover, a:active {
-  background-color: green;
-  color: white;
-}
-/*內容部份-結束*/
-
-/*---------footer--------*/
-
-.footer
+.lesson-content img
 {
-    margin-top: 150x;
-    background: #f5f6fc;
+	width: 80%;
+	box-shadow: 3px 3px 12px gray;
+	padding: 10px;
+	background: #f5f6fc;
+	border-radius: 10%;
 }
 
-.footer-icons
-{
-    text-align: right;
-}
-.footer-icons .fa
-{
-    margin: 0 10px auto;
-    font-size: 20px;
-    cursor: pointer;
-}
-
-
-
-
-
-
-/*---------for small device--------*/
-
-@media only screen and (max-width:900px)
-{
-    .title-style img
-    {
-        width: 200px;
-        padding-top:30px; 
-    }
-}
