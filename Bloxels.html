@@ -1,235 +1,131 @@
+<!DOCTYPE HTML>
 <html>
 <head>
 <!--viewport手機螢幕呈現最佳閱讀的狀態;width=device-width自動符合所有不同手機螢幕;手機螢幕畫面的初始縮放比例為 100%-->
 <!--這一個設定是響應式的設計的啟端，為的是將"內容的寬度參數" 等於 "設備的顯示寬度"這樣之後在CSS裡面設定width:100%才會符合設備的顯示寬度-->
-<!--第一個link是網頁的標示圖，最後兩個link是連結bootstrap的css元素和公用圖檔-->
-<!--最下面有Global的網站分析 Global site tag (gtag.js) - Google Analytics -->
-<meta name="viewport" content="width=device-width, initial-scale=1.0"; charset="utf-8">
-<title>多比思維｜兒童程式教育</title>
-<meta name="keywords" content="兒童程式教育  兒童程式設計，程式設計課程">
-<meta name="description" content="ScratchJr,Code.org + Unplugged,Ozobot,Bloxels,魔術方塊,不插電科學,Scratch,Minecraft,App Inventor,Micro:bit,Mio自走車,網頁設計,露比任務">
-<link rel="icon" href="https://dobby2017.github.io/main/images/page_icon.gif" type="image/gif" sizes="16x16">                                                                                            
-<link rel="stylesheet" href="css/style.css">
+<!--下面這一行viewport一定要加才能做響應式網頁--> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8" >
+<meta name="keywords" content="多元學習，未來教育, 程式教育  ">
+<meta name="description" content="3D筆，3D列印，ScratchJr,Ozobot,Bloxels,Scratch,Minecraft,App Inventor,Micro:bit,HTML, CSS,網頁設計,露比任務">
+<title>多比思維｜未來兒童教育-把最好的教育帶給孩子</title> <!--網頁名稱-->
+<link rel="icon" href="https://dobby2017.github.io/main/images/page_icon.gif" type="image/gif" sizes="16x16">
+<!--第一個link是Favicon (favorites icon)-->
 <link rel="stylesheet" href="css/Bloxels.css">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<!--1. font awesome 4 cdn 2. Font Awesome CSS--> 
+<!--https://www.w3schools.com/w3css/4/w3.css會影響選單的版型,用來做動態換畫面banner-->
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<!--1. bootstrap 2. Get started 3. CSS & JS-->
 </head>
  <body>
-<section  class="class-content">
-    <div class="container">
-        	<div class="title-style text-center">
-            <a href="https://drive.google.com/open?id=1lDRmoXB_vxy_ELzV_1VB_5U3yWclDVOq"><img src="images/T-Bloxels/T-Bloxels.png"></a>
-            </div>
-        <div class="row text-center">
-            <div class="col-md-3">
-                <div class="brand-logo">
-                    <img src="images/T-Bloxels/T-Bloxels2.png">
-                    <button type="button" class="btn-buy"><a href="https://drive.google.com/open?id=1ol2aSsgQEX-eRzB_LybhoEuq7cmD3hrb">上課去</a></button>
-                </div>
-                <p>01 介紹</p>     
-            </div>
-            <div class="col-md-3">
-                <div class="brand-logo">
-                    <img src="images/T-Bloxels/T-Bloxels2.png">
-                    <button type="button" class="btn-buy"><a href="https://drive.google.com/file/d/1mmJXz0eiP4FFeR13IV2e0ZFQoPOnou5h/view?usp=sharing">上課去</a></button>
-                </div>
-                <p>02主角動畫</p>     
-            </div>
-            <div class="col-md-3">
-                <div class="brand-logo">
-                    <img src="images/T-Bloxels/T-Bloxels2.png">
-                    <button type="button" class="btn-buy"><a href="https://drive.google.com/file/d/1xsCdmygSVEZqpLr6CQXDhtRYfL-pi0HB/view?usp=sharing">上課去</a></button>
-                </div>
-                <p>03遊戲佈局</p>     
-            </div>
-            <div class="col-md-3">
-                <div class="brand-logo">
-                    <img src="images/T-Bloxels/T-Bloxels2.png">
-                    <button type="button" class="btn-buy"><a href="https://drive.google.com/file/d/1PIEcwyb2Bj3yyc22zgIG4ztT6hvlZWZB/view?usp=sharing">上課去</a></button>
-                </div>
-                <p>我的第一本遊戲書</p>     
-            </div>
-            <div class="col-md-3">
-                <div class="brand-logo">
-                    <img src="images/T-Bloxels/T-Bloxels2.png">
-                    <button type="button" class="btn-buy"><a href="https://drive.google.com/file/d/1Kd4QlzTkd6lIBDm73GbkT3Sees53yH1w/view?usp=sharing">上課去</a></button>
-                </div>
-                <p>遊戲佈局卡</p>     
-            </div>
-            <div class="col-md-3">
-                <div class="brand-logo">
-                    <img src="images/T-Bloxels/T-Bloxels2.png">
-                    <button type="button" class="btn-buy"><a href="https://drive.google.com/file/d/186xyxmItitIATEVH6nIo51SFFW1VmABt/view?usp=sharing">上課去</a></button>
-                </div>
-                <p>防疫大作戰(上課版)</p>     
-            </div>
-        </div>
-    </div>  
-</section>   
-                                        
- <!------------------教學內容 1------------------>
- <section class="teach-content">
+<!----------課前準備---------->
+ <section id="lesson-before" class="lesson-before">
  	<div class="container">
-        <div class="row">
-        	<div class="col-md-2 text-center">
-                <h4>Youtube</h4>
-            	<div class="class-img">
-                	<img src="images/T-Bloxels/youtube01.png">
-                    <button type="button" class="btn-buy"><a href="https://www.youtube.com/watch?v=N5ne-2zJArQ">學習去</a></button>
-                    <div class="overlay"></div>
-                </div>
-            </div>
-            <div class="col-md-2 text-center">
-                <h4>Youtube</h4>
-            	<div class="class-img">
-                	<img src="images/T-Bloxels/youtube02.png">
-                    <button type="button" class="btn-buy"><a href="https://www.youtube.com/watch?v=0ID_0ztcrpQ&t=111s">學習去</a></button>
-                    <div class="overlay"></div>
-                </div>
-            </div>
-            <div class="col-md-2 text-center">
-                <h4>Youtube</h4>
-            	<div class="class-img">
-                	<img src="images/T-Bloxels/youtube03.png">
-                    <button type="button" class="btn-buy"><a href="https://www.youtube.com/watch?v=DBNim6BisaQ">學習去</a></button>
-                    <div class="overlay"></div>
-                </div>
-            </div>
-            <div class="col-md-2 text-center">
-                <h4>Youtube</h4>
-            	<div class="class-img">
-                	<img src="images/T-Bloxels/youtube04.png">
-                    <button type="button" class="btn-buy"><a href="https://www.youtube.com/watch?v=aSUJXpm2GX8">學習去</a></button>
-                    <div class="overlay"></div>
-                </div>
-            </div>
-            <div class="col-md-2 text-center">
-                <h4>Youtube</h4>
-            	<div class="class-img">
-                	<img src="images/T-Bloxels/youtube05.png">
-                    <button type="button" class="btn-buy"><a href="https://www.youtube.com/watch?v=a_PW1lF2k_A">學習去</a></button>
-                    <div class="overlay"></div>
-                </div>
-            </div>
-            <div class="col-md-2 text-center">
-                <h4>Youtube</h4>
-            	<div class="class-img">
-                	<img src="images/T-Bloxels/youtube06.png">
-                    <button type="button" class="btn-buy"><a href="https://www.youtube.com/watch?v=ODWssV4NzeM">學習去</a></button>
-                    <div class="overlay"></div>
-                </div>
-            </div>
+		<!----------大標題---------->
+        <div class="title-style text-center">
+            <h1><a href="https://drive.google.com/open?id=1lDRmoXB_vxy_ELzV_1VB_5U3yWclDVOq">Bloxels</a></h1>
         </div>
-    </div>
-</section>
-     
- <!------------------玩家狀態示範------------------>     
-<section class="player">
-    <div class="container text-center">
         <div class="row">
-            <div class="col-md-3">
-                <div>
-                    <h5>玩家-米老鼠</h5>
-                    <img src="images/T-Bloxels/Hercules-idle.gif">
-                    <h6>idle</h6>
-                    <img src="images/T-Bloxels/Hercules-walk.gif">
-                    <h6>walk</h6>
-                    <img src="images/T-Bloxels/Hercules-jump.gif">
-                    <h6>jump</h6>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div>
-                    <h5>玩家-大力士</h5>
-                    <img src="images/T-Bloxels/Mickey-idle.gif">
-                    <h6>idle</h6>
-                    <img src="images/T-Bloxels/Mickey-walk.gif">
-                    <h6>walk</h6>
-                    <img src="images/T-Bloxels/Mickey-jump.gif">
-                    <h6>jump</h6>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div>
-                    <h5>玩家-雞</h5>
-                    <img src="images/T-Bloxels/Chicken-idle.gif">
-                    <h6>idle</h6>
-                    <img src="images/T-Bloxels/Chicken-walk.gif">
-                    <h6>walk</h6>
-                    <img src="images/T-Bloxels/Chicken-jump.gif">
-                    <h6>jump</h6>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div>
-                    <h5>玩家-小男孩</h5>
-                    <img src="images/T-Bloxels/Boy-idle.gif">
-                    <h6>idle</h6>
-                    <img src="images/T-Bloxels/Boy-walk.gif">
-                    <h6>walk</h6>
-                    <img src="images/T-Bloxels/Boy-jump.gif">
-                    <h6>jump</h6>
-                </div>
-            </div>
-        </div> 
-     </div>
-</section>
-     
- <!------------------教學內容 專題------------------>
- <section class="teach-content">
- 	<div class="container">
-        	<div class="title-style text-center">
-            <h1>專題</h1>
-            </div>
-        <div class="row">
-        	<div class="col-md-6 text-center">
-                <h4>專題-聖誕節</h4>
-            	<div class="class-img">
-                	<img src="images/T-Bloxels/ProjectXmas.png">
-                    <button type="button" class="btn-buy"><a href="https://drive.google.com/open?id=1wVEuqJ0CU-9nogvGK7MqFaZU1lLe-Dti">施工中</a></button>
-                    <div class="overlay"></div>
-                </div>
+            <div class="col-md-3 ">
+                <p>領取教材清單</p>
+				<ui>
+					<li>平板2人1台</li>
+					<li>充電組</li>
+					<li>立方積木2人1組</li>
+					<li>拼圖版2人1組</li>
+					<li>Bloxels遊戲書1人1本</li>
+				</ui>
             </div>
             <div class="col-md-6 text-center">
-                <h4>專題-防疫大作戰</h4>
+                <div class="class-logo">
+                    <img src="images/T-Bloxels/T-Bloxels2.png">
+                </div>
+            </div>
+            <div class="col-md-3 ">
+                <p>歸還教材清單</p>
+				<ui>
+					<li>平板2人1台</li>
+					<li>充電組</li>
+					<li>立方積木2人1組</li>
+					<li>拼圖版2人1組</li>
+					<li>Bloxels遊戲書1人1本</li>
+				</ui>
+            </div>
+        </div>
+	</div>
+ </section>
+
+<!----------上課內容---------->
+ <section id="lesson-content" class="lesson-content">
+	  	<div class="container">
+			        <div class="row text-center">
+            <div class="col-md-6">
+                    <a href="https://drive.google.com/open?id=1ol2aSsgQEX-eRzB_LybhoEuq7cmD3hrb"><img src="images/T-Bloxels/T-Bloxels2.png"></a>
+                <p>01 介紹</p>
+            </div>
+            <div class="col-md-6">
+                    <a href="https://drive.google.com/file/d/1mmJXz0eiP4FFeR13IV2e0ZFQoPOnou5h/view?usp=sharing"><img src="images/T-Bloxels/T-Bloxels2.png"></a>
+                <p>02 主角動畫</p>    
+            </div>
+            <div class="col-md-3 text-center">
+                <h4>蛇行移動</h4>
             	<div class="class-img">
-                	<img src="images/T-Bloxels/防疫大作戰.jpg">
-                    <button type="button" class="btn-buy"><a href="https://drive.google.com/file/d/186xyxmItitIATEVH6nIo51SFFW1VmABt/view?usp=sharing">來開始挑戰吧！</a></button>
-                    <div class="overlay"></div>
+                	<a href="https://www.youtube.com/watch?v=N5ne-2zJArQ"><img src="images/T-Bloxels/youtube01.png"></a>
+                </div>
+            </div>
+            <div class="col-md-3 text-center">
+                <h4>蛇行移動</h4>
+				<div class="class-img">
+                	<a href="https://www.youtube.com/watch?v=0ID_0ztcrpQ&t=111s"><img src="images/T-Bloxels/youtube02.png"></a>
+                </div>
+            </div>		
+            <div class="col-md-3 text-center">
+                <h4>蛇行移動</h4>
+            	<div class="class-img">
+                	<a href="https://www.youtube.com/watch?v=DBNim6BisaQ"><img src="images/T-Bloxels/youtube03.png"></a>
+                </div>
+            </div>		
+            <div class="col-md-3 text-center">
+                <h4>蛇行移動</h4>
+				<div class="class-img">
+                	<a href="https://www.youtube.com/watch?v=aSUJXpm2GX8"><img src="images/T-Bloxels/youtube04.png"></a>
+                </div>
+            </div>		
+            <div class="col-md-3 text-center">
+                <h4>蛇行移動</h4>
+            	<div class="class-img">
+                	<a href="https://www.youtube.com/watch?v=a_PW1lF2k_A"><img src="images/T-Bloxels/youtube05.png"></a>
+                </div>
+            </div>	
+            <div class="col-md-3 text-center">
+                <h4>蛇行移動</h4>
+				<div class="class-img">
+                	<a href="https://www.youtube.com/watch?v=ODWssV4NzeM"><img src="images/T-Bloxels/youtube06.png"></a>
                 </div>
             </div>
         </div>
-    </div>
-</section>       
+	</div>
+  </section>
 
-     
-     
-   <!------------------footer----------------->
-<section class="footer">
-      <div class="container">
-          <hr>
-        <div class="row">
-            <div class="col-md-8">
-            <p class="copyright">Designed with <i class="fa fa-heart"></i> by DobbySteam</p>
-             </div>               
-            <div class="col-md-4">   
-                <div class="footer-icons">
-                   <a href="https://www.facebook.com/DobbySTEAM"><i class="fa fa-facebook"></i></a>
-                   <a href="https://www.youtube.com/channel/UC0--S2V-m38Xx9rphhLjAKw"><i class="fa fa-youtube-play"></i></a>
-                 </div>
-            </div>
-        </div>
-      </div>
-</section>
-
+<!------------------footer----------------->
+   <section class="footer text-center">
+	   <div class="container">
+		<div class="row">
+			<div class="col-md-12">
+            <p>Designed with <a href="TclassALL.html"><i class="fa fa-heart"></i></a> by 多比思維</p>
+			</div>	
+		</div>   
+		</div>
+  </section>
+<!--Global的網站分析 Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112006846-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'UA-112006846-1');
 </script>
 </body>

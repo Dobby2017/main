@@ -3,118 +3,81 @@
 <head>
 <!--viewport手機螢幕呈現最佳閱讀的狀態;width=device-width自動符合所有不同手機螢幕;手機螢幕畫面的初始縮放比例為 100%-->
 <!--這一個設定是響應式的設計的啟端，為的是將"內容的寬度參數" 等於 "設備的顯示寬度"這樣之後在CSS裡面設定width:100%才會符合設備的顯示寬度-->
-<!--第一個link是網頁的標示圖，最後兩個link是連結bootstrap的css元素和公用圖檔-->
-<!--最下面有Global的網站分析 Global site tag (gtag.js) - Google Analytics -->
+<!--下面這一行viewport一定要加才能做響應式網頁--> 
 <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8" >
-<meta name="keywords" content="兒童程式教育  兒童程式設計，程式設計課程">
-<meta name="description" content="ScratchJr,Code.org + Unplugged,Ozobot,Bloxels,魔術方塊,不插電科學,Scratch,Minecraft,App Inventor,Micro:bit,Mio自走車,網頁設計,露比任務">
-<title>多比思維｜兒童程式教育</title>
-<link rel="icon" href="https://dobby2017.github.io/main/images/page_icon.gif" type="image/gif" sizes="16x16">   
-<link rel="stylesheet" href="css/style.css">
+<meta name="keywords" content="多元學習，未來教育, 程式教育  ">
+<meta name="description" content="3D筆，3D列印，ScratchJr,Ozobot,Bloxels,Scratch,Minecraft,App Inventor,Micro:bit,HTML, CSS,網頁設計,露比任務">
+<title>多比思維｜未來兒童教育-把最好的教育帶給孩子</title> <!--網頁名稱-->
+<link rel="icon" href="https://dobby2017.github.io/main/images/page_icon.gif" type="image/gif" sizes="16x16">
+<!--第一個link是Favicon (favorites icon)-->
 <link rel="stylesheet" href="css/StopMotion.css">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<!--1. font awesome 4 cdn 2. Font Awesome CSS--> 
+<!--https://www.w3schools.com/w3css/4/w3.css會影響選單的版型,用來做動態換畫面banner-->
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<!--1. bootstrap 2. Get started 3. CSS & JS-->
 </head>
  <body>
-  
- <!------------------教學內容 2------------------>
-<section  class="class-content">
-    <div class="container">
-        	<div class="title-style text-center">
-            <img src="images/T-StopMotion/StopMotion.jpg">
+<!----------課前準備---------->
+ <section id="lesson-before" class="lesson-before">
+ 	<div class="container">
+		<!----------大標題---------->
+        <div class="title-style text-center">
+            <h1>夢工場定格動畫</h1>
+        </div>
+        <div class="row">
+            <div class="col-md-3 ">
+                <p>領取教材清單</p>
+				<ui>
+					<li>白紙，兩腳釘依人數</li>
+					<li>彩色筆兩人一組</li>
+					<li>立方組合積木2人1組</li>
+					<li>樂高組合積木2人1組</li>
+					<li>平板4人1台</li>
+					<li>充電組</li>
+					<li>攝影棚1組</li>
+				</ui>
             </div>
-        <div class="row text-center">
-            <div class="col-md-3">
-                <div class="brand-logo">
-                    <img src="images/T-StopMotion/%E6%93%8D%E4%BD%9C%E8%AA%AA%E6%98%8E%E4%B8%AD%E6%96%87.jpg">
-                    <button type="button" class="btn-buy"><a href="https://drive.google.com/open?id=1S26KL3taKgWkJVOzvUI5_79tzsDvtmf9">上課去</a></button>
-                </div>
-                <p>0-1 使用說明</p>     
-            </div>
-            <div class="col-md-3">
-                <div class="brand-logo">
-                    <img src="images/T-StopMotion/%E4%B8%8A%E5%82%B3Youtube.jpg">
-                    <button type="button" class="btn-buy"><a href="https://drive.google.com/open?id=1OBoZADe5DtSqLnSYF8QKaBI-oRpRPKZP">上課去</a></button>       
-                </div>
-                <p>0-2 上傳Youtube</p>     
-            </div>
-            <div class="col-md-3">
-                <div class="brand-logo">
+            <div class="col-md-6 text-center">
+                <div class="class-logo">
                     <img src="images/T-StopMotion/StopMotion2.png">
-                    <button type="button" class="btn-buy"><a href="https://drive.google.com/file/d/1z6r4oPkK-M1uOjvvy-WAwJCRTjZokjsW/view?usp=sharing">上課去</a></button>         
                 </div>
-                <p>01 定格動畫遊戲</p>     
             </div>
-            <div class="col-md-3">
-                <div class="brand-logo">
-                    <img src="images/T-StopMotion/StopMotion2.png">
-       
-                </div>
-                <p>02 立方積木之1</p>     
-            </div>
-            <div class="col-md-3">
-                <div class="brand-logo">
-                    <img src="images/T-StopMotion/StopMotion2.png">
-    
-                </div>
-                <p>03 立方積木之2</p>     
-            </div>
-            <div class="col-md-3">
-                <div class="brand-logo">
-                    <img src="images/T-StopMotion/StopMotion2.png">
-       
-                </div>
-                <p>04 木偶人之1</p>     
-            </div>
-            <div class="col-md-3">
-                <div class="brand-logo">
-                    <img src="images/T-StopMotion/StopMotion2.png">
-         
-                </div>
-                <p>05 木偶人之2</p>     
-            </div>
-            <div class="col-md-3">
-                <div class="brand-logo">
-                    <img src="images/T-StopMotion/StopMotion2.png">
-    
-                </div>
-                <p>06 壓花器紙片之1</p>     
-            </div>
-            <div class="col-md-3">
-                <div class="brand-logo">
-                    <img src="images/T-StopMotion/StopMotion2.png">
-       
-                </div>
-                <p>07 壓花器紙片之2</p>     
-            </div>
-            <div class="col-md-3">
-                <div class="brand-logo">
-                    <img src="images/T-StopMotion/StopMotion2.png">
-  
-                </div>
-                <p>08 樂高積木人之1</p>     
-            </div>
-            <div class="col-md-3">
-                <div class="brand-logo">
-                    <img src="images/T-StopMotion/StopMotion2.png">
-       
-                </div>
-                <p>09 樂高積木人之2</p>     
+            <div class="col-md-3 ">
+                <p>歸還教材清單</p>
+				<ui>
+					<li>白紙，兩腳釘依人數</li>
+					<li>彩色筆兩人一組</li>
+					<li>立方組合積木2人1組</li>
+					<li>樂高組合積木2人1組</li>
+					<li>平板4人1台</li>
+					<li>充電組</li>
+					<li>攝影棚1組</li>
+				</ui>
             </div>
         </div>
-    </div>  
-</section>   
-  
-                                        
- <!------------------教學內容 2------------------>
-    <div class="title-style text-center">
-            <h1>創意發想</h1>
-    </div>
- <section class="teach-content2">
- 	<div class="container">
-        <div class="row">
+	</div>
+ </section>
+
+<!----------上課內容---------->
+ <section id="lesson-content" class="lesson-content">
+	  	<div class="container">
+			        <div class="row text-center">
+            <div class="col-md-3">
+                    <a href="https://drive.google.com/open?id=1S26KL3taKgWkJVOzvUI5_79tzsDvtmf9"><img src="images/T-StopMotion/操作說明中文.jpg"></a>
+                <p>01 操作說明</p>
+            </div>
+            <div class="col-md-3">
+                    <a href="https://drive.google.com/open?id=1OBoZADe5DtSqLnSYF8QKaBI-oRpRPKZP"><img src="images/T-StopMotion/上傳Youtube.jpg"></a>
+                <p>02 上傳Youtube</p>    
+            </div>
+            <div class="col-md-3">
+                    <a href="https://drive.google.com/file/d/1z6r4oPkK-M1uOjvvy-WAwJCRTjZokjsW/view?usp=sharing"><img src="images/T-StopMotion/StopMotion.jpg"></a>
+                <p>03  定格動畫遊戲</p>  
+            </div>
             <div class="col-md-4 text-center">
                 <h4>蛇行移動</h4>
             	<div class="class-img">
@@ -152,48 +115,25 @@
                 </div>
             </div>
         </div>
-    </div>
-</section>
- <!------------------教學內容 1------------------>
- <section class="teach-content">
- 	<div class="container">
-        <div class="row">
-        	<div class="col-md-6 text-center">
-                <h4>Youtube</h4>
-            	<div class="class-img">
-                	<img src="images/T-StopMotion/youtube01.png">
-                    <button type="button" class="btn-buy"><a href="https://youtu.be/UBtogZcw8YU">學習去</a></button>
-                    <div class="overlay"></div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-     
-   <!------------------footer----------------->
-<section class="footer">
-      <div class="container">
-          <hr>
-        <div class="row">
-            <div class="col-md-8">
-            <p class="copyright">Designed with <i class="fa fa-heart"></i> by DobbySteam</p>
-             </div>               
-            <div class="col-md-4">   
-                <div class="footer-icons">
-                   <a href="https://www.facebook.com/DobbySTEAM"><i class="fa fa-facebook"></i></a>
-                   <a href="https://www.youtube.com/channel/UC0--S2V-m38Xx9rphhLjAKw"><i class="fa fa-youtube-play"></i></a>
-                 </div>
-            </div>
-        </div>
-      </div>
-</section>
+	</div>
+  </section>
 
+<!------------------footer----------------->
+   <section class="footer text-center">
+	   <div class="container">
+		<div class="row">
+			<div class="col-md-12">
+            <p>Designed with <a href="TclassALL.html"><i class="fa fa-heart"></i></a> by 多比思維</p>
+			</div>	
+		</div>   
+		</div>
+  </section>
+<!--Global的網站分析 Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112006846-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'UA-112006846-1');
 </script>
 </body>
