@@ -53,8 +53,13 @@
 
 .lesson-before p
 {
-    margin-top: 30px;
+    margin-top: 0px;
     font-weight: bold;
+}
+.lesson-before i
+{
+    color: red;
+    font-size: 25px;
 }
 .lesson-before ui
 {
