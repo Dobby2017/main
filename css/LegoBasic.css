@@ -81,17 +81,21 @@
 {
     font-size: 20px;
 	font-weight: bold;
-	line-height: 25px;
-	letter-spacing: 3px;
+	line-height: 20px;
+	letter-spacing: 0px;
 }
 .lesson-content p
 {
     margin-top: 30px;
+	font-weight: bold;
 }
-
+.lesson-content i
+{
+    color: darkorange;
+}
 .lesson-content img
 {
-	width: 80%;
+	width: 100%;
 	box-shadow: 3px 3px 12px gray;
 	padding: 10px;
 	background: #f5f6fc;
