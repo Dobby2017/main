@@ -99,7 +99,7 @@
 	color:#fff !important;
 	text-decoration:none !important;
 }
-#nav-header .btn
+#nav-header .dropdown /*寒暑期營*/
 {
 	font-size: 20px;
 	background: #ffb607;
