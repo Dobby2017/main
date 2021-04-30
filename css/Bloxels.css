@@ -42,8 +42,7 @@
 }
 .class-logo
 {
-    width: 200px;
-    height: 200px;
+	width: 100%;
     background: #fff;
     border-radius: 5%;
     margin: 50px auto 30px;
@@ -51,9 +50,8 @@
 }
 .class-logo img
 {
-	width: 200px;
-    height: 200px;
-    margin: 00px auto;
+	width: 100%;
+    margin: 0px auto;
 }
 
 .lesson-before p
