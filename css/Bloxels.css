@@ -89,4 +89,18 @@
 	background: #f5f6fc;
 	border-radius: 10%;
 }
+/*---------圖案參考--------*/
+.lesson-images p
+{
+    margin-top: 30px;
+    font-weight: bold;
+}
 
+.lesson-images img
+{
+	width: 100%;
+	box-shadow: 1px 1px 4px gray;
+	padding: 1px;
+	background: #f5f6fc;
+	border-radius: 10%;
+}
